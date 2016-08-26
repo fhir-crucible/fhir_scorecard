@@ -2,6 +2,14 @@
 
 Scorecard for a FHIR Patient Record (as Bundle)
 
+# Prerequisites
+
+The scorecard requires some terminology files to operate. Download
+the files (requires accounts) and place them in `./terminology`
+
+- https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html
+- http://loinc.org/usage/obs/loinc-top-2000-plus-loinc-lab-observations-us.csv
+
 # License
 
 Copyright 2016 The MITRE Corporation
