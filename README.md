@@ -1,4 +1,4 @@
-# fhir_scorecard
+# fhir_scorecard [![Build Status](https://travis-ci.org/fhir-crucible/fhir_scorecard.svg?branch=master)](https://travis-ci.org/fhir-crucible/fhir_scorecard)
 
 Scorecard for a FHIR Patient Record (as Bundle)
 
