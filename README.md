@@ -2,7 +2,16 @@
 
 Scorecard for a FHIR Patient Record (as Bundle)
 
-# Prerequisites
+```ruby
+bundle_json = "{\"entry\":[{\"resource\":{\"resourceType\":\"Patient\"}}],\"resourceType\":\"Bundle\"}"
+scorecard = FHIR::Scorecard.new
+report = scorecard.score(bundle_json)
+=> {:bundle=>{:points=>10, :message=>"Patient Record is a FHIR Bundle."},
+    :patient=>{:points=>10, :message=>"Patient Record contains one FHIR Patient."},
+    :points=>20}
+```
+
+# Prerequisites (Not Yet Required)
 
 The scorecard requires some terminology files to operate. Download
 the files (requires accounts) and place them in `./terminology`
