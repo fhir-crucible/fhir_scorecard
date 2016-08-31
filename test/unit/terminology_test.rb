@@ -10,8 +10,8 @@ class TerminologyTest < Minitest::Test
   def setup
     loinc_file = File.join(@@term_root,'scorecard_loinc_2000.txt')
     umls_file = File.join(@@term_root,'scorecard_umls.txt')
-    FileUtils.mv(loinc_file, "#{loinc_file}.bak")
-    FileUtils.mv(umls_file, "#{umls_file}.bak")
+    FileUtils.mv(loinc_file, "#{loinc_file}.bak", :force=>true)
+    FileUtils.mv(umls_file, "#{umls_file}.bak", :force=>true)
     file = File.open(loinc_file,'w:UTF-8')
     file.write('foo|Foo Description|mg')
     file.close
@@ -25,10 +25,10 @@ class TerminologyTest < Minitest::Test
   def teardown
     loinc_file = File.join(@@term_root,'scorecard_loinc_2000.txt')
     umls_file = File.join(@@term_root,'scorecard_umls.txt')
-    FileUtils.rm(loinc_file)
-    FileUtils.rm(umls_file)
-    FileUtils.mv("#{loinc_file}.bak",loinc_file)
-    FileUtils.mv("#{umls_file}.bak",umls_file)
+    FileUtils.rm(loinc_file, :force=>true)
+    FileUtils.rm(umls_file, :force=>true)
+    FileUtils.mv("#{loinc_file}.bak",loinc_file, :force=>true)
+    FileUtils.mv("#{umls_file}.bak",umls_file, :force=>true)
   end
 
   def test_get_description_foo
