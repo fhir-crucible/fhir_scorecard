@@ -36,4 +36,80 @@ namespace :fhir do
       puts 'copy it into your `./terminology` folder, and rerun this task.'
     end
   end
+
+  desc 'post-process UMLS terminology file'
+  task :process_umls, [] do |t, args|
+    require 'find'
+    puts 'Looking for `./terminology/MRCONSO.RRF`...'
+    input_file = Find.find('terminology').find{|f| f=='terminology/MRCONSO.RRF' }
+    if input_file
+      start = Time.now
+      output_filename = 'terminology/scorecard_umls.txt'
+      output = File.open(output_filename,'w:UTF-8')
+      line = 0
+      excluded = 0
+      excluded_systems = Hash.new(0)
+      begin
+        entire_file = File.read(input_file)
+        puts "Writing to #{output_filename}..."
+        entire_file.split("\n").each do |l|
+          row = l.split('|')
+          line += 1
+          include_code = false
+          codeSystem = row[11]
+          code = row[13]
+          description = row[14]
+          case codeSystem
+          when 'SNOMEDCT_US'
+            codeSystem = 'SNOMED'
+            include_code = (row[4]=='PF' && ['FN','OAF'].include?(row[12]))
+          when 'LNC'
+            codeSystem = 'LOINC'
+            include_code = true
+          when 'ICD10CM'
+            codeSystem = 'ICD10'
+            include_code = (row[12]=='PT')
+          when 'ICD10PCS'
+            codeSystem = 'ICD10'
+            include_code = (row[12]=='PT')            
+          when 'ICD9CM'
+            codeSystem = 'ICD9'
+            include_code = (row[12]=='PT')
+          when 'MTHICD9'
+            codeSystem = 'ICD9'
+            include_code = true
+          when 'RXNORM'
+            include_code = true
+          when 'SRC'
+            # 'SRC' rows define the data sources in the file
+            include_code = false
+          else
+            include_code = false
+            excluded_systems[codeSystem] += 1
+          end
+          if include_code
+            output.write("#{codeSystem}|#{code}|#{description}\n")             
+          else
+            excluded += 1
+          end
+        end
+      rescue Exception => e
+        puts "Error at line #{line}"
+        puts e.message
+      end
+      output.close
+      puts "Processed #{line} lines, excluding #{excluded} redundant entries."
+      puts "Excluded code systems: #{excluded_systems}" if !excluded_systems.empty?
+      finish = Time.now
+      minutes = ((finish-start)/60)
+      seconds = (minutes - minutes.floor) * 60
+      puts "Completed in #{minutes.floor} minute(s) #{seconds.floor} second(s)."
+      puts 'Done.'
+    else
+      puts 'UMLS file not found.'
+      puts 'Download the US National Library of Medicine (NLM) Unified Medical Language System (UMLS) Full Release files'
+      puts '  -> https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html'
+      puts 'After installation, copy `{install path}/META/MRCONSO.RRF` into your `./terminology` folder, and rerun this task.'
+    end
+  end
 end
