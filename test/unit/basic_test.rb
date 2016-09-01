@@ -9,7 +9,7 @@ class BasicTest < Minitest::Test
     bundle = FHIR::Bundle.new
     scorecard = FHIR::Scorecard.new
     report = scorecard.score(bundle.to_json)
-
+    
     assert (report[:points]), 'Scorecard should report points.'
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'

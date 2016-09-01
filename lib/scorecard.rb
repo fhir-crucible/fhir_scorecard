@@ -12,13 +12,14 @@ module FHIR
       bundle = FHIR.from_contents(bundle_raw)
       if bundle.is_a?(FHIR::Bundle)
         @points += 10
-        report[:bundle] = { :points=>10, :message=>'Patient Record is a FHIR Bundle.'}
+        @report[:bundle] = { :points=>10, :message=>'Patient Record is a FHIR Bundle.'}
       else
-        report[:bundle] = { :points=>0, :message=>'Patient Record must be a FHIR Bundle.'}
+        @report[:bundle] = { :points=>0, :message=>'Patient Record must be a FHIR Bundle.'}
       end
 
-      # Check that the patient record contains a FHIR Patient.
       if bundle.is_a?(FHIR::Bundle)
+
+        # Check that the patient record contains a FHIR Patient.
         @patient = nil
         count = 0
         bundle.entry.each do |entry|
@@ -29,13 +30,15 @@ module FHIR
         end
         if @patient && count==1
           @points += 10
-          report[:patient] = { :points=>10, :message=>'Patient Record contains one FHIR Patient.'}
+          @report[:patient] = { :points=>10, :message=>'Patient Record contains one FHIR Patient.'}
         else
-          report[:patient] = { :points=>0, :message=>'Patient Record must contain one FHIR Patient.'}
+          @report[:patient] = { :points=>0, :message=>'Patient Record must contain one FHIR Patient.'}
         end
+
+        report.merge!(FHIR::Rubrics.apply(bundle))
       end
 
-      @report[:points] = @points
+      @report[:points] = @report.values.inject(0){|sum,section| sum+=section[:points]}
       @report
     end
 

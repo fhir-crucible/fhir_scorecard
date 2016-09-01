@@ -5,6 +5,26 @@ namespace :fhir do
     binding.pry
   end
 
+  desc 'score a FHIR Bundle'
+  task :score, [:bundle_path] do |t, args|
+    bundle_path = args[:bundle_path]
+    if bundle_path.nil?
+      puts 'A path to FHIR Bundle is required!'
+    else
+      contents = File.open(bundle_path,'r:UTF-8',&:read)
+      scorecard = FHIR::Scorecard.new
+      report = scorecard.score(contents)
+      puts "  POINTS      CATEGORY   MESSAGE"
+      puts "  ------      --------   -------"
+      report.each do |key,value|
+        next if key==:points
+        printf("   %3d  %15s   %s\n", value[:points], key, value[:message])
+      end
+      puts "  ------"
+      printf("   %3d  %15s\n", report[:points], 'TOTAL')
+    end
+  end
+
   desc 'post-process LOINC Top 2000 common lab results CSV'
   task :process_loinc, [] do |t, args|
     require 'find'
