@@ -1,6 +1,20 @@
 module FHIR
   class Terminology
 
+    CODE_SYSTEMS = {
+      'http://snomed.info/sct'=>'SNOMED',
+      'http://loinc.org'=>'LOINC',
+      'http://www.nlm.nih.gov/research/umls/rxnorm'=>'RXNORM',
+      'http://hl7.org/fhir/sid/icd-10'=>'ICD10',
+      'http://hl7.org/fhir/sid/icd-10-de'=>'ICD10',
+      'http://hl7.org/fhir/sid/icd-10-nl'=>'ICD10',
+      'http://hl7.org/fhir/sid/icd-10-us'=>'ICD10',
+      'http://www.icd10data.com/icd10pcs'=>'ICD10',
+      'http://hl7.org/fhir/sid/icd-9-cm'=>'ICD9',
+      'http://hl7.org/fhir/sid/icd-9-cm/diagnosis'=>'ICD9',
+      'http://hl7.org/fhir/sid/icd-9-cm/procedure'=>'ICD9'
+    }
+    
     @@term_root = File.expand_path '../terminology',File.dirname(File.absolute_path(__FILE__))
 
     @@loaded = false

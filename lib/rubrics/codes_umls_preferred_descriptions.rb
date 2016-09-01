@@ -1,28 +1,28 @@
 module FHIR
-  class CodesUmls < FHIR::Rubrics
+  class CodesUmlsPreferredDescriptions < FHIR::Rubrics
 
-    # SNOMED, LOINC, RxNorm, ICD9, and ICD10 codes validate against UMLS
-    rubric :codes_umls do |record|
+    # SNOMED, LOINC, RxNorm, ICD9, and ICD10 codes in UMLS use preferred descriptions
+    rubric :descriptions do |record|
       results = {
         :eligible_fields => 0,
-        :validated_fields => 0
+        :correct_descriptions => 0
       }
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
         results.merge!(check_fields(resource)){|k,a,b|a+b}
       end
 
-      percentage = results[:validated_fields].to_f / results[:eligible_fields].to_f
+      percentage = results[:correct_descriptions].to_f / results[:eligible_fields].to_f
       percentage = 0.0 if percentage.nan?
       points = 10.0 * percentage
-      message = "#{(100 * percentage).to_i}% (#{results[:validated_fields]}/#{results[:eligible_fields]}) of SNOMED, LOINC, RxNorm, ICD9, and ICD10 validated against UMLS. Maximum of 10 points."
+      message = "#{(100 * percentage).to_i}% (#{results[:correct_descriptions]}/#{results[:eligible_fields]}) of SNOMED, LOINC, RxNorm, ICD9, and ICD10 codes use preferred descriptions. Maximum of 10 points."
       response(points.to_i,message)
     end
 
     def self.check_fields(fhir_model)
       results = {
         :eligible_fields => 0,
-        :validated_fields => 0
+        :correct_descriptions => 0
       }
       # check each codeable field
       fhir_model.class::METADATA.each do |key, meta|
@@ -66,14 +66,14 @@ module FHIR
       results
     end
 
-    # This method checks whether or not the coding is eligible and validates.
+    # This method checks whether or not the coding is eligible and checks the description.
     # A coding is eligible if it is supposed to be UMLS (as declared in the
     # resource metadata) or it is locally declared as one of the UMLS systems.
-    # If the coding is eligible, then it is validated.
+    # If the coding is eligible, then the description is checked against the preferred description.
     def self.check_coding(coding,supposed_to_be_umls,declared_binding)
       result = {
         :eligible_fields => 0,
-        :validated_fields => 0
+        :correct_descriptions => 0
       } 
       if coding.nil?
         result[:eligible_fields] += 1 if supposed_to_be_umls
@@ -81,8 +81,8 @@ module FHIR
         local_binding = coding.system || declared_binding
         if supposed_to_be_umls || FHIR::Terminology::CODE_SYSTEMS[local_binding]
           result[:eligible_fields] += 1 
-          in_umls = !FHIR::Terminology.get_description(FHIR::Terminology::CODE_SYSTEMS[local_binding],coding.code).nil?
-          result[:validated_fields] +=1 if in_umls
+          preferred = FHIR::Terminology.get_description(FHIR::Terminology::CODE_SYSTEMS[local_binding],coding.code)
+          result[:correct_descriptions] +=1 if preferred==coding.display
         end
       end
       result
