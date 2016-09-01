@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class BasicTest < Minitest::Test
+class CodesExistTest < Minitest::Test
 
   # turn off the ridiculous warnings
   $VERBOSE=nil
@@ -14,7 +14,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==0), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==0), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=0)."
   end
 
   def test_codes_exist_1of3
@@ -26,7 +26,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==3), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==3), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=3)."
   end
 
   def test_codes_exist_1of3_wrongtype
@@ -38,7 +38,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==0), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==0), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=0)."
   end
 
   def test_codes_exist_2of3
@@ -55,7 +55,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==6), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==6), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=6)."
   end
 
   def test_codes_exist_2of3_textonly
@@ -72,7 +72,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==3), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==3), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=3)."
   end
 
   def test_codes_exist_3of3
@@ -90,7 +90,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==10), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==10), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=10)."
   end
 
   def test_codes_exist_with_backbone_elements
@@ -118,7 +118,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==10), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==10), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=10)."
   end
 
   def test_codes_exist_with_backbone_elements_and_array
@@ -147,7 +147,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==10), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==10), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=10)."
   end
 
   def test_codes_exist_with_coding
@@ -163,7 +163,7 @@ class BasicTest < Minitest::Test
     assert (report[:bundle]), 'Scorecard should report Bundle section.'
     assert (report[:patient]), 'Scorecard should report Patient section.'
     assert (report[:codes_exist]), 'Scorecard should report Codes Exist section.'
-    assert (report[:codes_exist][:points]==5), 'Codes Exist section points incorrect.'
+    assert (report[:codes_exist][:points]==5), "Codes Exist section points incorrect (#{report[:codes_exist][:points]}!=5)."
   end
 
 end
