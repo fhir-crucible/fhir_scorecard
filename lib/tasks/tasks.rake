@@ -60,7 +60,6 @@ namespace :fhir do
   desc 'post-process SNOMED Core Subset file'
   task :process_snomed, [] do |t, args|
     require 'find'
-    require 'csv'
     puts 'Looking for `./terminology/SNOMEDCT_CORE_SUBSET*.txt`...'
     snomed_file = Find.find('terminology').find{|f| /SNOMEDCT_CORE_SUBSET.*\.txt$/ =~f }
     if snomed_file
@@ -87,6 +86,39 @@ namespace :fhir do
       puts 'SNOMEDCT file not found.'
       puts 'Download the SNOMEDCT Core Subset file'
       puts '  -> https://www.nlm.nih.gov/research/umls/Snomed/core_subset.html'
+      puts 'copy it into your `./terminology` folder, and rerun this task.'
+    end
+  end
+
+  desc 'post-process common UCUM codes'
+  task :process_ucum, [] do |t, args|
+    require 'find'
+    puts 'Looking for `./terminology/concepts.tsv`...'
+    ucum_file = Find.find('terminology').find{|f| /concepts.tsv$/ =~f }
+    if ucum_file
+      output_filename = 'terminology/scorecard_ucum.txt'
+      output = File.open(output_filename,'w:UTF-8')
+      line = 0
+      begin
+        entire_file = File.read(ucum_file)
+        puts "Writing to #{output_filename}..."
+        entire_file.split("\n").each do |l|
+          row = l.split("\t")
+          line += 1
+          next if line==1 # skip the headers
+          output.write("#{row[0]}\n") # code
+          output.write("#{row[5]}\n") if row[0]!=row[5] # synonym
+        end
+      rescue Exception => e
+        puts "Error at line #{line}"
+        puts e.message
+      end
+      output.close
+      puts 'Done.'
+    else
+      puts 'UCUM concepts file not found.'
+      puts 'Download the UCUM concepts file'
+      puts '  -> http://download.hl7.de/documents/ucum/concepts.tsv'
       puts 'copy it into your `./terminology` folder, and rerun this task.'
     end
   end

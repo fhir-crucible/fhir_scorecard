@@ -22,47 +22,72 @@ module FHIR
     @@top_lab_code_descriptions = {}
     @@known_codes = {}
     @@core_snomed = {}
+    @@common_ucum = []
 
     def self.load_terminology
       if !@@loaded
-        # load the top lab codes
-        filename = File.join(@@term_root,'scorecard_loinc_2000.txt')
-        raw = File.open(filename,'r:UTF-8',&:read)
-        raw.split("\n").each do |line|
-          row = line.split('|')
-          @@top_lab_code_descriptions[row[0]] = row[1] if !row[1].nil?
-          @@top_lab_code_units[row[0]] = row[2] if !row[2].nil?
-        end
-
-        # load the known codes
-        filename = File.join(@@term_root,'scorecard_umls.txt')
-        raw = File.open(filename,'r:UTF-8',&:read)
-        raw.split("\n").each do |line|
-          row = line.split('|')
-          codeSystem = row[0]
-          code = row[1]
-          description = row[2]
-          if @@known_codes[codeSystem]
-            codeSystemHash = @@known_codes[codeSystem]
-          else
-            codeSystemHash = {}
-            @@known_codes[codeSystem] = codeSystemHash
+        begin
+          # load the top lab codes
+          filename = File.join(@@term_root,'scorecard_loinc_2000.txt')
+          raw = File.open(filename,'r:UTF-8',&:read)
+          raw.split("\n").each do |line|
+            row = line.split('|')
+            @@top_lab_code_descriptions[row[0]] = row[1] if !row[1].nil?
+            @@top_lab_code_units[row[0]] = row[2] if !row[2].nil?
           end
-          codeSystemHash[code] = description
+        rescue Exception => error
+          FHIR.logger.error error
         end
 
-        # load the core snomed codes
-        @@known_codes['SNOMED'] = {} if @@known_codes['SNOMED'].nil?
-        codeSystemHash = @@known_codes['SNOMED']
-        filename = File.join(@@term_root,'scorecard_snomed_core.txt')
-        raw = File.open(filename,'r:UTF-8',&:read)
-        raw.split("\n").each do |line|
-          row = line.split('|')
-          code = row[0]
-          description = row[1]
-          codeSystemHash[code] = description if codeSystemHash[code].nil?
-          @@core_snomed[code] = description
-        end        
+        begin
+          # load the known codes
+          filename = File.join(@@term_root,'scorecard_umls.txt')
+          raw = File.open(filename,'r:UTF-8',&:read)
+          raw.split("\n").each do |line|
+            row = line.split('|')
+            codeSystem = row[0]
+            code = row[1]
+            description = row[2]
+            if @@known_codes[codeSystem]
+              codeSystemHash = @@known_codes[codeSystem]
+            else
+              codeSystemHash = {}
+              @@known_codes[codeSystem] = codeSystemHash
+            end
+            codeSystemHash[code] = description
+          end
+        rescue Exception => error
+          FHIR.logger.error error
+        end
+
+        begin
+          # load the core snomed codes
+          @@known_codes['SNOMED'] = {} if @@known_codes['SNOMED'].nil?
+          codeSystemHash = @@known_codes['SNOMED']
+          filename = File.join(@@term_root,'scorecard_snomed_core.txt')
+          raw = File.open(filename,'r:UTF-8',&:read)
+          raw.split("\n").each do |line|
+            row = line.split('|')
+            code = row[0]
+            description = row[1]
+            codeSystemHash[code] = description if codeSystemHash[code].nil?
+            @@core_snomed[code] = description
+          end   
+        rescue Exception => error
+          FHIR.logger.error error
+        end
+
+        begin
+          # load common UCUM codes
+          filename = File.join(@@term_root,'scorecard_ucum.txt')
+          raw = File.open(filename,'r:UTF-8',&:read)
+          raw.split("\n").each do |code|
+            @@common_ucum << code
+          end
+          @@common_ucum.uniq!
+        rescue Exception => error
+          FHIR.logger.error error
+        end
 
         @@loaded = true
       end
@@ -90,6 +115,11 @@ module FHIR
     def self.lab_units(code)
       load_terminology
       @@top_lab_code_units[code]
+    end
+
+    def self.is_known_ucum?(units)
+      load_terminology
+      @@top_lab_code_units.values.include?(units) || @@common_ucum.include?(units)
     end
 
     def self.lab_description(code)
