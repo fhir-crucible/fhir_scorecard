@@ -11,13 +11,22 @@ report = scorecard.score(bundle_json)
     :points=>20}
 ```
 
-# Prerequisites (Not Yet Required)
+# Optional Terminology Support
 
-The scorecard requires some terminology files to operate. Download
-the files (requires accounts) and place them in `./terminology`
+The scorecard requires some terminology files to operate several rubrics related
+to codes. Download the files (requires accounts) and place them in `./terminology`
 
 - https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html
+- https://www.nlm.nih.gov/research/umls/Snomed/core_subset.html
 - http://loinc.org/usage/obs/loinc-top-2000-plus-loinc-lab-observations-us.csv
+
+Then, run rake tasks to post-process each terminology file:
+
+```
+> bundle exec rake fhir:process_umls
+> bundle exec rake fhir:process_snomed
+> bundle exec rake fhir:process_loinc
+```
 
 # License
 

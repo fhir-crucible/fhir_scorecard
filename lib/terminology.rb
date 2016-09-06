@@ -21,6 +21,7 @@ module FHIR
     @@top_lab_code_units = {}
     @@top_lab_code_descriptions = {}
     @@known_codes = {}
+    @@core_snomed = {}
 
     def self.load_terminology
       if !@@loaded
@@ -50,6 +51,19 @@ module FHIR
           codeSystemHash[code] = description
         end
 
+        # load the core snomed codes
+        @@known_codes['SNOMED'] = {} if @@known_codes['SNOMED'].nil?
+        codeSystemHash = @@known_codes['SNOMED']
+        filename = File.join(@@term_root,'scorecard_snomed_core.txt')
+        raw = File.open(filename,'r:UTF-8',&:read)
+        raw.split("\n").each do |line|
+          row = line.split('|')
+          code = row[0]
+          description = row[1]
+          codeSystemHash[code] = description if codeSystemHash[code].nil?
+          @@core_snomed[code] = description
+        end        
+
         @@loaded = true
       end
     end
@@ -61,6 +75,11 @@ module FHIR
       else
         nil
       end
+    end
+
+    def self.is_core_snomed?(code)
+      load_terminology
+      !@@core_snomed[code].nil?
     end
 
     def self.is_top_lab_code?(code)
