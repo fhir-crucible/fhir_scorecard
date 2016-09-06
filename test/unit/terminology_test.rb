@@ -10,8 +10,10 @@ class TerminologyTest < Minitest::Test
   def setup
     loinc_file = File.join(@@term_root,'scorecard_loinc_2000.txt')
     umls_file = File.join(@@term_root,'scorecard_umls.txt')
+    snomed_file = File.join(@@term_root,'scorecard_snomed_core.txt')
     FileUtils.mv(loinc_file, "#{loinc_file}.bak", :force=>true)
     FileUtils.mv(umls_file, "#{umls_file}.bak", :force=>true)
+    FileUtils.mv(snomed_file, "#{snomed_file}.bak", :force=>true)
     file = File.open(loinc_file,'w:UTF-8')
     file.write('foo|Foo Description|mg')
     file.close
@@ -20,15 +22,21 @@ class TerminologyTest < Minitest::Test
     file.write("RXNORM|placebo|Placebo Description\n")
     file.write("LOINC|bar|Bar Description\n")
     file.close
+    file = File.open(snomed_file,'w:UTF-8')
+    file.write("baz|Baz Description\n")
+    file.close
   end
 
   def teardown
     loinc_file = File.join(@@term_root,'scorecard_loinc_2000.txt')
     umls_file = File.join(@@term_root,'scorecard_umls.txt')
+    snomed_file = File.join(@@term_root,'scorecard_snomed_core.txt')
     FileUtils.rm(loinc_file, :force=>true)
     FileUtils.rm(umls_file, :force=>true)
+    FileUtils.rm(snomed_file, :force=>true)
     FileUtils.mv("#{loinc_file}.bak",loinc_file, :force=>true)
     FileUtils.mv("#{umls_file}.bak",umls_file, :force=>true)
+    FileUtils.mv("#{snomed_file}.bak",snomed_file, :force=>true)    
   end
 
   def test_get_description_foo
