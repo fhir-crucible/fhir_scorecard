@@ -168,6 +168,8 @@ namespace :fhir do
             include_code = true
           when 'RXNORM'
             include_code = true
+          when 'CVX'
+            include_code = (['PT','OP'].include?(row[12]))
           when 'SRC'
             # 'SRC' rows define the data sources in the file
             include_code = false
@@ -197,6 +199,8 @@ namespace :fhir do
       puts 'UMLS file not found.'
       puts 'Download the US National Library of Medicine (NLM) Unified Medical Language System (UMLS) Full Release files'
       puts '  -> https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html'
+      puts 'Install the metathesaurus with the following data sources:'
+      puts '  CVX|CVX;ICD10CM|ICD10CM;ICD10PCS|ICD10PCS;ICD9CM|ICD9CM;LNC|LNC;MTHICD9|ICD9CM;RXNORM|RXNORM;SNOMEDCT_US|SNOMEDCT'
       puts 'After installation, copy `{install path}/META/MRCONSO.RRF` into your `./terminology` folder, and rerun this task.'
     end
   end

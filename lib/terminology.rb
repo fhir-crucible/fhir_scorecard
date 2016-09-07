@@ -12,7 +12,8 @@ module FHIR
       'http://www.icd10data.com/icd10pcs'=>'ICD10',
       'http://hl7.org/fhir/sid/icd-9-cm'=>'ICD9',
       'http://hl7.org/fhir/sid/icd-9-cm/diagnosis'=>'ICD9',
-      'http://hl7.org/fhir/sid/icd-9-cm/procedure'=>'ICD9'
+      'http://hl7.org/fhir/sid/icd-9-cm/procedure'=>'ICD9',
+      'http://hl7.org/fhir/sid/cvx'=>'CVX'
     }
     
     @@term_root = File.expand_path '../terminology',File.dirname(File.absolute_path(__FILE__))
