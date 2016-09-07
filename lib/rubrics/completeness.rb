@@ -2,7 +2,7 @@ module FHIR
   class Completeness < FHIR::Rubrics
 
     REQUIRED = [
-      'Patient','AllergyIntolerance','Condition','CarePlan','Immunization',
+      'AllergyIntolerance','Condition','CarePlan','Immunization',
       'Observation','Encounter'
     ]
 
