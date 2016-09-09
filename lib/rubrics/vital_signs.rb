@@ -21,34 +21,34 @@ module FHIR
     # Vital Signs should be present with specific LOINC codes
     rubric :vital_signs do |record|
       
-      NOT_FOUND = VITAL_SIGNS.clone
+      not_found = VITAL_SIGNS.clone
 
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
         if resource.is_a?(FHIR::Observation)
           found_code = get_vital_code(resource.code)
-          components = NOT_FOUND[ found_code ]
+          components = not_found[ found_code ]
           if components.nil?
             components = []
           else
             components = components.clone
           end
           if components.empty?
-            NOT_FOUND.delete(found_code)
+            not_found.delete(found_code)
           elsif resource.component
             resource.component.each do |component|
               sub_code = get_vital_code(component.code)
               components.delete(sub_code)         
             end
-            NOT_FOUND.delete(found_code) if components.empty?
+            not_found.delete(found_code) if components.empty?
           end
         end
       end
 
-      percentage = ( (VITAL_SIGNS.length.to_f - NOT_FOUND.length.to_f) / (VITAL_SIGNS.length.to_f) )
+      percentage = ( (VITAL_SIGNS.length.to_f - not_found.length.to_f) / (VITAL_SIGNS.length.to_f) )
       percentage = 0.0 if percentage.nan?
       points = 10.0 * percentage
-      message = "#{(100 * percentage).to_i}% (#{VITAL_SIGNS.length - NOT_FOUND.length}/#{VITAL_SIGNS.length}) of Vital Signs had at least one recorded Observation. Maximum of 10 points."
+      message = "#{(100 * percentage).to_i}% (#{VITAL_SIGNS.length - not_found.length}/#{VITAL_SIGNS.length}) of Vital Signs had at least one recorded Observation. Maximum of 10 points."
       response(points.to_i,message)
     end
 
