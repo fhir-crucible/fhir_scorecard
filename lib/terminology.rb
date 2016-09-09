@@ -25,6 +25,10 @@ module FHIR
     @@core_snomed = {}
     @@common_ucum = []
 
+    def self.set_terminology_root(root)
+      @@term_root = root
+    end
+
     def self.load_terminology
       if !@@loaded
         begin
