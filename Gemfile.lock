@@ -15,16 +15,15 @@ GEM
     coderay (1.1.1)
     date_time_precision (0.8.1)
     docile (1.1.5)
-    fhir_models (1.6.2)
+    fhir_models (1.6.8)
       bcp47 (>= 0.3)
       date_time_precision (>= 0.8)
       mime-types (>= 1.16, < 3)
       nokogiri (>= 1.6)
-      rake (>= 0.8.7)
     i18n (0.7.0)
     json (2.0.2)
     method_source (0.8.2)
-    mime-types (2.99.2)
+    mime-types (2.99.3)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     minitest-reporters (1.1.11)
@@ -32,15 +31,13 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    nokogiri (1.6.8)
+    nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    pkg-config (1.1.7)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rake (11.2.2)
+    rake (11.3.0)
     ruby-progressbar (1.8.1)
     simplecov (0.12.0)
       docile (~> 1.1.0)
@@ -63,4 +60,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-   1.12.5
+   1.13.6
