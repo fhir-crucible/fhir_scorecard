@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fhir_scorecard (0.1.0)
+    fhir_scorecard (1.0.1)
       fhir_models
 
 GEM
@@ -25,8 +25,8 @@ GEM
     method_source (0.8.2)
     mime-types (2.99.3)
     mini_portile2 (2.1.0)
-    minitest (5.9.0)
-    minitest-reporters (1.1.11)
+    minitest (5.9.1)
+    minitest-reporters (1.1.12)
       ansi
       builder
       minitest (>= 5.0)
