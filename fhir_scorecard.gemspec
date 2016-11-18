@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.email = "jwalonoski@mitre.org"
   s.homepage = "https://github.com/fhir-crucible/fhir_scorecard"
   s.authors = ["Jason Walonoski"]
-  s.version = '1.0'
+  s.version = '1.0.1'
 
   s.files = s.files = `git ls-files`.split("\n")
 
