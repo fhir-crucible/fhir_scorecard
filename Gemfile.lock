@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    fhir_scorecard (1.0.1)
-      fhir_models
+    fhir_scorecard (1.8.0)
+      fhir_models (~> 1.8)
 
 GEM
   remote: https://rubygems.org/
@@ -15,7 +15,7 @@ GEM
     coderay (1.1.1)
     date_time_precision (0.8.1)
     docile (1.1.5)
-    fhir_models (1.6.8)
+    fhir_models (1.8.1)
       bcp47 (>= 0.3)
       date_time_precision (>= 0.8)
       mime-types (>= 1.16, < 3)
@@ -51,7 +51,6 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  fhir_models (~> 1.6)
   fhir_scorecard!
   minitest (~> 5.3)
   minitest-reporters

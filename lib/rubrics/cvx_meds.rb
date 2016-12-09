@@ -10,7 +10,7 @@ module FHIR
       # Medication.code (CodeableConcept)
       # MedicationAdministration.medicationCodeableConcept / medicationReference
       # MedicationDispense.medicationCodeableConcept / medicationReference
-      # MedicationOrder.medicationCodeableConcept / medicationReference
+      # MedicationRequest.medicationCodeableConcept / medicationReference
       # MedicationStatement.medicationCodeableConcept / medicationReference
 
       resources = record.entry.map{|e|e.resource}
@@ -19,7 +19,7 @@ module FHIR
             results[:eligible_fields] += 1
             results[:validated_fields] += 1 if cvx?(resource.code)        
         elsif (
-            resource.is_a?(FHIR::MedicationOrder) ||
+            resource.is_a?(FHIR::MedicationRequest) ||
             resource.is_a?(FHIR::MedicationDispense) ||
             resource.is_a?(FHIR::MedicationAdministration) ||
             resource.is_a?(FHIR::MedicationStatement) )

@@ -12,7 +12,7 @@ module FHIR
       'QuestionnaireResponse','Coverage'
     ]
 
-    MEDICATIONS = [ 'MedicationStatement','MedicationDispense','MedicationAdministration','MedicationOrder' ]
+    MEDICATIONS = [ 'MedicationStatement','MedicationDispense','MedicationAdministration','MedicationRequest' ]
 
     # A Patient Record is not complete without certain required items and medications.
     rubric :completeness do |record|

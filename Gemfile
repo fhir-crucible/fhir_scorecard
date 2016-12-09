@@ -3,7 +3,6 @@ gemspec
 
 gem 'rake'
 gem 'pry'
-gem 'fhir_models', '~> 1.6'
 
 group :test do
   gem 'simplecov', :require => false

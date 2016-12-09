@@ -8,7 +8,7 @@ module FHIR
 
     CHECK = [
       'VisionPrescription','SupplyDelivery','Substance','Specimen','Sequence','Observation','NutritionRequest',
-      'MedicationStatement','MedicationOrder','MedicationDispense','MedicationAdministration','Medication','Immunization','CarePlan'
+      'MedicationStatement','MedicationRequest','MedicationDispense','MedicationAdministration','Medication','Immunization','CarePlan'
     ]
 
     # Physical quantities should use UCUM
