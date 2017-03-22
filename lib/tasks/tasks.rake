@@ -13,16 +13,18 @@ namespace :fhir do
     else
       contents = File.open(bundle_path,'r:UTF-8',&:read)
       scorecard = FHIR::Scorecard.new
+      scorecard.enable_us_core
+      scorecard.enable_shr
       report = scorecard.score(contents)
       puts 
       puts "  POINTS            CATEGORY   MESSAGE"
       puts "  ------            --------   -------"
       report.each do |key,value|
         next if key==:points
-        printf("   %3d  %20s   %s\n", value[:points], key, value[:message])
+        printf("   %3d  %22s   %s\n", value[:points], key, value[:message])
       end
       puts "  ------"
-      printf("   %3d  %20s\n", report[:points], 'TOTAL')
+      printf("   %3d  %22s\n", report[:points], 'TOTAL')
       puts
     end
   end
