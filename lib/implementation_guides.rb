@@ -25,7 +25,21 @@ module FHIR
               # indicators = false if requirement not met
               actual_value = FluentPath.evaluate(requirement['path'],resource.to_hash)
               expected_value = requirement['value']
-              binding.pry if actual_value!=expected_value
+              if actual_value.is_a?(Hash)
+                if actual_value['coding']
+                  actual_code = actual_value['coding'].map{|x|x['code']}
+                  expected_code = expected_value['coding'].map{|x|x['code']}
+                  any_match = false
+                  actual_code.each do |x|
+                    any_match = true if expected_code.include?(x)
+                  end
+                  indicators = false unless any_match
+                else
+                  binding.pry
+                end
+              else
+                binding.pry
+              end
               # TODO this won't work... 
               # - actual value is or should be an array
               # - expected value is or should be an array

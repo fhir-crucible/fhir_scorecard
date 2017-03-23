@@ -1,8 +1,18 @@
+GIT
+  remote: https://github.com/fhir-crucible/fhir_models.git
+  revision: 4e8073cd1f8eb3e6c639d611f90ea578b648eb23
+  branch: profiling
+  specs:
+    fhir_models (1.8.2)
+      bcp47 (>= 0.3)
+      date_time_precision (>= 0.8)
+      mime-types (>= 1.16, < 3)
+      nokogiri (>= 1.6)
+
 PATH
   remote: .
   specs:
-    fhir_scorecard (1.8.0)
-      fhir_models (~> 1.8)
+    fhir_scorecard (1.8.1)
 
 GEM
   remote: https://rubygems.org/
@@ -15,12 +25,7 @@ GEM
     coderay (1.1.1)
     date_time_precision (0.8.1)
     docile (1.1.5)
-    fhir_models (1.8.1)
-      bcp47 (>= 0.3)
-      date_time_precision (>= 0.8)
-      mime-types (>= 1.16, < 3)
-      nokogiri (>= 1.6)
-    i18n (0.7.0)
+    i18n (0.8.1)
     json (2.0.2)
     method_source (0.8.2)
     mime-types (2.99.3)
@@ -31,7 +36,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    nokogiri (1.6.8.1)
+    nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -51,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  fhir_models!
   fhir_scorecard!
   minitest (~> 5.3)
   minitest-reporters
