@@ -21,13 +21,38 @@ module FHIR
         @@shr_indicators.each do |url, data|
           if data['resource'] == resource.resourceType
             indicators = true
+            resource_hash = resource.to_hash
             data['fixedValues'].each do |requirement|
               # indicators = false if requirement not met
-              actual_value = FluentPath.evaluate(requirement['path'],resource.to_hash)
+              steps = requirement['path'].split('.')
+              steps.delete(data['resource'])
+              actual_values = select(steps, resource_hash)
               expected_value = requirement['value']
-              if actual_value.is_a?(Hash)
-                if actual_value['coding']
-                  actual_code = actual_value['coding'].map{|x|x['code']}
+              if actual_values.nil? || (actual_values.is_a?(Array) && actual_values.empty?)
+                indicators = false
+              elsif actual_values.is_a?(Array)
+                actual_values.each do |onevalue|
+                  if onevalue.is_a?(Hash)
+                    if onevalue['coding']
+                      actual_code = onevalue['coding'].map{|x|x['code']}
+                      expected_code = expected_value['coding'].map{|x|x['code']}
+                      any_match = false
+                      actual_code.each do |x|
+                        any_match = true if expected_code.include?(x)
+                      end
+                      indicators = false unless any_match
+                    else
+                      expected_value.each do |key, value|
+                        indicators = false unless onevalue[key] == value
+                      end
+                    end
+                  else
+                    binding.pry
+                  end
+                end
+              elsif actual_values.is_a?(Hash)
+                if actual_values['coding']
+                  actual_code = actual_values['coding'].map{|x|x['code']}
                   expected_code = expected_value['coding'].map{|x|x['code']}
                   any_match = false
                   actual_code.each do |x|
@@ -35,16 +60,16 @@ module FHIR
                   end
                   indicators = false unless any_match
                 else
-                  binding.pry
+                  expected_value.each do |key, value|
+                    indicators = false unless actual_values[key] == value
+                  end
                 end
+              elsif actual_values.is_a?(TrueClass) || actual_values.is_a?(FalseClass)
+                indicators = false unless actual_values == expected_value
+                binding.pry unless actual_values == expected_value
               else
                 binding.pry
               end
-              # TODO this won't work... 
-              # - actual value is or should be an array
-              # - expected value is or should be an array
-              # - data types in actual, primitive JSON in expected
-              indicators = false if actual_value!=expected_value
             end
             return @@standard_health_record[uri] if indicators
           end
@@ -57,6 +82,20 @@ module FHIR
         end
       end
       nil
+    end
+
+    def self.select(steps=[], obj)
+      return obj if steps.nil? || steps.empty?
+      copysteps = steps.clone
+      if obj.is_a?(Hash)
+        step = copysteps.delete_at(0)
+        obj = obj[step]
+        select(copysteps, obj)
+      elsif obj.is_a?(Array)
+        obj.map do |x|
+          select(copysteps, x)
+        end
+      end
     end
 
     def self.guess_uscore_profile(resource)

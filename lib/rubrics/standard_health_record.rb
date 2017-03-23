@@ -9,11 +9,22 @@ module FHIR
       }
 
       resources = record.entry.map{|e|e.resource}
-      resources.each do |resource|
+      resources.each_with_index do |resource, index|
         profile = FHIR::ImplementationGuideLookup.guess_shr_profile(resource)
         if profile
           results[:eligible_resources] += 1
-          results[:validated_resources] += 1 if profile.validates_resource?(resource)
+          errors = profile.validate_resource(resource)
+          if errors.empty?
+            results[:validated_resources] += 1
+          else
+            puts "------------------------------"
+            puts "#{index+1} of #{resources.size}"
+            puts "Profile: #{profile.id}"
+            puts "ERRORS"
+            puts errors
+            puts "WARNINGS"
+            puts profile.warnings
+          end
         end
       end
 

@@ -15,7 +15,7 @@ namespace :fhir do
       FHIR.logger.level = Logger::INFO
       scorecard = FHIR::Scorecard.new
       scorecard.enable_us_core
-      # scorecard.enable_shr
+      scorecard.enable_shr
       report = scorecard.score(contents)
       puts 
       puts "  POINTS            CATEGORY   MESSAGE"
