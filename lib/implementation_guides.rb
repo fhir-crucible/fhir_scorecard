@@ -8,6 +8,27 @@ module FHIR
     @@standard_health_record = {}
     @@shr_indicators = {}
 
+    @@shr_defaults = {
+      'Practitioner' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-Practitioner',
+      'Organization' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-Organization',
+      'RelatedPerson' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-RelatedPerson',
+      'AllergyIntolerance' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-AllergyIntolerance',
+      'BodySite' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-core-BodySite',
+      'Patient' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-demographics-PersonOfRecord',
+      'Coverage' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-demographics-HealthInsurance',
+      'Device' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-device-Device',
+      'DeviceUseStatement' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-device-DeviceUse',
+      'Encounter' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-encounter-Encounter',
+      'Immunization' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-immunization-Immunization',
+      'Medication' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-Medication',
+      'MedicationStatement' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-MedicationUse',
+      'MedicationRequest' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-MedicationPrescription',
+      'DiagnosticReport' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-observation-Panel',
+      'Observation' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-observation-Observation',
+      'Condition' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-problem-Problem',
+      'Procedure' => 'http://standardhealthrecord.org/fhir/StructureDefinition/shr-procedure-Procedure'
+    }
+
     def self.guess_shr_profile(resource)
       load_guides
       if resource && !@@shr_indicators.nil? && !@@shr_indicators.empty?
@@ -46,8 +67,6 @@ module FHIR
                         indicators = false unless onevalue[key] == value
                       end
                     end
-                  else
-                    binding.pry
                   end
                 end
               elsif actual_values.is_a?(Hash)
@@ -66,20 +85,14 @@ module FHIR
                 end
               elsif actual_values.is_a?(TrueClass) || actual_values.is_a?(FalseClass)
                 indicators = false unless actual_values == expected_value
-                binding.pry unless actual_values == expected_value
-              else
-                binding.pry
               end
             end
             return @@standard_health_record[uri] if indicators
           end
         end
-        # if the heuristics do not help, guess the first profile that matches on resource type
-        @@standard_health_record.each do |url, thing|
-          if thing.is_a?(FHIR::StructureDefinition)
-            return thing if thing.type == resource.resourceType
-          end
-        end
+        # if the heuristics do not help, use a default if possible
+        default = @@shr_defaults[resource.resourceType]
+        return @@standard_health_record[default] if default
       end
       nil
     end
