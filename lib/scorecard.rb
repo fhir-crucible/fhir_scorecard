@@ -42,5 +42,13 @@ module FHIR
       @report
     end
 
+    def enable_us_core
+      FHIR::Rubrics.enable(:us_core)
+    end
+
+    def enable_shr
+      FHIR::Rubrics.enable(:standard_health_record)
+    end
+
   end
 end

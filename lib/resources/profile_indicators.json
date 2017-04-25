@@ -1,0 +1,1633 @@
+{
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-EmergencyContact": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-EmergencyContact",
+    "resource": "CareTeam",
+    "fixedValues": [
+      {
+        "path": "CareTeam.participant.role",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C1552023"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-PrimaryCareProvider": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-PrimaryCareProvider",
+    "resource": "CareTeam",
+    "fixedValues": [
+      {
+        "path": "CareTeam.participant.role",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2735026"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-NoPrimaryCareProvider": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-actor-NoPrimaryCareProvider",
+    "resource": "CareTeam",
+    "fixedValues": [
+      {
+        "path": "CareTeam.participant.role",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2735026"
+            }
+          ]
+        }
+      },
+      {
+        "path": "CareTeam.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-problem-Asplenia": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-problem-Asplenia",
+    "resource": "Condition",
+    "fixedValues": [
+      {
+        "path": "Condition.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "93030006"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-adverse-AdverseReaction": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-adverse-AdverseReaction",
+    "resource": "Condition",
+    "fixedValues": [
+      {
+        "path": "Condition.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://standardhealthrecord.org/fhir/CodeSystem/shr-problem-ProblemCategoryVS",
+              "code": "adverse_reaction"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-DrugAllergy": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-DrugAllergy",
+    "resource": "AllergyIntolerance",
+    "fixedValues": [
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "drug"
+      },
+      {
+        "path": "AllergyIntolerance.type",
+        "value": "allergy"
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-FoodAllergy": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-FoodAllergy",
+    "resource": "AllergyIntolerance",
+    "fixedValues": [
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "food"
+      },
+      {
+        "path": "AllergyIntolerance.type",
+        "value": "allergy"
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownAllergy": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownAllergy",
+    "resource": "AllergyIntolerance",
+    "fixedValues": [
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "food"
+      },
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "medication"
+      },
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "biologic"
+      },
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "environment"
+      },
+      {
+        "path": "AllergyIntolerance.type",
+        "value": "allergy"
+      },
+      {
+        "path": "AllergyIntolerance.verificationStatus",
+        "value": "unconfirmed"
+      },
+      {
+        "path": "AllergyIntolerance.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownFoodAllergy": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownFoodAllergy",
+    "resource": "AllergyIntolerance",
+    "fixedValues": [
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "food"
+      },
+      {
+        "path": "AllergyIntolerance.type",
+        "value": "allergy"
+      },
+      {
+        "path": "AllergyIntolerance.verificationStatus",
+        "value": "unconfirmed"
+      },
+      {
+        "path": "AllergyIntolerance.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownDrugAllergy": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownDrugAllergy",
+    "resource": "AllergyIntolerance",
+    "fixedValues": [
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "drug"
+      },
+      {
+        "path": "AllergyIntolerance.type",
+        "value": "allergy"
+      },
+      {
+        "path": "AllergyIntolerance.verificationStatus",
+        "value": "unconfirmed"
+      },
+      {
+        "path": "AllergyIntolerance.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownEnvironmentalAllergy": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-allergy-NoKnownEnvironmentalAllergy",
+    "resource": "AllergyIntolerance",
+    "fixedValues": [
+      {
+        "path": "AllergyIntolerance.category",
+        "value": "environment"
+      },
+      {
+        "path": "AllergyIntolerance.type",
+        "value": "allergy"
+      },
+      {
+        "path": "AllergyIntolerance.verificationStatus",
+        "value": "unconfirmed"
+      },
+      {
+        "path": "AllergyIntolerance.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-observation-HistoryObservation": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-observation-HistoryObservation",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-observation-SocialHistory": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-observation-SocialHistory",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "social-history"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-BehavioralObservation": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-BehavioralObservation",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "54511-1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-SubstanceUse": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-SubstanceUse",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C024251"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-IntravenousDrugUse": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-IntravenousDrugUse",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C024251"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0242566"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.extension.valueCodeableConcept",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0021494"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.extension.valueCodeableConcept",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C1522726"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-ONCSmokingStatus": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-ONCSmokingStatus",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11367-0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-NicotineUse": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-NicotineUse",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C024251"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11367-0"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.extension.valueCodeableConcept",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2363943"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-AlcoholUse": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-AlcoholUse",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C024251"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0001948"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.extension.valueCodeableConcept",
+        "value": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "398624005"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-ReligiousPractice": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-ReligiousPractice",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "54511-1"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "81364-2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-DietAndNutrition": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-DietAndNutrition",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "54511-1"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0012155"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-SleepQuality": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-SleepQuality",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "54511-1"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "28323-4"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-PhysicalActivityLevel": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-PhysicalActivityLevel",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "54511-1"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "28323-4"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-ViolentBehaviorRisk": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-behavior-ViolentBehaviorRisk",
+    "resource": "Basic",
+    "fixedValues": [
+      {
+        "path": "Basic.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://standardhealthrecord.org/fhir/basic-resource-type",
+              "code": "shr-behavior-ViolentBehaviorRisk"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-ExposureToSubstance": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-ExposureToSubstance",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-FinancialSituationPanel": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-FinancialSituationPanel",
+    "resource": "DiagnosticReport",
+    "fixedValues": [
+      {
+        "path": "DiagnosticReport.codedDiagnosis",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0516918"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-AnnualIncome": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-AnnualIncome",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0557163"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-IncomeSource": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-IncomeSource",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0557162"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-IncomeStability": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-IncomeStability",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C1820459"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-HouseholdSize": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-HouseholdSize",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0000768"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-NumberOfDependents": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-NumberOfDependents",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0557509"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-AnimalExposure": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-AnimalExposure",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0238646"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-DomesticViolence": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-environment-DomesticViolence",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0206073"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-MedicationNotPrescribed": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-MedicationNotPrescribed",
+    "resource": "MedicationRequest",
+    "fixedValues": [
+      {
+        "path": "MedicationRequest.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-MedicationChange": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-medication-MedicationChange",
+    "resource": "Basic",
+    "fixedValues": [
+      {
+        "path": "Basic.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://standardhealthrecord.org/fhir/basic-resource-type",
+              "code": "shr-medication-MedicationChange"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-demographics-HomeTelephoneNumber": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-demographics-HomeTelephoneNumber",
+    "resource": "ContactPoint",
+    "fixedValues": [
+      {
+        "path": "ContactPoint.use",
+        "value": "personal"
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-demographics-WorkTelephoneNumber": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-demographics-WorkTelephoneNumber",
+    "resource": "ContactPoint",
+    "fixedValues": [
+      {
+        "path": "ContactPoint.use",
+        "value": "work"
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-immunization-ImmunizationNotGiven": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-immunization-ImmunizationNotGiven",
+    "resource": "Immunization",
+    "fixedValues": [
+      {
+        "path": "Immunization.wasNotGiven",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-PrenatalExposure": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-PrenatalExposure",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0332157"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0871747"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-CongenitalAbnormalities": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-CongenitalAbnormalities",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0000768"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-EducationalAttainment": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-EducationalAttainment",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "63504-5"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-Occupation": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-Occupation",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74287-4"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-Employment": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-Employment",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "74165-2"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-MilitaryService": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-MilitaryService",
+    "resource": "DiagnosticReport",
+    "fixedValues": [
+      {
+        "path": "DiagnosticReport.extension.valueCodeableConcept",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C3714797"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-Travel": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-lifehistory-Travel",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C2004062"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0040802"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-PregnancyIntention": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-PregnancyIntention",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "64631-5"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-SexualBehavior": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-SexualBehavior",
+    "resource": "DiagnosticReport",
+    "fixedValues": [
+      {
+        "path": "DiagnosticReport.extension.valueCodeableConcept",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C1314687"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-ContraceptiveMethodsUsed": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-ContraceptiveMethodsUsed",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://ncimeta.nci.nih.gov",
+              "code": "C0700589"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-ContraceptiveMethodRecommendation": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-sex-ContraceptiveMethodRecommendation",
+    "resource": "Basic",
+    "fixedValues": [
+      {
+        "path": "Basic.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://standardhealthrecord.org/fhir/basic-resource-type",
+              "code": "shr-sex-ContraceptiveMethodRecommendation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-skin-SupportSurfaceEmployed": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-skin-SupportSurfaceEmployed",
+    "resource": "DeviceUseStatement",
+    "fixedValues": [
+      {
+        "path": "DeviceUseStatement.extension.valueBoolean",
+        "value": false
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-skin-PressureUlcerNotPresent": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-skin-PressureUlcerNotPresent",
+    "resource": "Condition",
+    "fixedValues": [
+      {
+        "path": "Condition.modifierExtension.extension.valueBoolean",
+        "value": true
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-skin-PressureUlcerManifestation": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-skin-PressureUlcerManifestation",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "54574-9"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-VitalSign": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-VitalSign",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-RespiratoryRate": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-RespiratoryRate",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-HeartRate": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-HeartRate",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "/min"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-OxygenSaturation": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-OxygenSaturation",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "59408-5"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyTemperature": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyTemperature",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "Cel"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyHeight": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyHeight",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyLength": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyLength",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8306-3"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyWeight": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyWeight",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-HeadCircumference": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-HeadCircumference",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8287-5"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyMassIndex": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BodyMassIndex",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.component.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.component.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.component.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      {
+        "path": "Observation.component.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "cm"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BloodPressure": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-BloodPressure",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.category",
+        "value": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55284-4"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.component.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.component.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.component.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      {
+        "path": "Observation.component.valueQuantity",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-SystolicPressure": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-SystolicPressure",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8480-6"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.extension",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    ]
+  },
+  "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-DiastolicPressure": {
+    "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-vital-DiastolicPressure",
+    "resource": "Observation",
+    "fixedValues": [
+      {
+        "path": "Observation.code",
+        "value": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8462-4"
+            }
+          ]
+        }
+      },
+      {
+        "path": "Observation.extension",
+        "value": {
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    ]
+  }
+}
