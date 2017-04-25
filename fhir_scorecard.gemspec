@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
 
   s.files = s.files = `git ls-files`.split("\n")
 
-  # s.add_runtime_dependency 'fhir_models', '~> 1.8'
+  s.add_runtime_dependency 'fhir_models', '~> 1.8'
 end
