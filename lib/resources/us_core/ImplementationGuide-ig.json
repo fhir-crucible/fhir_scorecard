@@ -506,6 +506,18 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "Practitioner-practitioner-2.html"
+            }
+          ],
+          "example": true,
+          "sourceReference": {
+            "reference": "Practitioner/practitioner-2"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "Practitioner-practitioner-1.html"
             }
           ],
@@ -698,6 +710,18 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "Encounter-1036.html"
+            }
+          ],
+          "example": true,
+          "sourceReference": {
+            "reference": "Encounter/1036"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "Condition-example.html"
             }
           ],
@@ -710,7 +734,7 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "Careplan-colonoscopy.html"
+              "valueUri": "CarePlan-colonoscopy.html"
             }
           ],
           "example": true,
@@ -734,7 +758,7 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "Careteam-example.html"
+              "valueUri": "CareTeam-example.html"
             }
           ],
           "example": true,
@@ -746,12 +770,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "Observation-BUN.html"
+              "valueUri": "Observation-bun.html"
             }
           ],
           "example": true,
           "sourceReference": {
-            "reference": "Observation/BUN"
+            "reference": "Observation/bun"
           }
         },
         {
@@ -830,18 +854,6 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-us-core-ucum.html"
-            }
-          ],
-          "example": false,
-          "sourceReference": {
-            "reference": "ValueSet/us-core-ucum"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "ValueSet-us-core-substance.html"
             }
           ],
@@ -914,24 +926,24 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-us-core-procedure-type.html"
-            }
-          ],
-          "example": false,
-          "sourceReference": {
-            "reference": "ValueSet/us-core-procedure-type"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "ValueSet-us-core-procedure-icd10pcs.html"
             }
           ],
           "example": false,
           "sourceReference": {
             "reference": "ValueSet/us-core-procedure-icd10pcs"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-us-core-procedure-code.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/us-core-procedure-code"
           }
         },
         {
@@ -956,18 +968,6 @@
           "example": false,
           "sourceReference": {
             "reference": "ValueSet/us-core-observation-value-codes"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-us-core-observation-ccdavitalsignresult.html"
-            }
-          ],
-          "example": false,
-          "sourceReference": {
-            "reference": "ValueSet/us-core-observation-ccdavitalsignresult"
           }
         },
         {
@@ -1022,18 +1022,6 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-us-core-immunization-status.html"
-            }
-          ],
-          "example": false,
-          "sourceReference": {
-            "reference": "ValueSet/us-core-immunization-status"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "ValueSet-us-core-cvx.html"
             }
           ],
@@ -1052,18 +1040,6 @@
           "example": false,
           "sourceReference": {
             "reference": "ValueSet/us-core-condition-category"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-us-core-careteam-status.html"
-            }
-          ],
-          "example": false,
-          "sourceReference": {
-            "reference": "ValueSet/us-core-careteam-status"
           }
         },
         {
@@ -1094,24 +1070,36 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-omb-race.html"
+              "valueUri": "ValueSet-simple-language.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "ValueSet/omb-race"
+            "reference": "ValueSet/simple-language"
           }
         },
         {
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "ValueSet-omb-ethnicity.html"
+              "valueUri": "ValueSet-omb-race-category.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "ValueSet/omb-ethnicity"
+            "reference": "ValueSet/omb-race-category"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ValueSet-omb-ethnicity-category.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ValueSet/omb-ethnicity-category"
           }
         },
         {
@@ -1142,6 +1130,66 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-us-core-race.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/us-core-race"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-us-core-profile-link.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/us-core-profile-link"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-us-core-ethnicity.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/us-core-ethnicity"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-us-core-direct.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/us-core-direct"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "StructureDefinition-us-core-birthsex.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "StructureDefinition/us-core-birthsex"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "SearchParameter-us-core-race.html"
             }
           ],
@@ -1166,6 +1214,18 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "ConceptMap-ndc-cvx.html"
+            }
+          ],
+          "example": false,
+          "sourceReference": {
+            "reference": "ConceptMap/ndc-cvx"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "CodeSystem-condition-category.html"
             }
           ],
@@ -1178,12 +1238,12 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "CodeSystem-careteam-status.html"
+              "valueUri": "CodeSystem-cdcrec.html"
             }
           ],
           "example": false,
           "sourceReference": {
-            "reference": "CodeSystem/careteam-status"
+            "reference": "CodeSystem/cdcrec"
           }
         },
         {
@@ -1225,7 +1285,7 @@
       ]
     },
     {
-      "name": "U.S.  Core AllergyIntolerance Profile",
+      "name": "US  Core AllergyIntolerance Profile",
       "resource": [
         {
           "extension": [
@@ -1235,7 +1295,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Allergies Profile",
+          "name": "US  Core AllergyIntolerance Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-allergyintolerance"
           }
@@ -1243,7 +1303,7 @@
       ]
     },
     {
-      "name": "U.S.  Core CarePlan Profile",
+      "name": "US Core CarePlan Profile",
       "resource": [
         {
           "extension": [
@@ -1261,7 +1321,7 @@
       ]
     },
     {
-      "name": "U.S.  Core CareTeam Profile",
+      "name": "US  Core CareTeam Profile",
       "resource": [
         {
           "extension": [
@@ -1271,7 +1331,7 @@
             }
           ],
           "example": false,
-          "name": "US Core CareTeam Profile",
+          "name": "US  Core CareTeam Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-careteam"
           }
@@ -1279,7 +1339,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Condition (a.k.a Problem) Profile",
+      "name": "US  Core Condition (a.k.a Problem) Profile",
       "resource": [
         {
           "extension": [
@@ -1289,7 +1349,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Condition Profile",
+          "name": "US  Core Condition (a.k.a Problem) Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-condition"
           }
@@ -1297,7 +1357,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Device Profile",
+      "name": "US  Core Device Profile",
       "resource": [
         {
           "extension": [
@@ -1307,7 +1367,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Implanted Device Profile",
+          "name": "US  Core Device Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-device"
           }
@@ -1315,7 +1375,7 @@
       ]
     },
     {
-      "name": "U.S.  Core DiagnosticReport Profile",
+      "name": "US  Core DiagnosticReport Profile",
       "resource": [
         {
           "extension": [
@@ -1325,7 +1385,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Diagnostic Report Profile",
+          "name": "US  Core DiagnosticReport Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-diagnosticreport"
           }
@@ -1333,7 +1393,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Goal Profile",
+      "name": "US  Core Goal Profile",
       "resource": [
         {
           "extension": [
@@ -1343,7 +1403,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Goal Profile",
+          "name": "US  Core Goal Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-goal"
           }
@@ -1351,7 +1411,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Immunization Profile",
+      "name": "US  Core Immunization Profile",
       "resource": [
         {
           "extension": [
@@ -1361,7 +1421,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Immunization Profile",
+          "name": "US  Core Immunization Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-immunization"
           }
@@ -1369,7 +1429,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Location Profile",
+      "name": "US  Core Location Profile",
       "resource": [
         {
           "extension": [
@@ -1379,7 +1439,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Location Profile",
+          "name": "US  Core Location Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-location"
           }
@@ -1387,7 +1447,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Medication Profile",
+      "name": "US  Core Medication Profile",
       "resource": [
         {
           "extension": [
@@ -1397,7 +1457,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Medication Profile",
+          "name": "US  Core Medication Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-medication"
           }
@@ -1405,7 +1465,7 @@
       ]
     },
     {
-      "name": "U.S.  Core MedicationRequest Profile",
+      "name": "US  Core MedicationRequest Profile",
       "resource": [
         {
           "extension": [
@@ -1415,7 +1475,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Medication Request Profile",
+          "name": "US  Core MedicationRequest Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-medicationrequest"
           }
@@ -1423,7 +1483,7 @@
       ]
     },
     {
-      "name": "U.S.  Core MedicationStatement Profile",
+      "name": "US  Core MedicationStatement Profile",
       "resource": [
         {
           "extension": [
@@ -1433,7 +1493,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Medication Statement Profile",
+          "name": "US  Core MedicationStatement Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-medicationstatement"
           }
@@ -1441,7 +1501,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Results Profile",
+      "name": "US  Core Results Profile",
       "resource": [
         {
           "extension": [
@@ -1451,7 +1511,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Result Observation",
+          "name": "US  Core Results Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-observationresults"
           }
@@ -1459,7 +1519,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Smoking Status Profile",
+      "name": "US  Core Smoking Status Profile",
       "resource": [
         {
           "extension": [
@@ -1469,7 +1529,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Smoking Status Observation Profile",
+          "name": "US  Core Smoking Status Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-smokingstatus"
           }
@@ -1477,25 +1537,7 @@
       ]
     },
     {
-      "name": "U.S.  Core Vital Signs Profile",
-      "resource": [
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-us-core-vitalsigns.html"
-            }
-          ],
-          "example": false,
-          "name": "US Core Vital Signs Profile",
-          "sourceReference": {
-            "reference": "StructureDefinition/us-core-vitalsigns"
-          }
-        }
-      ]
-    },
-    {
-      "name": "U.S. US Core Organization Core Profile",
+      "name": "US Core Organization Core Profile",
       "resource": [
         {
           "extension": [
@@ -1505,7 +1547,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Organization Profile",
+          "name": "US Core Organization Core Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-organization"
           }
@@ -1513,60 +1555,8 @@
       ]
     },
     {
-      "name": "U.S.  Core Patient Profile",
+      "name": "US Core Patient Profile",
       "resource": [
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-us-core-direct.html"
-            }
-          ],
-          "example": false,
-          "name": "Email is a \"direct\" email",
-          "sourceReference": {
-            "reference": "StructureDefinition/us-core-direct"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-us-core-birthsex.html"
-            }
-          ],
-          "example": false,
-          "name": "US Core Birth Sex Extension",
-          "sourceReference": {
-            "reference": "StructureDefinition/us-core-birthsex"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-us-core-race.html"
-            }
-          ],
-          "example": false,
-          "name": "US Core Race Extension",
-          "sourceReference": {
-            "reference": "StructureDefinition/us-core-race"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-us-core-ethnicity.html"
-            }
-          ],
-          "example": false,
-          "name": "US Core ethnicity Extension",
-          "sourceReference": {
-            "reference": "StructureDefinition/us-core-ethnicity"
-          }
-        },
         {
           "extension": [
             {
@@ -1583,25 +1573,25 @@
       ]
     },
     {
-      "name": "U.S.  Core Practitioner Profile",
+      "name": "US  Core Practitioner Profile",
       "resource": [
         {
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "StructureDefinition-us-core-pract.html"
+              "valueUri": "StructureDefinition-us-core-practitioner.html"
             }
           ],
           "example": false,
-          "name": "US Core Practitioner",
+          "name": "US  Core Practitioner Profile",
           "sourceReference": {
-            "reference": "StructureDefinition/us-core-pract"
+            "reference": "StructureDefinition/us-core-practitioner"
           }
         }
       ]
     },
     {
-      "name": "U.S.  Core Procedure Profile",
+      "name": "US  Core Procedure Profile",
       "resource": [
         {
           "extension": [
@@ -1611,7 +1601,7 @@
             }
           ],
           "example": false,
-          "name": "US Core Procedure Profile",
+          "name": "US  Core Procedure Profile",
           "sourceReference": {
             "reference": "StructureDefinition/us-core-procedure"
           }
@@ -1621,7 +1611,7 @@
   ],
   "page": {
     "source": "index.html",
-    "title": "blah",
+    "title": "US Core Homepage",
     "kind": "page"
   }
 }

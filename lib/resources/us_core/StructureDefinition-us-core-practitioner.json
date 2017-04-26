@@ -1,14 +1,16 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "us-core-pract",
+  "id": "us-core-practitioner",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract</a></p><p><b>name</b>: US Core Practitioner</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract</a></p><p><b>name</b>: US Core Practitioner</p><p><b>status</b>: DRAFT</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>date</b>: 01/08/2016</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: servd</p><p><b>uri</b>: <a href=\"http://www.omg.org/spec/ServD/1.0/\">http://www.omg.org/spec/ServD/1.0/</a></p><p><b>name</b>: ServD</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: Practitioner</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Practitioner\">http://hl7.org/fhir/StructureDefinition/Practitioner</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US  Core Practitioner Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US  Core Practitioner Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>fhirVersion</b>: 3.0.0</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: servd</p><p><b>uri</b>: <a href=\"http://www.omg.org/spec/ServD/1.0/\">http://www.omg.org/spec/ServD/1.0/</a></p><p><b>name</b>: ServD</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: Practitioner</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Practitioner\">http://hl7.org/fhir/StructureDefinition/Practitioner</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
   },
-  "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract",
-  "name": "US Core Practitioner",
+  "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner",
+  "version": "1.0.0",
+  "name": "US  Core Practitioner Profile",
   "status": "draft",
-  "publisher": "Health Level Seven International (FHIR-Infrastructure)",
+  "date": "2016-08-01",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -19,7 +21,7 @@
       ]
     }
   ],
-  "date": "2016-08-01",
+  "fhirVersion": "3.0.0",
   "mapping": [
     {
       "identity": "v2",
@@ -50,12 +52,12 @@
   "snapshot": {
     "element": [
       {
-        "id": "Practitioner:uscorepract",
+        "id": "Practitioner:uscorepractitioner",
         "path": "Practitioner",
-        "sliceName": "USCorePract",
+        "sliceName": "USCorePractitioner",
         "short": "US Core Practitioner",
         "definition": "This is basic constraint on provider for use in US Core resources.",
-        "comments": "Note that a cab driver no longer fits the bill. You probably would be interested in the organization rather than the individual?",
+        "comment": "Note that a cab driver no longer fits the bill. You probably would be interested in the organization rather than the individual?",
         "alias": [
           "Provider"
         ],
@@ -101,7 +103,6 @@
           }
         ],
         "mustSupport": false,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "rim",
@@ -126,11 +127,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.id",
+        "id": "Practitioner:uscorepractitioner.id",
         "path": "Practitioner.id",
         "short": "Logical id of this artifact",
         "definition": "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.",
-        "comments": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
+        "comment": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -146,7 +147,7 @@
         "isSummary": true
       },
       {
-        "id": "Practitioner:uscorepract.meta",
+        "id": "Practitioner:uscorepractitioner.meta",
         "path": "Practitioner.meta",
         "short": "Metadata about the resource",
         "definition": "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content may not always be associated with version changes to the resource.",
@@ -165,11 +166,11 @@
         "isSummary": true
       },
       {
-        "id": "Practitioner:uscorepract.implicitRules",
+        "id": "Practitioner:uscorepractitioner.implicitRules",
         "path": "Practitioner.implicitRules",
         "short": "A set of rules under which this content was created",
         "definition": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.",
-        "comments": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element as much as possible.",
+        "comment": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. \n\nThis element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -186,11 +187,11 @@
         "isSummary": true
       },
       {
-        "id": "Practitioner:uscorepract.language",
+        "id": "Practitioner:uscorepractitioner.language",
         "path": "Practitioner.language",
         "short": "Language of the resource content",
         "definition": "The base language in which the resource is written.",
-        "comments": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
+        "comment": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
         "min": 0,
         "max": "1",
         "base": {
@@ -210,6 +211,14 @@
               "valueReference": {
                 "reference": "http://hl7.org/fhir/ValueSet/all-languages"
               }
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Language"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
             }
           ],
           "strength": "extensible",
@@ -220,11 +229,11 @@
         }
       },
       {
-        "id": "Practitioner:uscorepract.text",
+        "id": "Practitioner:uscorepractitioner.text",
         "path": "Practitioner.text",
         "short": "Text summary of the resource, for human interpretation",
         "definition": "A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
-        "comments": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
+        "comment": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
         "alias": [
           "narrative",
           "html",
@@ -254,11 +263,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.contained",
+        "id": "Practitioner:uscorepractitioner.contained",
         "path": "Practitioner.contained",
         "short": "Contained, inline Resources",
         "definition": "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.",
-        "comments": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
+        "comment": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
         "alias": [
           "inline resources",
           "anonymous resources",
@@ -284,11 +293,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.extension",
+        "id": "Practitioner:uscorepractitioner.extension",
         "path": "Practitioner.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -313,11 +322,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.modifierExtension",
+        "id": "Practitioner:uscorepractitioner.modifierExtension",
         "path": "Practitioner.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -343,7 +352,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier",
+        "id": "Practitioner:uscorepractitioner.identifier",
         "path": "Practitioner.identifier",
         "short": "A identifier for the person as this agent",
         "definition": "An identifier that applies to this person in this role.",
@@ -361,7 +370,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
           {
             "identity": "v2",
@@ -382,7 +391,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.id",
+        "id": "Practitioner:uscorepractitioner.identifier.id",
         "path": "Practitioner.identifier.id",
         "representation": [
           "xmlAttr"
@@ -409,11 +418,21 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.extension",
+        "id": "Practitioner:uscorepractitioner.identifier.extension",
         "path": "Practitioner.identifier.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "description": "Extensions are always sliced by (at least) url",
+          "rules": "open"
+        },
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -438,11 +457,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.use",
+        "id": "Practitioner:uscorepractitioner.identifier.use",
         "path": "Practitioner.identifier.use",
         "short": "usual | official | temp | secondary (If known)",
         "definition": "The purpose of this identifier.",
-        "comments": "This is labeled as \"Is Modifier\" because applications should not mistake a temporary id for a permanent one. Applications can assume that an identifier is permanent unless it explicitly says that it is temporary.",
+        "comment": "This is labeled as \"Is Modifier\" because applications should not mistake a temporary id for a permanent one. Applications can assume that an identifier is permanent unless it explicitly says that it is temporary.",
         "requirements": "Allows the appropriate identifier for a particular context of use to be selected from among a set of identifiers.",
         "min": 0,
         "max": "1",
@@ -459,6 +478,12 @@
         "isModifier": true,
         "isSummary": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "IdentifierUse"
+            }
+          ],
           "strength": "required",
           "description": "Identifies the purpose for this identifier, if known .",
           "valueSetReference": {
@@ -477,11 +502,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.type",
+        "id": "Practitioner:uscorepractitioner.identifier.type",
         "path": "Practitioner.identifier.type",
         "short": "Description of identifier",
         "definition": "A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.",
-        "comments": "This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage.   Where the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type.",
+        "comment": "This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage. \n\nWhere the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type.",
         "requirements": "Allows users to make use of identifiers when the identifier system is not known.",
         "min": 0,
         "max": "1",
@@ -497,6 +522,16 @@
         ],
         "isSummary": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "IdentifierType"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
+            }
+          ],
           "strength": "extensible",
           "description": "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
           "valueSetReference": {
@@ -515,12 +550,12 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.system",
+        "id": "Practitioner:uscorepractitioner.identifier.system",
         "path": "Practitioner.identifier.system",
         "short": "NPI could be used as the identifier system in the US.",
-        "definition": "Establishes the namespace in which set of possible id values is unique.",
-        "comments": "NPI could be used as the identifier system in the US.",
-        "requirements": "There are many sequences of identifiers.  To perform matching, we need to know what sequence we're dealing with. The system identifies a particular sequence or set of unique identifiers.",
+        "definition": "Establishes the namespace for the value - that is, a URL that describes a set values that are unique.",
+        "comment": "NPI could be used as the identifier system in the US.",
+        "requirements": "There are many sets  of identifiers.  To perform matching of two identifiers, we need to know what set we're dealing with. The system identifies a particular set of unique identifiers.",
         "min": 1,
         "max": "1",
         "base": {
@@ -544,7 +579,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
           {
             "identity": "v2",
@@ -561,11 +596,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.value",
+        "id": "Practitioner:uscorepractitioner.identifier.value",
         "path": "Practitioner.identifier.value",
         "short": "The value that is unique",
         "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.",
-        "comments": "If the value is a full URI, then the system SHALL be urn:ietf:rfc:3986.  The value's primary purpose is computational mapping.  As a result, it may be normalized for comparison purposes (e.g. removing non-significant whitespace, dashes, etc.)  A value formatted for human display can be conveyed using the [Rendered Value extension](extension-rendered-value.html).",
+        "comment": "If the value is a full URI, then the system SHALL be urn:ietf:rfc:3986.  The value's primary purpose is computational mapping.  As a result, it may be normalized for comparison purposes (e.g. removing non-significant whitespace, dashes, etc.)  A value formatted for human display can be conveyed using the [Rendered Value extension](extension-rendered-value.html).",
         "min": 1,
         "max": "1",
         "base": {
@@ -585,7 +620,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
           {
             "identity": "v2",
@@ -602,7 +637,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.period",
+        "id": "Practitioner:uscorepractitioner.identifier.period",
         "path": "Practitioner.identifier.period",
         "short": "Time period when id is/was valid for use",
         "definition": "Time period during which identifier is/was valid for use.",
@@ -635,11 +670,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.identifier.assigner",
+        "id": "Practitioner:uscorepractitioner.identifier.assigner",
         "path": "Practitioner.identifier.assigner",
         "short": "Organization that issued id (may be just text)",
         "definition": "Organization that issued/manages the identifier.",
-        "comments": "The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.",
+        "comment": "The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.",
         "min": 0,
         "max": "1",
         "base": {
@@ -670,11 +705,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.active",
+        "id": "Practitioner:uscorepractitioner.active",
         "path": "Practitioner.active",
         "short": "Whether this practitioner's record is in active use",
         "definition": "Whether this practitioner's record is in active use.",
-        "comments": "Default is true.   If the practitioner is not in use by one organization, then it should mark the period on the PractitonerRole with an end date (even if they are active) as they may be active in another role.",
+        "comment": "Default is true. \r\rIf the practitioner is not in use by one organization, then it should mark the period on the PractitonerRole with an end date (even if they are active) as they may be active in another role.",
         "requirements": "Need to be able to mark a practitioner record as not to be used because it was created in error.",
         "min": 0,
         "max": "1",
@@ -702,11 +737,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name",
+        "id": "Practitioner:uscorepractitioner.name",
         "path": "Practitioner.name",
         "short": "The name(s) associated with the practitioner",
         "definition": "The name(s) associated with the practitioner.",
-        "comments": "The selection of the use property should ensure that there is a single usual name specified, and others use the nickname (alias), old, or other values as appropriate.  In general select the value to be used in the ResourceReference.display based on this:  1. There is more than 1 name 2. Use = usual 3. Period is current to the date of the usage 4. Use = official 5. Other order as decided by internal business rules.",
+        "comment": "The selection of the use property should ensure that there is a single usual name specified, and others use the nickname (alias), old, or other values as appropriate.\r\rIn general select the value to be used in the ResourceReference.display based on this:\r\r1. There is more than 1 name\r2. Use = usual\r3. Period is current to the date of the usage\r4. Use = official\r5. Other order as decided by internal business rules.",
         "requirements": "The name(s) that a Practitioner is known by. Where there are multiple, the name that the practitioner is usually known as should be used in the display.",
         "min": 1,
         "max": "1",
@@ -721,7 +756,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
           {
             "identity": "v2",
@@ -738,7 +773,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.id",
+        "id": "Practitioner:uscorepractitioner.name.id",
         "path": "Practitioner.name.id",
         "representation": [
           "xmlAttr"
@@ -765,11 +800,21 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.extension",
+        "id": "Practitioner:uscorepractitioner.name.extension",
         "path": "Practitioner.name.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "description": "Extensions are always sliced by (at least) url",
+          "rules": "open"
+        },
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -794,11 +839,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.use",
+        "id": "Practitioner:uscorepractitioner.name.use",
         "path": "Practitioner.name.use",
         "short": "usual | official | temp | nickname | anonymous | old | maiden",
         "definition": "Identifies the purpose for this name.",
-        "comments": "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old name etc.for a current/permanent one. Applications can assume that a name is current unless it explicitly says that it is temporary or old.",
+        "comment": "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old name etc.for a current/permanent one. Applications can assume that a name is current unless it explicitly says that it is temporary or old.",
         "requirements": "Allows the appropriate name for a particular context of use to be selected from among a set of names.",
         "min": 0,
         "max": "1",
@@ -815,6 +860,12 @@
         "isModifier": true,
         "isSummary": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "NameUse"
+            }
+          ],
           "strength": "required",
           "description": "The use of a human name",
           "valueSetReference": {
@@ -837,11 +888,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.text",
+        "id": "Practitioner:uscorepractitioner.name.text",
         "path": "Practitioner.name.text",
         "short": "Text representation of the full name",
         "definition": "A full text representation of the name.",
-        "comments": "Can provide both a text representation and structured parts.",
+        "comment": "Can provide both a text representation and structured parts.",
         "requirements": "A renderable, unencoded form.",
         "min": 0,
         "max": "1",
@@ -868,11 +919,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.family",
+        "id": "Practitioner:uscorepractitioner.name.family",
         "path": "Practitioner.name.family",
         "short": "Family name (often called 'Surname')",
         "definition": "The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.",
-        "comments": "Family Name may be decomposed into specific parts using extensions (de, nl, es related cultures).",
+        "comment": "Family Name may be decomposed into specific parts using extensions (de, nl, es related cultures).",
         "alias": [
           "surname"
         ],
@@ -889,7 +940,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
           {
             "identity": "v2",
@@ -906,11 +957,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.given",
+        "id": "Practitioner:uscorepractitioner.name.given",
         "path": "Practitioner.name.given",
         "short": "Given names (not always 'first'). Includes middle names",
         "definition": "Given name.",
-        "comments": "If only initials are recorded, they may be used in place of the full name.  Not called \"first name\" since given names do not always come first.",
+        "comment": "If only initials are recorded, they may be used in place of the full name.  Not called \"first name\" since given names do not always come first.",
         "alias": [
           "first name",
           "middle name"
@@ -927,6 +978,7 @@
             "code": "string"
           }
         ],
+        "orderMeaning": "Given Names appear in the correct order for presenting the name",
         "isSummary": true,
         "mapping": [
           {
@@ -944,7 +996,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.prefix",
+        "id": "Practitioner:uscorepractitioner.name.prefix",
         "path": "Practitioner.name.prefix",
         "short": "Parts that come before the name",
         "definition": "Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name.",
@@ -960,6 +1012,7 @@
             "code": "string"
           }
         ],
+        "orderMeaning": "Prefixes appear in the correct order for presenting the name",
         "isSummary": true,
         "mapping": [
           {
@@ -977,7 +1030,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.suffix",
+        "id": "Practitioner:uscorepractitioner.name.suffix",
         "path": "Practitioner.name.suffix",
         "short": "Parts that come after the name",
         "definition": "Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name.",
@@ -993,6 +1046,7 @@
             "code": "string"
           }
         ],
+        "orderMeaning": "Suffixes appear in the correct order for presenting the name",
         "isSummary": true,
         "mapping": [
           {
@@ -1006,7 +1060,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.name.period",
+        "id": "Practitioner:uscorepractitioner.name.period",
         "path": "Practitioner.name.period",
         "short": "Time period when name was/is in use",
         "definition": "Indicates the period of time when this name was valid for the named person.",
@@ -1040,11 +1094,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.telecom",
+        "id": "Practitioner:uscorepractitioner.telecom",
         "path": "Practitioner.telecom",
         "short": "A contact detail for the practitioner (that apply to all roles)",
         "definition": "A contact detail for the practitioner, e.g. a telephone number or an email address.",
-        "comments": "Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently, and also to help with identification  These typically will have home numbers, or mobile numbers that are not role specific.",
+        "comment": "Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently, and also to help with identification\r\rThese typically will have home numbers, or mobile numbers that are not role specific.",
         "requirements": "Need to know how to reach a practitioner independent to any roles the practitioner may have.",
         "min": 0,
         "max": "*",
@@ -1075,11 +1129,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.address",
+        "id": "Practitioner:uscorepractitioner.address",
         "path": "Practitioner.address",
         "short": "Address(es) of the practitioner that are not role specific (typically home address)",
-        "definition": "Address(es) of the practitioner that are not role specific (typically home address).  Work addresses are not typically entered in this property as they are usually role dependent.",
-        "comments": "The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address).",
+        "definition": "Address(es) of the practitioner that are not role specific (typically home address). \rWork addresses are not typically entered in this property as they are usually role dependent.",
+        "comment": "The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address).",
         "requirements": "The home/mailing address of the practitioner is often required for employee administration purposes, and also for some rostering services where the start point (practitioners home) can be used in calculations.",
         "min": 0,
         "max": "*",
@@ -1110,7 +1164,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.gender",
+        "id": "Practitioner:uscorepractitioner.gender",
         "path": "Practitioner.gender",
         "short": "male | female | other | unknown",
         "definition": "Administrative Gender - the gender that the person is considered to have for administration and record keeping purposes.",
@@ -1129,6 +1183,16 @@
         ],
         "isSummary": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "AdministrativeGender"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
+            }
+          ],
           "strength": "required",
           "description": "The gender of a person used for administrative purposes.",
           "valueSetReference": {
@@ -1151,7 +1215,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.birthDate",
+        "id": "Practitioner:uscorepractitioner.birthDate",
         "path": "Practitioner.birthDate",
         "short": "The date  on which the practitioner was born",
         "definition": "The date of birth for the practitioner.",
@@ -1185,7 +1249,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.photo",
+        "id": "Practitioner:uscorepractitioner.photo",
         "path": "Practitioner.photo",
         "short": "Image of the person",
         "definition": "Image of the person.",
@@ -1214,410 +1278,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.role",
-        "path": "Practitioner.role",
-        "short": "Roles/organizations the practitioner is associated with",
-        "definition": "The list of roles/organizations that the practitioner is associated with.",
-        "comments": "The address to be used for this PractitionerRole is in the referenced location (removing duplication across all the services provided at the location).",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "BackboneElement"
-          }
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "children().count() > id.count()",
-            "xpath": "@value|f:*|h:div",
-            "source": "Element"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.id",
-        "path": "Practitioner.role.id",
-        "representation": [
-          "xmlAttr"
-        ],
-        "short": "xml:id (or equivalent in JSON)",
-        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Element.id",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.extension",
-        "path": "Practitioner.role.extension",
-        "short": "Additional Content defined by implementations",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Element.extension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.modifierExtension",
-        "path": "Practitioner.role.modifierExtension",
-        "short": "Extensions that cannot be ignored",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content",
-          "modifiers"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "BackboneElement.modifierExtension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "isModifier": true,
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "N/A"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.organization",
-        "path": "Practitioner.role.organization",
-        "short": "Organization where the roles are performed",
-        "definition": "The organization where the Practitioner performs the roles associated.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Practitioner.role.organization",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Organization"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole.scopingOrganization"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.code",
-        "path": "Practitioner.role.code",
-        "short": "Roles which this practitioner may perform",
-        "definition": "Roles which this practitioner is authorized to perform for the organization.",
-        "comments": "A person may have more than one role. At least one role is required.",
-        "requirements": "Need to know what authority the practitioner has - what can they do?",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Practitioner.role.code",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "isSummary": true,
-        "binding": {
-          "strength": "example",
-          "description": "The role a person plays representing an organization",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/practitioner-role"
-          }
-        },
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "PRD-1 / STF-18  / PRA-3  / PRT-4  / ROL-3 / ORC-12 / OBR-16 / PV1-7 / PV1-8 / PV1-9 / PV1-17"
-          },
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole.code"
-          },
-          {
-            "identity": "servd",
-            "map": "(ServD maps Practitioners and Organizations via another entity, so this concept is not available)"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.specialty",
-        "path": "Practitioner.role.specialty",
-        "short": "Specific specialty of the practitioner",
-        "definition": "Specific specialty of the practitioner.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role.specialty",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "isSummary": true,
-        "binding": {
-          "strength": "example",
-          "description": "Specific specialty associated with the agency",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/practitioner-specialty"
-          }
-        },
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "PRA-5"
-          },
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole[classCode=QUAL].code"
-          },
-          {
-            "identity": "servd",
-            "map": "./Specialty"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.identifier",
-        "path": "Practitioner.role.identifier",
-        "short": "Business Identifiers that are specific to a role/location",
-        "definition": "Business Identifiers that are specific to a role/location.",
-        "requirements": "Some business identifiers are specific to a location and should be able to be associated.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role.identifier",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Identifier"
-          }
-        ],
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole.id"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.telecom",
-        "path": "Practitioner.role.telecom",
-        "short": "Contact details that are specific to the role/location/service",
-        "definition": "Contact details that are specific to the role/location/service.",
-        "requirements": "Often practitioners have a dedicated line for each location (or service) that they work at, and need to be able to define separate contact details for each of these.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role.telecom",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "ContactPoint"
-          }
-        ],
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole.telecom"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.period",
-        "path": "Practitioner.role.period",
-        "short": "The period during which the practitioner is authorized to perform in these role(s)",
-        "definition": "The period during which the person is authorized to act as a practitioner in these role(s) for the organization.",
-        "requirements": "Even after the agencies is revoked, the fact that it existed must still be recorded.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Practitioner.role.period",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "Period"
-          }
-        ],
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "PRD-8/9 / PRA-5.4"
-          },
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole.effectiveTime"
-          },
-          {
-            "identity": "servd",
-            "map": "(ServD maps Practitioners and Organizations via another entity, so this concept is not available)"
-          },
-          {
-            "identity": "w5",
-            "map": "when.done"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.location",
-        "path": "Practitioner.role.location",
-        "short": "The location(s) at which this practitioner provides care",
-        "definition": "The location(s) at which this practitioner provides care.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role.location",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Location"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": ".playingEntity.playingRole.location.source[classCode=SDLOC]"
-          },
-          {
-            "identity": "servd",
-            "map": "(ServD maps Practitioners and Organizations via another entity, so this concept is not available)<br/> However these are accessed via the Site.ServiceSite.ServiceSiteProvider record. (The Site has the location)"
-          },
-          {
-            "identity": "w5",
-            "map": "where"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.healthcareService",
-        "path": "Practitioner.role.healthcareService",
-        "short": "The list of healthcare services that this worker provides for this role's Organization/Location(s)",
-        "definition": "The list of healthcare services that this worker provides for this role's Organization/Location(s).",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role.healthcareService",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/HealthcareService"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.role.endpoint",
-        "path": "Practitioner.role.endpoint",
-        "short": "Technical endpoints providing access to services operated for the PractitonerRole",
-        "definition": "Technical endpoints providing access to services operated for the PractitonerRole.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Practitioner.role.endpoint",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Endpoint"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Practitioner:uscorepract.qualification",
+        "id": "Practitioner:uscorepractitioner.qualification",
         "path": "Practitioner.qualification",
         "short": "Qualifications obtained by training and certification",
         "definition": "Qualifications obtained by training and certification.",
@@ -1659,7 +1320,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.id",
+        "id": "Practitioner:uscorepractitioner.qualification.id",
         "path": "Practitioner.qualification.id",
         "representation": [
           "xmlAttr"
@@ -1686,11 +1347,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.extension",
+        "id": "Practitioner:uscorepractitioner.qualification.extension",
         "path": "Practitioner.qualification.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -1715,11 +1376,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.modifierExtension",
+        "id": "Practitioner:uscorepractitioner.qualification.modifierExtension",
         "path": "Practitioner.qualification.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -1747,7 +1408,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.identifier",
+        "id": "Practitioner:uscorepractitioner.qualification.identifier",
         "path": "Practitioner.qualification.identifier",
         "short": "An identifier for this qualification for the practitioner",
         "definition": "An identifier that applies to this person's qualification in this role.",
@@ -1772,7 +1433,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.code",
+        "id": "Practitioner:uscorepractitioner.qualification.code",
         "path": "Practitioner.qualification.code",
         "short": "Coded representation of the qualification",
         "definition": "Coded representation of the qualification.",
@@ -1789,10 +1450,16 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Qualification"
+            }
+          ],
           "strength": "example",
           "description": "Specific qualification the practitioner has to provide a service",
           "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/anzsco-occupations"
+            "reference": "http://hl7.org/fhir/ValueSet/v2-2.7-0360"
           }
         },
         "mapping": [
@@ -1807,7 +1474,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.period",
+        "id": "Practitioner:uscorepractitioner.qualification.period",
         "path": "Practitioner.qualification.period",
         "short": "Period during which the qualification is valid",
         "definition": "Period during which the qualification is valid.",
@@ -1836,7 +1503,7 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.qualification.issuer",
+        "id": "Practitioner:uscorepractitioner.qualification.issuer",
         "path": "Practitioner.qualification.issuer",
         "short": "Organization that regulates and issues the qualification",
         "definition": "Organization that regulates and issues the qualification.",
@@ -1861,11 +1528,11 @@
         ]
       },
       {
-        "id": "Practitioner:uscorepract.communication",
+        "id": "Practitioner:uscorepractitioner.communication",
         "path": "Practitioner.communication",
         "short": "A language the practitioner is able to use in patient communication",
         "definition": "A language the practitioner is able to use in patient communication.",
-        "comments": "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.",
+        "comment": "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.",
         "requirements": "Knowing which language a practitioner speaks can help in facilitating communication with patients.",
         "min": 0,
         "max": "*",
@@ -1886,6 +1553,14 @@
               "valueReference": {
                 "reference": "http://hl7.org/fhir/ValueSet/all-languages"
               }
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Language"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
             }
           ],
           "strength": "extensible",
@@ -1914,20 +1589,19 @@
   "differential": {
     "element": [
       {
-        "id": "Practitioner:uscorepract",
+        "id": "Practitioner:uscorepractitioner",
         "path": "Practitioner",
-        "sliceName": "USCorePract",
+        "sliceName": "USCorePractitioner",
         "short": "US Core Practitioner",
         "definition": "This is basic constraint on provider for use in US Core resources.",
         "alias": [
           "Provider"
         ],
         "mustSupport": false,
-        "isModifier": false,
-        "isSummary": false
+        "isModifier": false
       },
       {
-        "id": "Practitioner:uscorepract.identifier",
+        "id": "Practitioner:uscorepractitioner.identifier",
         "path": "Practitioner.identifier",
         "requirements": "Either id or name is needed.",
         "min": 1,
@@ -1938,14 +1612,13 @@
           }
         ],
         "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
+        "isModifier": false
       },
       {
-        "id": "Practitioner:uscorepract.identifier.system",
+        "id": "Practitioner:uscorepractitioner.identifier.system",
         "path": "Practitioner.identifier.system",
         "short": "NPI could be used as the identifier system in the US.",
-        "comments": "NPI could be used as the identifier system in the US.",
+        "comment": "NPI could be used as the identifier system in the US.",
         "min": 1,
         "max": "1",
         "type": [
@@ -1960,11 +1633,10 @@
           }
         ],
         "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
+        "isModifier": false
       },
       {
-        "id": "Practitioner:uscorepract.identifier.value",
+        "id": "Practitioner:uscorepractitioner.identifier.value",
         "path": "Practitioner.identifier.value",
         "min": 1,
         "max": "1",
@@ -1974,11 +1646,10 @@
           }
         ],
         "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
+        "isModifier": false
       },
       {
-        "id": "Practitioner:uscorepract.name",
+        "id": "Practitioner:uscorepractitioner.name",
         "path": "Practitioner.name",
         "min": 1,
         "max": "1",
@@ -1988,11 +1659,10 @@
           }
         ],
         "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
+        "isModifier": false
       },
       {
-        "id": "Practitioner:uscorepract.name.family",
+        "id": "Practitioner:uscorepractitioner.name.family",
         "path": "Practitioner.name.family",
         "min": 1,
         "max": "1",
@@ -2002,8 +1672,7 @@
           }
         ],
         "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
+        "isModifier": false
       }
     ]
   }

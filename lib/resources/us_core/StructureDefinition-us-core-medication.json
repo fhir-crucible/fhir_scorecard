@@ -3,12 +3,14 @@
   "id": "us-core-medication",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication</a></p><p><b>name</b>: US Core Medication Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication</a></p><p><b>name</b>: US Core Medication Profile</p><p><b>status</b>: DRAFT</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>date</b>: 01/08/2016</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: script10.6</p><p><b>uri</b>: <a href=\"http://ncpdp.org/SCRIPT10_6\">http://ncpdp.org/SCRIPT10_6</a></p><p><b>name</b>: Mapping to NCPDP SCRIPT 10.6</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: Medication</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Medication\">http://hl7.org/fhir/StructureDefinition/Medication</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US  Core Medication Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US  Core Medication Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>fhirVersion</b>: 3.0.0</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: argonaut-dq-dstu2</p><p><b>uri</b>: <a href=\"http://unknown.org/Argonaut DQ DSTU2\">http://unknown.org/Argonaut DQ DSTU2</a></p><p><b>name</b>: Argonaut DQ DSTU2</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: script10.6</p><p><b>uri</b>: <a href=\"http://ncpdp.org/SCRIPT10_6\">http://ncpdp.org/SCRIPT10_6</a></p><p><b>name</b>: Mapping to NCPDP SCRIPT 10.6</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: Medication</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Medication\">http://hl7.org/fhir/StructureDefinition/Medication</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication",
-  "name": "US Core Medication Profile",
+  "version": "1.0.0",
+  "name": "US  Core Medication Profile",
   "status": "draft",
-  "publisher": "Health Level Seven International (FHIR-Infrastructure)",
+  "date": "2016-08-01",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -19,8 +21,13 @@
       ]
     }
   ],
-  "date": "2016-08-01",
+  "fhirVersion": "3.0.0",
   "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut DQ DSTU2",
+      "name": "Argonaut DQ DSTU2"
+    },
     {
       "identity": "script10.6",
       "uri": "http://ncpdp.org/SCRIPT10_6",
@@ -97,7 +104,6 @@
           }
         ],
         "mustSupport": false,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "rim",
@@ -105,7 +111,7 @@
           },
           {
             "identity": "script10.6",
-            "map": "NewRx/MedicationPrescribed -or- RxFill/MedicationDispensed -or- RxHistoryResponse/MedicationDispensed -or- RxHistoryResponse/MedicationPrescribed"
+            "map": "NewRx/MedicationPrescribed\r-or-\rRxFill/MedicationDispensed\r-or-\rRxHistoryResponse/MedicationDispensed\r-or-\rRxHistoryResponse/MedicationPrescribed"
           },
           {
             "identity": "rim",
@@ -114,6 +120,10 @@
           {
             "identity": "w5",
             "map": "clinical.medication"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "Medication"
           }
         ]
       },
@@ -122,7 +132,7 @@
         "path": "Medication.id",
         "short": "Logical id of this artifact",
         "definition": "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.",
-        "comments": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
+        "comment": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -161,7 +171,7 @@
         "path": "Medication.implicitRules",
         "short": "A set of rules under which this content was created",
         "definition": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.",
-        "comments": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element as much as possible.",
+        "comment": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. \n\nThis element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -182,7 +192,7 @@
         "path": "Medication.language",
         "short": "Language of the resource content",
         "definition": "The base language in which the resource is written.",
-        "comments": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
+        "comment": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
         "min": 0,
         "max": "1",
         "base": {
@@ -202,6 +212,14 @@
               "valueReference": {
                 "reference": "http://hl7.org/fhir/ValueSet/all-languages"
               }
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Language"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
             }
           ],
           "strength": "extensible",
@@ -216,7 +234,7 @@
         "path": "Medication.text",
         "short": "Text summary of the resource, for human interpretation",
         "definition": "A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
-        "comments": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
+        "comment": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
         "alias": [
           "narrative",
           "html",
@@ -250,7 +268,7 @@
         "path": "Medication.contained",
         "short": "Contained, inline Resources",
         "definition": "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.",
-        "comments": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
+        "comment": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
         "alias": [
           "inline resources",
           "anonymous resources",
@@ -280,7 +298,7 @@
         "path": "Medication.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -309,7 +327,7 @@
         "path": "Medication.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -339,7 +357,7 @@
         "path": "Medication.code",
         "short": "Codes that identify this medication",
         "definition": "A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary code, optionally with translations to other code systems.",
-        "comments": "Depending on the context of use, the code that was actually selected by the user (prescriber, dispenser, etc.) should be marked as \"primary\". Other codes can only be literal translations to alternative code systems, or codes at a lower level of granularity (e.g. a generic code for a vendor-specific primary one).",
+        "comment": "Depending on the context of use, the code that was actually selected by the user (prescriber, dispenser, etc.) will have the coding.userSelected set to true.  As described in the coding datatype: \"A coding may be marked as a \"userSelected\" if a user selected the particular coded value in a user interface (e.g. the user selects an item in a pick-list). If a user selected coding exists, it is the preferred choice for performing translations etc.",
         "min": 1,
         "max": "1",
         "base": {
@@ -353,7 +371,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "binding": {
           "strength": "extensible",
           "description": "Prescribable medications",
@@ -364,7 +382,7 @@
         "mapping": [
           {
             "identity": "script10.6",
-            "map": "coding.code = //element(*,MedicationType)/DrugCoded/ProductCode  coding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifier  coding.display = //element(*,MedicationType)/DrugDescription"
+            "map": "coding.code = //element(*,MedicationType)/DrugCoded/ProductCode\r\rcoding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifier\r\rcoding.display = //element(*,MedicationType)/DrugDescription"
           },
           {
             "identity": "v2",
@@ -377,6 +395,49 @@
           {
             "identity": "w5",
             "map": "class"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "Medication.code"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.status",
+        "path": "Medication.status",
+        "short": "active | inactive | entered-in-error",
+        "definition": "A code to indicate if the medication is in active use.",
+        "comment": "This status is not intended to specify if a medication is part of a formulary.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Medication.status",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "isSummary": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "MedicationStatus"
+            }
+          ],
+          "strength": "required",
+          "description": "A coded concept defining if the medication is in active use",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/medication-status"
+          }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".statusCode"
           }
         ]
       },
@@ -414,10 +475,39 @@
         ]
       },
       {
+        "id": "Medication:uscoremedication.isOverTheCounter",
+        "path": "Medication.isOverTheCounter",
+        "short": "True if medication does not require a prescription",
+        "definition": "Set to true if the medication can be obtained without an order from a prescriber.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Medication.isOverTheCounter",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "NA"
+          },
+          {
+            "identity": "w5",
+            "map": "class"
+          }
+        ]
+      },
+      {
         "id": "Medication:uscoremedication.manufacturer",
         "path": "Medication.manufacturer",
         "short": "Manufacturer of the item",
-        "definition": "Describes the details of the manufacturer.",
+        "definition": "Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.",
         "min": 0,
         "max": "1",
         "base": {
@@ -452,141 +542,15 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product",
-        "path": "Medication.product",
-        "short": "Administrable medication details",
-        "definition": "Information that only applies to products (not packages).",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Medication.product",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "BackboneElement"
-          }
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "children().count() > id.count()",
-            "xpath": "@value|f:*|h:div",
-            "source": "Element"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "script10.6",
-            "map": "//element(*,DrugCodedType)/"
-          },
-          {
-            "identity": "rim",
-            "map": ".player [classCode != CONT]"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.id",
-        "path": "Medication.product.id",
-        "representation": [
-          "xmlAttr"
-        ],
-        "short": "xml:id (or equivalent in JSON)",
-        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Element.id",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.extension",
-        "path": "Medication.product.extension",
-        "short": "Additional Content defined by implementations",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Element.extension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.modifierExtension",
-        "path": "Medication.product.modifierExtension",
-        "short": "Extensions that cannot be ignored",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content",
-          "modifiers"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "BackboneElement.modifierExtension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "isModifier": true,
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "N/A"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.form",
-        "path": "Medication.product.form",
+        "id": "Medication:uscoremedication.form",
+        "path": "Medication.form",
         "short": "powder | tablets | capsule +",
         "definition": "Describes the form of the item.  Powder; tablets; capsule.",
-        "comments": "When Medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When Medication is referenced within MedicationAdministration, this is administered form.",
+        "comment": "When Medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When Medication is referenced within MedicationAdministration, this is administered form.",
         "min": 0,
         "max": "1",
         "base": {
-          "path": "Medication.product.form",
+          "path": "Medication.form",
           "min": 0,
           "max": "1"
         },
@@ -596,6 +560,12 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "MedicationForm"
+            }
+          ],
           "strength": "example",
           "description": "A coded concept defining the form of a medication",
           "valueSetReference": {
@@ -605,7 +575,7 @@
         "mapping": [
           {
             "identity": "script10.6",
-            "map": "coding.code =  //element(*,DrugCodedType)/FormCode  coding.system = //element(*,DrugCodedType)/FormSourceCode"
+            "map": "coding.code =  //element(*,DrugCodedType)/FormCode\r\rcoding.system = //element(*,DrugCodedType)/FormSourceCode"
           },
           {
             "identity": "v2",
@@ -618,15 +588,15 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product.ingredient",
-        "path": "Medication.product.ingredient",
+        "id": "Medication:uscoremedication.ingredient",
+        "path": "Medication.ingredient",
         "short": "Active or inactive ingredient",
         "definition": "Identifies a particular constituent of interest in the product.",
-        "comments": "The ingredients need not be a complete list; usually only active ingredients are listed.",
+        "comment": "The ingredients need not be a complete list.  If an ingredient is not specified, this does not indicate whether an ingredient is present or absent.  If an ingredient is specified it does not mean that all ingredients are specified.  It is possible to specify both inactive and active ingredients.",
         "min": 0,
         "max": "*",
         "base": {
-          "path": "Medication.product.ingredient",
+          "path": "Medication.ingredient",
           "min": 0,
           "max": "*"
         },
@@ -653,8 +623,8 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product.ingredient.id",
-        "path": "Medication.product.ingredient.id",
+        "id": "Medication:uscoremedication.ingredient.id",
+        "path": "Medication.ingredient.id",
         "representation": [
           "xmlAttr"
         ],
@@ -680,11 +650,11 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product.ingredient.extension",
-        "path": "Medication.product.ingredient.extension",
+        "id": "Medication:uscoremedication.ingredient.extension",
+        "path": "Medication.ingredient.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -709,11 +679,11 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product.ingredient.modifierExtension",
-        "path": "Medication.product.ingredient.modifierExtension",
+        "id": "Medication:uscoremedication.ingredient.modifierExtension",
+        "path": "Medication.ingredient.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -741,14 +711,14 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product.ingredient.item[x]",
-        "path": "Medication.product.ingredient.item[x]",
+        "id": "Medication:uscoremedication.ingredient.item[x]",
+        "path": "Medication.ingredient.item[x]",
         "short": "The product contained",
         "definition": "The actual ingredient - either a substance (simple ingredient) or another medication.",
         "min": 1,
         "max": "1",
         "base": {
-          "path": "Medication.product.ingredient.item[x]",
+          "path": "Medication.ingredient.item[x]",
           "min": 1,
           "max": "1"
         },
@@ -768,7 +738,7 @@
         "mapping": [
           {
             "identity": "script10.6",
-            "map": "coding.code = //element(*,MedicationType)/DrugCoded/ProductCode  coding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifier  coding.display = //element(*,MedicationType)/DrugDescription"
+            "map": "coding.code = //element(*,MedicationType)/DrugCoded/ProductCode\r\rcoding.system = //element(*,MedicationType)/DrugCoded/ProductCodeQualifier\r\rcoding.display = //element(*,MedicationType)/DrugDescription"
           },
           {
             "identity": "v2",
@@ -781,14 +751,39 @@
         ]
       },
       {
-        "id": "Medication:uscoremedication.product.ingredient.amount",
-        "path": "Medication.product.ingredient.amount",
+        "id": "Medication:uscoremedication.ingredient.isActive",
+        "path": "Medication.ingredient.isActive",
+        "short": "Active ingredient indicator",
+        "definition": "Indication of whether this ingredient affects the therapeutic action of the drug.",
+        "requirements": "True indicates that the ingredient affects the therapeutic action of the drug (i.e. active). \rFalse indicates that the ingredient does not affect the therapeutic action of the drug (i.e. inactive).",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Medication.ingredient.isActive",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "NA"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.ingredient.amount",
+        "path": "Medication.ingredient.amount",
         "short": "Quantity of ingredient present",
         "definition": "Specifies how many (or how much) of the items there are in this Medication.  For example, 250 mg per tablet.  This is expressed as a ratio where the numerator is 250mg and the denominator is 1 tablet.",
         "min": 0,
         "max": "1",
         "base": {
-          "path": "Medication.product.ingredient.amount",
+          "path": "Medication.ingredient.amount",
           "min": 0,
           "max": "1"
         },
@@ -809,196 +804,6 @@
           {
             "identity": "rim",
             "map": ".quantity"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.batch",
-        "path": "Medication.product.batch",
-        "short": "Identifies a single production run",
-        "definition": "Information about a group of medication produced or packaged from one production run.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Medication.product.batch",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "BackboneElement"
-          }
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "children().count() > id.count()",
-            "xpath": "@value|f:*|h:div",
-            "source": "Element"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "script10.6",
-            "map": "no mapping"
-          },
-          {
-            "identity": "rim",
-            "map": "participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].id"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.batch.id",
-        "path": "Medication.product.batch.id",
-        "representation": [
-          "xmlAttr"
-        ],
-        "short": "xml:id (or equivalent in JSON)",
-        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Element.id",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.batch.extension",
-        "path": "Medication.product.batch.extension",
-        "short": "Additional Content defined by implementations",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Element.extension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.batch.modifierExtension",
-        "path": "Medication.product.batch.modifierExtension",
-        "short": "Extensions that cannot be ignored",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content",
-          "modifiers"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "BackboneElement.modifierExtension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "isModifier": true,
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "N/A"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.batch.lotNumber",
-        "path": "Medication.product.batch.lotNumber",
-        "short": "Identifier assigned to batch",
-        "definition": "The assigned lot number of a batch of the specified product.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Medication.product.batch.lotNumber",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "script10.6",
-            "map": "no mapping"
-          },
-          {
-            "identity": "v2",
-            "map": "RXA-15 Substance Lot Number / RXG-19 Substance Lot Number"
-          },
-          {
-            "identity": "rim",
-            "map": "Not Mapped"
-          }
-        ]
-      },
-      {
-        "id": "Medication:uscoremedication.product.batch.expirationDate",
-        "path": "Medication.product.batch.expirationDate",
-        "short": "When batch will expire",
-        "definition": "When this specific batch of product will expire.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Medication.product.batch.expirationDate",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "script10.6",
-            "map": "no mapping"
-          },
-          {
-            "identity": "v2",
-            "map": "RXA-16 Substance Expiration Date / RXG-20 Substance Expiration Date"
-          },
-          {
-            "identity": "rim",
-            "map": "participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].expirationTime"
           }
         ]
       },
@@ -1072,7 +877,7 @@
         "path": "Medication.package.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -1101,7 +906,7 @@
         "path": "Medication.package.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -1146,10 +951,16 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "MedicationContainer"
+            }
+          ],
           "strength": "example",
           "description": "A coded concept defining the kind of container a medication package is packaged in",
           "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/medication-package-form-codes"
+            "reference": "http://hl7.org/fhir/ValueSet/medication-package-form"
           }
         },
         "mapping": [
@@ -1233,7 +1044,7 @@
         "path": "Medication.package.content.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -1262,7 +1073,7 @@
         "path": "Medication.package.content.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -1349,6 +1160,221 @@
             "map": ".quantity"
           }
         ]
+      },
+      {
+        "id": "Medication:uscoremedication.package.batch",
+        "path": "Medication.package.batch",
+        "short": "Identifies a single production run",
+        "definition": "Information about a group of medication produced or packaged from one production run.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Medication.package.batch",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "children().count() > id.count()",
+            "xpath": "@value|f:*|h:div",
+            "source": "Element"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "script10.6",
+            "map": "no mapping"
+          },
+          {
+            "identity": "rim",
+            "map": "participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].id"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.package.batch.id",
+        "path": "Medication.package.batch.id",
+        "representation": [
+          "xmlAttr"
+        ],
+        "short": "xml:id (or equivalent in JSON)",
+        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Element.id",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.package.batch.extension",
+        "path": "Medication.package.batch.extension",
+        "short": "Additional Content defined by implementations",
+        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "alias": [
+          "extensions",
+          "user content"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Element.extension",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.package.batch.modifierExtension",
+        "path": "Medication.package.batch.modifierExtension",
+        "short": "Extensions that cannot be ignored",
+        "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "alias": [
+          "extensions",
+          "user content",
+          "modifiers"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "BackboneElement.modifierExtension",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ],
+        "isModifier": true,
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.package.batch.lotNumber",
+        "path": "Medication.package.batch.lotNumber",
+        "short": "Identifier assigned to batch",
+        "definition": "The assigned lot number of a batch of the specified product.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Medication.package.batch.lotNumber",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "script10.6",
+            "map": "no mapping"
+          },
+          {
+            "identity": "v2",
+            "map": "RXA-15 Substance Lot Number / RXG-19 Substance Lot Number"
+          },
+          {
+            "identity": "rim",
+            "map": ".id"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.package.batch.expirationDate",
+        "path": "Medication.package.batch.expirationDate",
+        "short": "When batch will expire",
+        "definition": "When this specific batch of product will expire.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Medication.package.batch.expirationDate",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "script10.6",
+            "map": "no mapping"
+          },
+          {
+            "identity": "v2",
+            "map": "RXA-16 Substance Expiration Date / RXG-20 Substance Expiration Date"
+          },
+          {
+            "identity": "rim",
+            "map": "participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].expirationTime"
+          }
+        ]
+      },
+      {
+        "id": "Medication:uscoremedication.image",
+        "path": "Medication.image",
+        "short": "Picture of the medication",
+        "definition": "Photo(s) or graphic representation(s) of the medication.",
+        "requirements": "Note that \"image\" is only applicable when the medication.code represents a physical item (e.g. Amoxil 250 mg capsule) and not an abstract item (e.g. amoxicillin 250 mg).",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Medication.image",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Attachment"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=SUBJ].role[classCode=MANU],source[classCode=OBS,moodCode=EVN,code=\"type of image\"].value(ED.image)"
+          }
+        ]
       }
     ]
   },
@@ -1362,7 +1388,12 @@
         "definition": "The US Core Medication Profile is based upon the core FHIR Medication Resource and created to meet the 2015 Edition Common Clinical Data Set 'Medications' requirements.",
         "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "Medication"
+          }
+        ]
       },
       {
         "id": "Medication:uscoremedication.code",
@@ -1371,14 +1402,19 @@
         "max": "1",
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false,
         "binding": {
           "strength": "extensible",
           "description": "Prescribable medications",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/us/core/ValueSet/us-core-medication-codes"
           }
-        }
+        },
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "Medication.code"
+          }
+        ]
       }
     ]
   }
