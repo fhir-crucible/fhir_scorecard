@@ -3,13 +3,15 @@
   "id": "us-core-ethnicity",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity</a></p><p><b>name</b>: US Core ethnicity Extension</p><p><b>title</b>: US Core ethnicity Extension</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>description</b>: Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:\r- Hispanic or Latino\r- Not Hispanic or Latino.</p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity</a></p><p><b>name</b>: US Core ethnicity Extension</p><p><b>title</b>: US Core ethnicity Extension</p><p><b>status</b>: DRAFT</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>date</b>: 01/08/2016</p><p><b>description</b>: Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:\r- Hispanic or Latino\r- Not Hispanic or Latino.</p><p><b>purpose</b>: Complies with 2015 Edition Common Clinical Data Set for patient race.</p><p><b>fhirVersion</b>: 1.8.0</p><h3>Mappings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identity</b></td><td><b>Uri</b></td><td><b>Name</b></td></tr><tr><td>*</td><td>rim</td><td><a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></td><td>RIM Mapping</td></tr></table><p><b>kind</b>: COMPLEXTYPE</p><p><b>abstract</b>: false</p><p><b>contextType</b>: RESOURCE</p><p><b>context</b>: Patient</p><p><b>type</b>: Extension</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Extension\">http://hl7.org/fhir/StructureDefinition/Extension</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US Core ethnicity Extension</p><p><b>title</b>: US Core ethnicity Extension</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>description</b>: Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.</p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US Core ethnicity Extension</p><p><b>title</b>: US Core ethnicity Extension</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>description</b>: Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.</p><p><b>purpose</b>: Complies with 2015 Edition Common Clinical Data Set for patient race.</p><p><b>fhirVersion</b>: 3.0.0</p><h3>Mappings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identity</b></td><td><b>Uri</b></td><td><b>Name</b></td></tr><tr><td>*</td><td>rim</td><td><a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></td><td>RIM Mapping</td></tr></table><p><b>kind</b>: COMPLEXTYPE</p><p><b>abstract</b>: false</p><p><b>contextType</b>: RESOURCE</p><p><b>context</b>: Patient</p><p><b>type</b>: Extension</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Extension\">http://hl7.org/fhir/StructureDefinition/Extension</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+  "version": "1.0.0",
   "name": "US Core ethnicity Extension",
   "title": "US Core ethnicity Extension",
   "status": "draft",
-  "publisher": "Health Level Seven International (FHIR-Infrastructure)",
+  "date": "2016-08-01",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -20,10 +22,9 @@
       ]
     }
   ],
-  "date": "2016-08-01",
-  "description": "Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:\r- Hispanic or Latino\r- Not Hispanic or Latino.",
+  "description": "Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.",
   "purpose": "Complies with 2015 Edition Common Clinical Data Set for patient race.",
-  "fhirVersion": "1.8.0",
+  "fhirVersion": "3.0.0",
   "mapping": [
     {
       "identity": "rim",
@@ -47,7 +48,7 @@
         "path": "Extension",
         "sliceName": "ethnicity",
         "short": "US Core ethnicity Extension",
-        "definition": "Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:\r- Hispanic or Latino\r- Not Hispanic or Latino.",
+        "definition": "Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.",
         "min": 0,
         "max": "1",
         "base": {
@@ -111,7 +112,10 @@
         "slicing": {
           "id": "2",
           "discriminator": [
-            "url"
+            {
+              "type": "value",
+              "path": "url"
+            }
           ],
           "ordered": false,
           "rules": "open"
@@ -137,7 +141,7 @@
         "sliceName": "ombCategory",
         "short": "Hispanic or Latino|Not Hispanic or Latino",
         "definition": "The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards).",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "base": {
           "path": "Element.extension",
@@ -149,6 +153,7 @@
             "code": "Extension"
           }
         ],
+        "mustSupport": true,
         "isModifier": false,
         "mapping": [
           {
@@ -189,13 +194,13 @@
         "path": "Extension.extension.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
         ],
         "min": 0,
-        "max": "*",
+        "max": "0",
         "base": {
           "path": "Element.extension",
           "min": 0,
@@ -221,7 +226,7 @@
         ],
         "short": "identifies the meaning of the extension",
         "definition": "Source of the definition for the extension code - a logical name or a URL.",
-        "comments": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
+        "comment": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
         "min": 1,
         "max": "1",
         "base": {
@@ -234,6 +239,7 @@
             "code": "uri"
           }
         ],
+        "fixedUri": "ombCategory",
         "mapping": [
           {
             "identity": "rim",
@@ -246,7 +252,7 @@
         "path": "Extension.extension.valueCoding",
         "short": "Value of extension",
         "definition": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Extension.value[x]",
@@ -262,7 +268,7 @@
           "strength": "required",
           "description": "The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards).",
           "valueSetReference": {
-            "reference": "http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"
+            "reference": "http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity-category"
           }
         },
         "mapping": [
@@ -330,13 +336,13 @@
         "path": "Extension.extension.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
         ],
         "min": 0,
-        "max": "*",
+        "max": "0",
         "base": {
           "path": "Element.extension",
           "min": 0,
@@ -362,7 +368,7 @@
         ],
         "short": "identifies the meaning of the extension",
         "definition": "Source of the definition for the extension code - a logical name or a URL.",
-        "comments": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
+        "comment": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
         "min": 1,
         "max": "1",
         "base": {
@@ -375,6 +381,7 @@
             "code": "uri"
           }
         ],
+        "fixedUri": "detailed",
         "mapping": [
           {
             "identity": "rim",
@@ -387,7 +394,7 @@
         "path": "Extension.extension.valueCoding",
         "short": "Value of extension",
         "definition": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Extension.value[x]",
@@ -419,7 +426,7 @@
         "sliceName": "text",
         "short": "ethnicity Text",
         "definition": "Plain text representation of the ethnicity concept(s).",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Element.extension",
@@ -431,6 +438,7 @@
             "code": "Extension"
           }
         ],
+        "mustSupport": true,
         "isModifier": false
       },
       {
@@ -465,13 +473,13 @@
         "path": "Extension.extension.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
         ],
         "min": 0,
-        "max": "*",
+        "max": "0",
         "base": {
           "path": "Element.extension",
           "min": 0,
@@ -497,7 +505,7 @@
         ],
         "short": "identifies the meaning of the extension",
         "definition": "Source of the definition for the extension code - a logical name or a URL.",
-        "comments": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
+        "comment": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
         "min": 1,
         "max": "1",
         "base": {
@@ -510,6 +518,7 @@
             "code": "uri"
           }
         ],
+        "fixedUri": "text",
         "mapping": [
           {
             "identity": "rim",
@@ -522,7 +531,7 @@
         "path": "Extension.extension.valueString",
         "short": "Value of extension",
         "definition": "Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "base": {
           "path": "Extension.value[x]",
@@ -549,7 +558,7 @@
         ],
         "short": "identifies the meaning of the extension",
         "definition": "Source of the definition for the extension code - a logical name or a URL.",
-        "comments": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
+        "comment": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
         "min": 1,
         "max": "1",
         "base": {
@@ -714,7 +723,7 @@
         "path": "Extension",
         "sliceName": "ethnicity",
         "short": "US Core ethnicity Extension",
-        "definition": "Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories:\r- Hispanic or Latino\r- Not Hispanic or Latino.",
+        "definition": "Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.",
         "min": 0,
         "max": "1",
         "isModifier": false
@@ -725,13 +734,14 @@
         "sliceName": "ombCategory",
         "short": "Hispanic or Latino|Not Hispanic or Latino",
         "definition": "The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards).",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension"
           }
         ],
+        "mustSupport": true,
         "isModifier": false,
         "mapping": [
           {
@@ -741,8 +751,22 @@
         ]
       },
       {
-        "id": "Extension:ethnicity.extension:ombcategory.value[x]",
-        "path": "Extension.extension.value[x]",
+        "id": "Extension:ethnicity.extension:ombcategory.url",
+        "path": "Extension.extension.url",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "ombCategory"
+      },
+      {
+        "id": "Extension:ethnicity.extension:ombcategory.valueCoding",
+        "path": "Extension.extension.valueCoding",
+        "min": 1,
+        "max": "1",
         "type": [
           {
             "code": "Coding"
@@ -752,7 +776,7 @@
           "strength": "required",
           "description": "The 2 ethnicity category codes according to the [OMB Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity, Statistical Policy Directive No. 15, as revised, October 30, 1997](https://www.whitehouse.gov/omb/fedreg_1997standards).",
           "valueSetReference": {
-            "reference": "http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity"
+            "reference": "http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity-category"
           }
         }
       },
@@ -778,8 +802,22 @@
         ]
       },
       {
-        "id": "Extension:ethnicity.extension:detailed.value[x]",
-        "path": "Extension.extension.value[x]",
+        "id": "Extension:ethnicity.extension:detailed.url",
+        "path": "Extension.extension.url",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "detailed"
+      },
+      {
+        "id": "Extension:ethnicity.extension:detailed.valueCoding",
+        "path": "Extension.extension.valueCoding",
+        "min": 1,
+        "max": "1",
         "type": [
           {
             "code": "Coding"
@@ -799,18 +837,33 @@
         "sliceName": "text",
         "short": "ethnicity Text",
         "definition": "Plain text representation of the ethnicity concept(s).",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
             "code": "Extension"
           }
         ],
+        "mustSupport": true,
         "isModifier": false
       },
       {
-        "id": "Extension:ethnicity.extension:text.value[x]",
-        "path": "Extension.extension.value[x]",
+        "id": "Extension:ethnicity.extension:text.url",
+        "path": "Extension.extension.url",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "text"
+      },
+      {
+        "id": "Extension:ethnicity.extension:text.valueString",
+        "path": "Extension.extension.valueString",
+        "min": 1,
+        "max": "1",
         "type": [
           {
             "code": "string"
@@ -820,12 +873,9 @@
       {
         "id": "Extension:ethnicity.url",
         "path": "Extension.url",
+        "min": 1,
+        "max": "1",
         "fixedUri": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
-      },
-      {
-        "id": "Extension:ethnicity.value[x]",
-        "path": "Extension.value[x]",
-        "max": "0"
       }
     ]
   }

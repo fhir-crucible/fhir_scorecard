@@ -3,13 +3,15 @@
   "id": "us-core-direct",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct</a></p><p><b>name</b>: Email is a &quot;direct&quot; email</p><p><b>title</b>: US Core Direct email Extension</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>description</b>: This email address is associated with a &quot;direct&quot; service - e.g. http://wiki.directproject.org/Addressing+Specification.</p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct</a></p><p><b>name</b>: Email is a &quot;direct&quot; email</p><p><b>title</b>: US Core Direct email Extension</p><p><b>status</b>: DRAFT</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>date</b>: 01/08/2016</p><p><b>description</b>: This email address is associated with a &quot;direct&quot; service - e.g. http://wiki.directproject.org/Addressing+Specification.</p><p><b>fhirVersion</b>: 1.8.0</p><h3>Mappings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identity</b></td><td><b>Uri</b></td><td><b>Name</b></td></tr><tr><td>*</td><td>rim</td><td><a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></td><td>RIM Mapping</td></tr></table><p><b>kind</b>: COMPLEXTYPE</p><p><b>abstract</b>: false</p><p><b>contextType</b>: DATATYPE</p><p><b>context</b>: ContactPoint</p><p><b>type</b>: Extension</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Extension\">http://hl7.org/fhir/StructureDefinition/Extension</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: Email is a &quot;direct&quot; email</p><p><b>title</b>: US Core Direct email Extension</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>description</b>: This email address is associated with a [direct](http://wiki.directproject.org/Addressing+Specification) service.  This extension can only be used on contact points where the system = 'email'</p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: Email is a &quot;direct&quot; email</p><p><b>title</b>: US Core Direct email Extension</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>description</b>: This email address is associated with a [direct](http://wiki.directproject.org/Addressing+Specification) service.  This extension can only be used on contact points where the system = 'email'</p><p><b>fhirVersion</b>: 3.0.0</p><h3>Mappings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identity</b></td><td><b>Uri</b></td><td><b>Name</b></td></tr><tr><td>*</td><td>rim</td><td><a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></td><td>RIM Mapping</td></tr></table><p><b>kind</b>: COMPLEXTYPE</p><p><b>abstract</b>: false</p><p><b>contextType</b>: DATATYPE</p><p><b>context</b>: ContactPoint</p><p><b>type</b>: Extension</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/Extension\">http://hl7.org/fhir/StructureDefinition/Extension</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+  "version": "1.0.0",
   "name": "Email is a \"direct\" email",
   "title": "US Core Direct email Extension",
   "status": "draft",
-  "publisher": "Health Level Seven International (FHIR-Infrastructure)",
+  "date": "2016-08-01",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -20,9 +22,8 @@
       ]
     }
   ],
-  "date": "2016-08-01",
-  "description": "This email address is associated with a \"direct\" service - e.g. http://wiki.directproject.org/Addressing+Specification.",
-  "fhirVersion": "1.8.0",
+  "description": "This email address is associated with a [direct](http://wiki.directproject.org/Addressing+Specification) service.  This extension can only be used on contact points where the system = 'email'",
+  "fhirVersion": "3.0.0",
   "mapping": [
     {
       "identity": "rim",
@@ -46,8 +47,8 @@
         "path": "Extension",
         "sliceName": "direct",
         "short": "Email is a \"direct\" email",
-        "definition": "This email address is associated with a \"direct\" service - e.g. http://wiki.directproject.org/Addressing+Specification.",
-        "comments": "This extension can only be used on contact points where the system = 'email'.",
+        "definition": "This email address is associated with a [direct](http://wiki.directproject.org/Addressing+Specification) service.",
+        "comment": "This extension can only be used on contact points where the system = 'email'.",
         "min": 0,
         "max": "1",
         "base": {
@@ -120,7 +121,7 @@
         "path": "Extension.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -152,7 +153,7 @@
         ],
         "short": "identifies the meaning of the extension",
         "definition": "Source of the definition for the extension code - a logical name or a URL.",
-        "comments": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
+        "comment": "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",
         "min": 1,
         "max": "1",
         "base": {
@@ -206,8 +207,8 @@
         "path": "Extension",
         "sliceName": "direct",
         "short": "Email is a \"direct\" email",
-        "definition": "This email address is associated with a \"direct\" service - e.g. http://wiki.directproject.org/Addressing+Specification.",
-        "comments": "This extension can only be used on contact points where the system = 'email'.",
+        "definition": "This email address is associated with a \"direct\" service - e.g. http://wiki.directproject.org/Addressing+Specification. This extension can only be used on contact points where the system = 'email'",
+        "comment": "This extension can only be used on contact points where the system = 'email'.",
         "min": 0,
         "max": "1",
         "isModifier": false,
@@ -228,8 +229,10 @@
         "fixedUri": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct"
       },
       {
-        "id": "Extension:direct.value[x]",
-        "path": "Extension.value[x]",
+        "id": "Extension:direct.valueBoolean",
+        "path": "Extension.valueBoolean",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "boolean"

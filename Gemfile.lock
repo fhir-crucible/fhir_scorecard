@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    fhir_scorecard (1.8.1)
-      fhir_models (~> 1.8)
+    fhir_scorecard (3.0.1)
+      fhir_models (>= 3.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -15,7 +15,7 @@ GEM
     coderay (1.1.1)
     date_time_precision (0.8.1)
     docile (1.1.5)
-    fhir_models (1.8.3)
+    fhir_models (3.0.1)
       bcp47 (>= 0.3)
       date_time_precision (>= 0.8)
       mime-types (>= 1.16, < 3)

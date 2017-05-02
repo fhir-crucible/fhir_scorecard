@@ -3,12 +3,14 @@
   "id": "us-core-diagnosticreport",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport</a></p><p><b>name</b>: US Core Diagnostic Report Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport</a></p><p><b>name</b>: US Core Diagnostic Report Profile</p><p><b>status</b>: DRAFT</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>date</b>: 01/08/2016</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: DiagnosticReport</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/DiagnosticReport\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US  Core DiagnosticReport Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US  Core DiagnosticReport Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>fhirVersion</b>: 3.0.0</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: argonaut-dq-dstu2</p><p><b>uri</b>: <a href=\"http://unknown.org/Argonaut DQ DSTU2\">http://unknown.org/Argonaut DQ DSTU2</a></p><p><b>name</b>: Argonaut DQ DSTU2</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: workflow</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/workflow\">http://hl7.org/fhir/workflow</a></p><p><b>name</b>: Workflow Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: DiagnosticReport</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/DiagnosticReport\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport",
-  "name": "US Core Diagnostic Report Profile",
+  "version": "1.0.0",
+  "name": "US  Core DiagnosticReport Profile",
   "status": "draft",
-  "publisher": "Health Level Seven International (FHIR-Infrastructure)",
+  "date": "2016-08-01",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -19,8 +21,18 @@
       ]
     }
   ],
-  "date": "2016-08-01",
+  "fhirVersion": "3.0.0",
   "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut DQ DSTU2",
+      "name": "Argonaut DQ DSTU2"
+    },
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Mapping"
+    },
     {
       "identity": "v2",
       "uri": "http://hl7.org/v2",
@@ -50,7 +62,7 @@
         "sliceName": "USCoreDiagnosticReport",
         "short": "US Core Diagnostic Report Profile",
         "definition": "The US Core Diagnostic Report Profile is based upon the core FHIR DiagnosticReport Resource and created to meet the 2015 Edition Common Clinical Data Set 'Laboratory test(s) and Laboratory value(s)/result(s)' requirements.",
-        "comments": "This is intended to capture a single report, and is not suitable for use in displaying summary information that covers multiple reports.  For example, this resource has not been designed for laboratory cumulative reporting formats nor detailed structured reports for sequencing.",
+        "comment": "This is intended to capture a single report, and is not suitable for use in displaying summary information that covers multiple reports.  For example, this resource has not been designed for laboratory cumulative reporting formats nor detailed structured reports for sequencing.",
         "alias": [
           "Report",
           "Test",
@@ -100,21 +112,17 @@
             "expression": "contained.where(('#'+id in %resource.descendants().reference).not()).empty()",
             "xpath": "not(exists(for $id in f:contained/*/@id return $id[not(ancestor::f:contained/parent::*/descendant::f:reference/@value=concat('#', $id))]))",
             "source": "DomainResource"
-          },
-          {
-            "key": "us-core-1",
-            "severity": "error",
-            "human": "Must have a result or presentedForm or both.",
-            "expression": "result.exists() or presemtedForm.exists()",
-            "xpath": "exists(f:result) or exists(f:presentedForm)"
           }
         ],
         "mustSupport": false,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "rim",
             "map": "Entity. Role, or Act"
+          },
+          {
+            "identity": "workflow",
+            "map": "Event"
           },
           {
             "identity": "v2",
@@ -127,6 +135,10 @@
           {
             "identity": "w5",
             "map": "clinical.diagnostics"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport"
           }
         ]
       },
@@ -135,7 +147,7 @@
         "path": "DiagnosticReport.id",
         "short": "Logical id of this artifact",
         "definition": "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.",
-        "comments": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
+        "comment": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -174,7 +186,7 @@
         "path": "DiagnosticReport.implicitRules",
         "short": "A set of rules under which this content was created",
         "definition": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.",
-        "comments": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element as much as possible.",
+        "comment": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. \n\nThis element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -195,7 +207,7 @@
         "path": "DiagnosticReport.language",
         "short": "Language of the resource content",
         "definition": "The base language in which the resource is written.",
-        "comments": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
+        "comment": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
         "min": 0,
         "max": "1",
         "base": {
@@ -215,6 +227,14 @@
               "valueReference": {
                 "reference": "http://hl7.org/fhir/ValueSet/all-languages"
               }
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Language"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
             }
           ],
           "strength": "extensible",
@@ -229,7 +249,7 @@
         "path": "DiagnosticReport.text",
         "short": "Text summary of the resource, for human interpretation",
         "definition": "A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
-        "comments": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
+        "comment": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
         "alias": [
           "narrative",
           "html",
@@ -263,7 +283,7 @@
         "path": "DiagnosticReport.contained",
         "short": "Contained, inline Resources",
         "definition": "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.",
-        "comments": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
+        "comment": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
         "alias": [
           "inline resources",
           "anonymous resources",
@@ -293,7 +313,7 @@
         "path": "DiagnosticReport.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -322,7 +342,7 @@
         "path": "DiagnosticReport.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -350,11 +370,14 @@
       {
         "id": "DiagnosticReport:uscorediagnosticreport.identifier",
         "path": "DiagnosticReport.identifier",
-        "short": "Id for external references to this report",
-        "definition": "The local ID assigned to the report by the order filler, usually by the Information System of the diagnostic service provider.",
+        "short": "Business identifier for report",
+        "definition": "Identifiers assigned to this report by the performer or other systems.",
+        "comment": "Usually assigned by the Information System of the diagnostic service provider (filler id).",
         "requirements": "Need to know what identifier to use when making queries about this report from the source laboratory, and for linking to the report outside FHIR context.",
         "alias": [
-          "ReportID"
+          "ReportID",
+          "Filler ID",
+          "Placer ID"
         ],
         "min": 0,
         "max": "*",
@@ -371,6 +394,10 @@
         "isSummary": true,
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Event.identifier"
+          },
+          {
             "identity": "v2",
             "map": "OBR-51"
           },
@@ -385,11 +412,69 @@
         ]
       },
       {
+        "id": "DiagnosticReport:uscorediagnosticreport.basedOn",
+        "path": "DiagnosticReport.basedOn",
+        "short": "What was requested",
+        "definition": "Details concerning a test or procedure requested.",
+        "comment": "Note: Usually there is one test request for each result, however in some circumstances multiple test requests may be represented using a single test result resource. Note that there are also cases where one request leads to multiple reports.",
+        "requirements": "This allows tracing of authorization for the report and tracking whether proposals/recommendations were acted upon.",
+        "alias": [
+          "Request"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "DiagnosticReport.basedOn",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CarePlan"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/MedicationRequest"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/NutritionOrder"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ProcedureRequest"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ReferralRequest"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.basedOn"
+          },
+          {
+            "identity": "v2",
+            "map": "ORC? OBR-2/3?"
+          },
+          {
+            "identity": "rim",
+            "map": "outboundRelationship[typeCode=FLFS].target"
+          }
+        ]
+      },
+      {
         "id": "DiagnosticReport:uscorediagnosticreport.status",
         "path": "DiagnosticReport.status",
-        "short": "registered | partial | final | corrected | appended | cancelled | entered-in-error",
+        "short": "registered | partial | preliminary | final +",
         "definition": "The status of the diagnostic report as a whole.",
-        "comments": "This is labeled as \"Is Modifier\" because applications need to take appropriate action if a report is withdrawn.",
+        "comment": "This is labeled as \"Is Modifier\" because applications need to take appropriate action if a report is withdrawn.",
         "requirements": "Diagnostic services routinely issue provisional/incomplete reports, and sometimes withdraw previously released reports.",
         "min": 1,
         "max": "1",
@@ -405,7 +490,7 @@
         ],
         "mustSupport": true,
         "isModifier": true,
-        "isSummary": false,
+        "isSummary": true,
         "binding": {
           "strength": "required",
           "valueSetReference": {
@@ -413,6 +498,10 @@
           }
         },
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.status"
+          },
           {
             "identity": "v2",
             "map": "OBR-25 (not 1:1 mapping)"
@@ -424,6 +513,10 @@
           {
             "identity": "w5",
             "map": "status"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.status"
           }
         ]
       },
@@ -432,8 +525,12 @@
         "path": "DiagnosticReport.category",
         "short": "Service category",
         "definition": "A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.",
-        "comments": "The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.",
+        "comment": "The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.",
         "alias": [
+          "Department",
+          "Sub-department",
+          "Service",
+          "Discipline",
           "Department",
           "Sub-department",
           "service",
@@ -454,14 +551,20 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/DiagnosticReport-category",
+              "system": "http://hl7.org/fhir/v2/0074",
               "code": "LAB"
             }
           ]
         },
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "DiagnosticServiceSection"
+            }
+          ],
           "strength": "example",
           "description": "Codes for diagnostic service sections.",
           "valueSetReference": {
@@ -480,15 +583,22 @@
           {
             "identity": "w5",
             "map": "class"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.category"
           }
         ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.code",
         "path": "DiagnosticReport.code",
-        "short": "US Realm Laboratory Report Order Code",
+        "short": "US Core Laboratory Report Order Code",
         "definition": "The test, panel or battery that was ordered.",
-        "comments": "UsageNote= The typical patterns for codes are:  1)  a LOINC code either as a  translation from a \"local\" code or as a primary code, or 2)  a local code only if no suitable LOINC exists,  or 3)  both the local and the LOINC translation.   Systems SHALL be capable of sending the local code if one exists.",
+        "comment": "UsageNote= The typical patterns for codes are:  1)  a LOINC code either as a  translation from a \"local\" code or as a primary code, or 2)  a local code only if no suitable LOINC exists,  or 3)  both the local and the LOINC translation.   Systems SHALL be capable of sending the local code if one exists.",
+        "alias": [
+          "Type"
+        ],
         "min": 1,
         "max": "1",
         "base": {
@@ -502,7 +612,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "binding": {
           "strength": "extensible",
           "description": "LOINC codes",
@@ -511,6 +621,10 @@
           }
         },
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.code"
+          },
           {
             "identity": "v2",
             "map": "OBR-4 (HL7 v2 doesn't provide an easy way to indicate both the ordered test and the performed panel)"
@@ -522,13 +636,17 @@
           {
             "identity": "w5",
             "map": "what"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.code"
           }
         ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.subject",
         "path": "DiagnosticReport.subject",
-        "short": "The subject of the report, usually, but not always, the patient",
+        "short": "The subject of the report - usually, but not always, the patient",
         "definition": "The subject of the report. Usually, but not always, this is a patient. However diagnostic services also perform analyses on specimens collected from a variety of other sources.",
         "requirements": "SHALL know the subject context.",
         "alias": [
@@ -548,8 +666,12 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.subject"
+          },
           {
             "identity": "v2",
             "map": "PID-3 (no HL7 v2 mapping for Group or Device)"
@@ -561,18 +683,27 @@
           {
             "identity": "w5",
             "map": "who.focus"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.subject"
           }
         ]
       },
       {
-        "id": "DiagnosticReport:uscorediagnosticreport.encounter",
-        "path": "DiagnosticReport.encounter",
+        "id": "DiagnosticReport:uscorediagnosticreport.context",
+        "path": "DiagnosticReport.context",
         "short": "Health care event when test ordered",
-        "definition": "The link to the health care event (encounter) when the order was made.",
+        "definition": "The healthcare event  (e.g. a patient and healthcare provider interaction) which this DiagnosticReport per is about.",
+        "comment": "This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter or episode but still be tied to the context of the encounter or episode (e.g. pre-admission lab tests).",
+        "requirements": "Links the request to the Encounter context.",
+        "alias": [
+          "Encounter"
+        ],
         "min": 0,
         "max": "1",
         "base": {
-          "path": "DiagnosticReport.encounter",
+          "path": "DiagnosticReport.context",
           "min": 0,
           "max": "1"
         },
@@ -580,10 +711,18 @@
           {
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/Encounter"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
           }
         ],
         "isSummary": true,
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.context"
+          },
           {
             "identity": "v2",
             "map": "PV1-19"
@@ -603,11 +742,12 @@
         "path": "DiagnosticReport.effective[x]",
         "short": "Specimen Collection Datetime or Period",
         "definition": "This is the Specimen Collection Datetime or Period which is the physically relevent dateTime for laboratory tests.",
-        "comments": "If the diagnostic procedure was performed on the patient, this is the time it was performed. If there are specimens, the diagnostically relevant time can be derived from the specimen collection times, but the specimen information is not always available, and the exact relationship between the specimens and the diagnostically relevant time is not always automatic.",
+        "comment": "If the diagnostic procedure was performed on the patient, this is the time it was performed. If there are specimens, the diagnostically relevant time can be derived from the specimen collection times, but the specimen information is not always available, and the exact relationship between the specimens and the diagnostically relevant time is not always automatic.",
         "requirements": "Need to know where in the patient history to file/present this report.",
         "alias": [
           "Observation time",
-          "Effective Time"
+          "Effective Time",
+          "Occurrence"
         ],
         "min": 1,
         "max": "1",
@@ -625,8 +765,12 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.occurrence[x]"
+          },
           {
             "identity": "v2",
             "map": "OBR-7"
@@ -638,6 +782,10 @@
           {
             "identity": "w5",
             "map": "when.done"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.effective[x]"
           }
         ]
       },
@@ -646,7 +794,7 @@
         "path": "DiagnosticReport.issued",
         "short": "DateTime this version was released",
         "definition": "The date and time that this version of the report was released from the source diagnostic service.",
-        "comments": "May be different from the update time of the resource itself, because that is the status of the record (potentially a secondary copy), not the actual release time of the report.",
+        "comment": "May be different from the update time of the resource itself, because that is the status of the record (potentially a secondary copy), not the actual release time of the report.",
         "requirements": "Clinicians need to be able to check the date that the report was released.",
         "alias": [
           "Date Created",
@@ -666,7 +814,7 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
           {
             "identity": "v2",
@@ -679,16 +827,18 @@
           {
             "identity": "w5",
             "map": "when.recorded"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.issued"
           }
         ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.performer",
         "path": "DiagnosticReport.performer",
-        "short": "Responsible Diagnostic Service",
-        "definition": "The diagnostic service that is responsible for issuing the report.",
-        "comments": "This is not necessarily the source of the atomic data items. It is the entity that takes responsibility for the clinical report.",
-        "requirements": "Need to know whom to contact if there are queries about the results. Also may need to track the source of reports for secondary data analysis.",
+        "short": "Participants in producing the report",
+        "definition": "Indicates who or what participated in producing the report.",
         "alias": [
           "Laboratory",
           "Service",
@@ -705,8 +855,196 @@
         },
         "type": [
           {
+            "code": "BackboneElement"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "children().count() > id.count()",
+            "xpath": "@value|f:*|h:div",
+            "source": "Element"
+          }
+        ],
+        "mustSupport": true,
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.performer"
+          },
+          {
+            "identity": "v2",
+            "map": "PRT-8 (where this PRT-4-Participation = \"PO\")"
+          },
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=PRF]"
+          },
+          {
+            "identity": "w5",
+            "map": "who.witness"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "NA (new element in STU3)"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.performer.id",
+        "path": "DiagnosticReport.performer.id",
+        "representation": [
+          "xmlAttr"
+        ],
+        "short": "xml:id (or equivalent in JSON)",
+        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Element.id",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.performer.extension",
+        "path": "DiagnosticReport.performer.extension",
+        "short": "Additional Content defined by implementations",
+        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "alias": [
+          "extensions",
+          "user content"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Element.extension",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.performer.modifierExtension",
+        "path": "DiagnosticReport.performer.modifierExtension",
+        "short": "Extensions that cannot be ignored",
+        "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "alias": [
+          "extensions",
+          "user content",
+          "modifiers"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "BackboneElement.modifierExtension",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ],
+        "isModifier": true,
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.performer.role",
+        "path": "DiagnosticReport.performer.role",
+        "short": "Type of performer",
+        "definition": "Describes the type of participation (e.g.  a responsible party, author, or verifier).",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "DiagnosticReport.performer.role",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "isSummary": true,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Role"
+            }
+          ],
+          "strength": "example",
+          "description": "Indicate a role of diagnostic report performer",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/performer-role"
+          }
+        },
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.performer.role"
+          },
+          {
+            "identity": "v2",
+            "map": "PRT-8 (where this PRT-4-Participation = \"PO\")"
+          },
+          {
+            "identity": "rim",
+            "map": ".functionCode"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.performer.actor",
+        "path": "DiagnosticReport.performer.actor",
+        "short": "Practitioner or Organization  participant",
+        "definition": "The reference to the  practitioner or organization involved in producing the report. For example, the diagnostic service that is responsible for issuing the report.",
+        "comment": "This is not necessarily the source of the atomic data items. It is the entity that takes responsibility for the clinical report.",
+        "requirements": "Need to know whom to contact if there are queries about the results. Also may need to track the source of reports for secondary data analysis.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "DiagnosticReport.performer.actor",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract"
+            "targetProfile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
           },
           {
             "code": "Reference",
@@ -714,58 +1052,23 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Event.performer.actor"
+          },
           {
             "identity": "v2",
             "map": "PRT-8 (where this PRT-4-Participation = \"PO\")"
           },
           {
             "identity": "rim",
-            "map": "participation[typeCode=AUT].role[classCode=ASSIGN].scoper"
+            "map": ".role"
           },
           {
-            "identity": "w5",
-            "map": "who.witness"
-          }
-        ]
-      },
-      {
-        "id": "DiagnosticReport:uscorediagnosticreport.request",
-        "path": "DiagnosticReport.request",
-        "short": "What was requested",
-        "definition": "Details concerning a test or procedure requested.",
-        "comments": "Note: Usually there is one test request for each result, however in some circumstances multiple test requests may be represented using a single test result resource. Note that there are also cases where one request leads to multiple reports.",
-        "requirements": "Need to be able to track completion of requests based on reports issued and also to report what diagnostic tests were requested (not always the same as what is delivered).",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "DiagnosticReport.request",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/DiagnosticRequest"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ProcedureRequest"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ReferralRequest"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "ORC? OBR-2/3?"
-          },
-          {
-            "identity": "rim",
-            "map": "outboundRelationship[typeCode=FLFS].target"
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.performer"
           }
         ]
       },
@@ -774,7 +1077,7 @@
         "path": "DiagnosticReport.specimen",
         "short": "Specimens this report is based on",
         "definition": "Details about the specimens on which this diagnostic report is based.",
-        "comments": "If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per Observation or group.",
+        "comment": "If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per observation or group.",
         "requirements": "Need to be able to report information about the collected specimens on which the report is based.",
         "min": 0,
         "max": "*",
@@ -831,7 +1134,6 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "v2",
@@ -840,6 +1142,10 @@
           {
             "identity": "rim",
             "map": "outboundRelationship[typeCode=COMP].target"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.result"
           }
         ]
       },
@@ -848,7 +1154,7 @@
         "path": "DiagnosticReport.imagingStudy",
         "short": "Reference to full details of imaging associated with the diagnostic report",
         "definition": "One or more links to full details of any imaging performed during the diagnostic investigation. Typically, this is imaging performed by DICOM enabled modalities, but this is not required. A fully enabled PACS viewer can use this information to provide views of the source images.",
-        "comments": "ImagingStudy and ImageManifest and the image element are somewhat overlapping - typically, the list of image references in the image element will also be found in one of the imaging study resources. However each caters to different types of displays for different types of purposes. Neither, either, or both may be provided.",
+        "comment": "ImagingStudy and ImageManifest and the image element are somewhat overlapping - typically, the list of image references in the image element will also be found in one of the imaging study resources. However each caters to different types of displays for different types of purposes. Neither, either, or both may be provided.",
         "min": 0,
         "max": "*",
         "base": {
@@ -906,6 +1212,7 @@
             "source": "Element"
           }
         ],
+        "mustSupport": true,
         "isSummary": true,
         "mapping": [
           {
@@ -915,6 +1222,10 @@
           {
             "identity": "rim",
             "map": "outboundRelationship[typeCode=COMP].target"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.image"
           }
         ]
       },
@@ -950,7 +1261,7 @@
         "path": "DiagnosticReport.image.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -979,7 +1290,7 @@
         "path": "DiagnosticReport.image.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -1011,7 +1322,7 @@
         "path": "DiagnosticReport.image.comment",
         "short": "Comment about the image (e.g. explanation)",
         "definition": "A comment about the image. Typically, this is used to provide an explanation for why the image is included, or to draw the viewer's attention to important features.",
-        "comments": "The comment should be displayed with the image. It would be common for the report to include additional discussion of the image contents in other sections such as the conclusion.",
+        "comment": "The comment should be displayed with the image. It would be common for the report to include additional discussion of the image contents in other sections such as the conclusion.",
         "requirements": "The provider of the report should make a comment about each image included in the report.",
         "min": 0,
         "max": "1",
@@ -1108,8 +1419,14 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "AdjunctDiagnosis"
+            }
+          ],
           "strength": "example",
-          "description": "Diagnoses codes provided as adjuncts to the report.",
+          "description": "Diagnosis codes provided as adjuncts to the report.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/clinical-findings"
           }
@@ -1130,8 +1447,8 @@
         "path": "DiagnosticReport.presentedForm",
         "short": "Entire report as issued",
         "definition": "Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they SHALL be semantically equivalent.",
-        "comments": "\"application/pdf\" is recommended as the most reliable and interoperable in this context.",
-        "requirements": "Gives Laboratory the ability to provide its own fully formatted report for clinical fidelity.",
+        "comment": "\"application/pdf\" is recommended as the most reliable and interoperable in this context.",
+        "requirements": "Gives laboratory the ability to provide its own fully formatted report for clinical fidelity.",
         "min": 0,
         "max": "*",
         "base": {
@@ -1145,7 +1462,6 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "v2",
@@ -1154,6 +1470,10 @@
           {
             "identity": "rim",
             "map": "text (type=ED)"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.presentedForm"
           }
         ]
       }
@@ -1171,18 +1491,14 @@
           "Lab Result",
           "Lab Report"
         ],
-        "constraint": [
-          {
-            "key": "us-core-1",
-            "severity": "error",
-            "human": "Must have a result or presentedForm or both.",
-            "expression": "result.exists() or presemtedForm.exists()",
-            "xpath": "exists(f:result) or exists(f:presentedForm)"
-          }
-        ],
         "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.status",
@@ -1196,13 +1512,18 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false,
         "binding": {
           "strength": "required",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/diagnostic-report-status"
           }
-        }
+        },
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.status"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.category",
@@ -1223,21 +1544,26 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/DiagnosticReport-category",
+              "system": "http://hl7.org/fhir/v2/0074",
               "code": "LAB"
             }
           ]
         },
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.category"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.code",
         "path": "DiagnosticReport.code",
-        "short": "US Realm Laboratory Report Order Code",
+        "short": "US Core Laboratory Report Order Code",
         "definition": "The test, panel or battery that was ordered.",
-        "comments": "UsageNote= The typical patterns for codes are:  1)  a LOINC code either as a  translation from a \"local\" code or as a primary code, or 2)  a local code only if no suitable LOINC exists,  or 3)  both the local and the LOINC translation.   Systems SHALL be capable of sending the local code if one exists.",
+        "comment": "UsageNote= The typical patterns for codes are:  1)  a LOINC code either as a  translation from a \"local\" code or as a primary code, or 2)  a local code only if no suitable LOINC exists,  or 3)  both the local and the LOINC translation.   Systems SHALL be capable of sending the local code if one exists.",
         "min": 1,
         "max": "1",
         "type": [
@@ -1247,14 +1573,19 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false,
         "binding": {
           "strength": "extensible",
           "description": "LOINC codes",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/report-codes"
           }
-        }
+        },
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.code"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.subject",
@@ -1269,7 +1600,12 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.subject"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.effective[x]",
@@ -1288,7 +1624,12 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.effective[x]"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.issued",
@@ -1302,17 +1643,36 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.issued"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.performer",
         "path": "DiagnosticReport.performer",
         "min": 0,
         "max": "*",
+        "mustSupport": true,
+        "isModifier": false,
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "NA (new element in STU3)"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.performer.actor",
+        "path": "DiagnosticReport.performer.actor",
+        "min": 1,
+        "max": "1",
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-pract"
+            "targetProfile": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
           },
           {
             "code": "Reference",
@@ -1321,7 +1681,12 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.performer"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.result",
@@ -1336,7 +1701,26 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.result"
+          }
+        ]
+      },
+      {
+        "id": "DiagnosticReport:uscorediagnosticreport.image",
+        "path": "DiagnosticReport.image",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true,
+        "isModifier": false,
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.image"
+          }
+        ]
       },
       {
         "id": "DiagnosticReport:uscorediagnosticreport.presentedForm",
@@ -1350,7 +1734,12 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "DiagnosticReport.presentedForm"
+          }
+        ]
       }
     ]
   }

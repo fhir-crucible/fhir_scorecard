@@ -3,12 +3,14 @@
   "id": "us-core-careplan",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan</a></p><p><b>name</b>: US Core CarePlan Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan</a></p><p><b>name</b>: US Core CarePlan Profile</p><p><b>status</b>: DRAFT</p><p><b>publisher</b>: Health Level Seven International (FHIR-Infrastructure)</p><p><b>contact</b>: </p><p><b>date</b>: 01/08/2016</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: CarePlan</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/CarePlan\">http://hl7.org/fhir/StructureDefinition/CarePlan</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US Core CarePlan Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan\">http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: US Core CarePlan Profile</p><p><b>status</b>: DRAFT</p><p><b>date</b>: 01/08/2016</p><p><b>publisher</b>: HL7 US Realm Steering Committee</p><p><b>contact</b>: </p><p><b>fhirVersion</b>: 3.0.0</p><blockquote><p><b>mapping</b></p><p><b>identity</b>: argonaut-dq-dstu2</p><p><b>uri</b>: <a href=\"http://unknown.org/Argonaut DQ DSTU2\">http://unknown.org/Argonaut DQ DSTU2</a></p><p><b>name</b>: Argonaut DQ DSTU2</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: workflow</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/workflow\">http://hl7.org/fhir/workflow</a></p><p><b>name</b>: Workflow Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: rim</p><p><b>uri</b>: <a href=\"http://hl7.org/v3\">http://hl7.org/v3</a></p><p><b>name</b>: RIM Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: w5</p><p><b>uri</b>: <a href=\"http://hl7.org/fhir/w5\">http://hl7.org/fhir/w5</a></p><p><b>name</b>: W5 Mapping</p></blockquote><blockquote><p><b>mapping</b></p><p><b>identity</b>: v2</p><p><b>uri</b>: <a href=\"http://hl7.org/v2\">http://hl7.org/v2</a></p><p><b>name</b>: HL7 v2 Mapping</p></blockquote><p><b>kind</b>: RESOURCE</p><p><b>abstract</b>: false</p><p><b>type</b>: CarePlan</p><p><b>baseDefinition</b>: <a href=\"http://hl7.org/fhir/StructureDefinition/CarePlan\">http://hl7.org/fhir/StructureDefinition/CarePlan</a></p><p><b>derivation</b>: CONSTRAINT</p><h3>Snapshots</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table><h3>Differentials</h3><table class=\"grid\"><tr><td>-</td><td><b>Element</b></td></tr><tr><td>*</td><td>todo-bundle</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan",
+  "version": "1.0.0",
   "name": "US Core CarePlan Profile",
   "status": "draft",
-  "publisher": "Health Level Seven International (FHIR-Infrastructure)",
+  "date": "2016-08-01",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -19,8 +21,18 @@
       ]
     }
   ],
-  "date": "2016-08-01",
+  "fhirVersion": "3.0.0",
   "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut DQ DSTU2",
+      "name": "Argonaut DQ DSTU2"
+    },
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Mapping"
+    },
     {
       "identity": "rim",
       "uri": "http://hl7.org/v3",
@@ -95,11 +107,14 @@
           }
         ],
         "mustSupport": false,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "rim",
             "map": "Entity. Role, or Act"
+          },
+          {
+            "identity": "workflow",
+            "map": "Request"
           },
           {
             "identity": "rim",
@@ -108,6 +123,10 @@
           {
             "identity": "w5",
             "map": "clinical.careprovision"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan"
           }
         ]
       },
@@ -116,7 +135,7 @@
         "path": "CarePlan.id",
         "short": "Logical id of this artifact",
         "definition": "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.",
-        "comments": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
+        "comment": "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -155,7 +174,7 @@
         "path": "CarePlan.implicitRules",
         "short": "A set of rules under which this content was created",
         "definition": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.",
-        "comments": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element as much as possible.",
+        "comment": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. \n\nThis element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -176,7 +195,7 @@
         "path": "CarePlan.language",
         "short": "Language of the resource content",
         "definition": "The base language in which the resource is written.",
-        "comments": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
+        "comment": "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
         "min": 0,
         "max": "1",
         "base": {
@@ -196,6 +215,14 @@
               "valueReference": {
                 "reference": "http://hl7.org/fhir/ValueSet/all-languages"
               }
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "Language"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+              "valueBoolean": true
             }
           ],
           "strength": "extensible",
@@ -210,7 +237,7 @@
         "path": "CarePlan.text",
         "short": "Text summary of the resource, for human interpretation",
         "definition": "A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
-        "comments": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
+        "comment": "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded in formation is added later.",
         "alias": [
           "narrative",
           "html",
@@ -233,11 +260,14 @@
           "dom-1"
         ],
         "mustSupport": true,
-        "isSummary": false,
         "mapping": [
           {
             "identity": "rim",
             "map": "Act.text?"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.text"
           }
         ]
       },
@@ -271,9 +301,19 @@
       {
         "id": "CarePlan:uscorecareplan.text.extension",
         "path": "CarePlan.text.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "description": "Extensions are always sliced by (at least) url",
+          "rules": "open"
+        },
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -315,7 +355,6 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
         "binding": {
           "strength": "required",
           "description": "Constrained value set of narrative statuses.",
@@ -327,6 +366,10 @@
           {
             "identity": "rim",
             "map": "N/A"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.text.status"
           }
         ]
       },
@@ -335,7 +378,7 @@
         "path": "CarePlan.text.div",
         "short": "Limited xhtml content",
         "definition": "The actual narrative content, a stripped down version of XHTML.",
-        "comments": "The contents of the html element are an XHTML fragment containing only the basic html formatting elements described in chapters 7-11 and 15 of the HTML 4.0 standard, <a> elements (either name or href), images and internally contained stylesheets. The XHTML content may not contain a head, a body, external stylesheet references, scripts, forms, base/link/xlink, frames, iframes and objects.",
+        "comment": "The contents of the html element are an XHTML fragment containing only the basic html formatting elements described in chapters 7-11 and 15 of the HTML 4.0 standard, <a> elements (either name or href), images and internally contained stylesheets. The XHTML content may not contain a head, a body, external stylesheet references, scripts, forms, base/link/xlink, frames, iframes and objects.",
         "min": 1,
         "max": "1",
         "base": {
@@ -376,7 +419,7 @@
         "path": "CarePlan.contained",
         "short": "Contained, inline Resources",
         "definition": "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.",
-        "comments": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
+        "comment": "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.",
         "alias": [
           "inline resources",
           "anonymous resources",
@@ -406,7 +449,7 @@
         "path": "CarePlan.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -435,7 +478,7 @@
         "path": "CarePlan.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -481,6 +524,10 @@
         "isSummary": true,
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.identifier"
+          },
+          {
             "identity": "v2",
             "map": "PTH-3"
           },
@@ -495,11 +542,123 @@
         ]
       },
       {
+        "id": "CarePlan:uscorecareplan.definition",
+        "path": "CarePlan.definition",
+        "short": "Protocol or definition",
+        "definition": "Identifies the protocol, questionnaire, guideline or other specification the care plan should be conducted in accordance with.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "CarePlan.definition",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/PlanDefinition"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Questionnaire"
+          }
+        ],
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.definition"
+          }
+        ]
+      },
+      {
+        "id": "CarePlan:uscorecareplan.basedOn",
+        "path": "CarePlan.basedOn",
+        "short": "Fulfills care plan",
+        "definition": "A care plan that is fulfilled in whole or in part by this care plan.",
+        "requirements": "Allows tracing of the care plan and tracking whether proposals/recommendations were acted upon.",
+        "alias": [
+          "fulfills"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "CarePlan.basedOn",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CarePlan"
+          }
+        ],
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.basedOn"
+          }
+        ]
+      },
+      {
+        "id": "CarePlan:uscorecareplan.replaces",
+        "path": "CarePlan.replaces",
+        "short": "CarePlan replaced by this CarePlan",
+        "definition": "Completed or terminated care plan whose function is taken by this new care plan.",
+        "comment": "The replacement could be because the initial care plan was immediately rejected (due to an issue) or because the previous care plan was completed, but the need for the action described by the care plan remains ongoing.",
+        "requirements": "Allows tracing the continuation of a therapy or administrative process instantiated through multiple care plans.",
+        "alias": [
+          "supersedes"
+        ],
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "CarePlan.replaces",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CarePlan"
+          }
+        ],
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.replaces"
+          }
+        ]
+      },
+      {
+        "id": "CarePlan:uscorecareplan.partOf",
+        "path": "CarePlan.partOf",
+        "short": "Part of referenced CarePlan",
+        "definition": "A larger care plan of which this particular care plan is a component or step.",
+        "comment": "Each care plan is an independent request, such that having a care plan be part of another care plan can cause issues with cascading statuses.  As such, this element is still being discussed.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "CarePlan.partOf",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CarePlan"
+          }
+        ],
+        "isSummary": true
+      },
+      {
         "id": "CarePlan:uscorecareplan.status",
         "path": "CarePlan.status",
-        "short": "proposed | draft | active | suspended | completed | entered-in-error | cancelled | unknown",
+        "short": "draft | active | suspended | completed | entered-in-error | cancelled | unknown",
         "definition": "Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.",
-        "comments": "The unknown code is not to be used to convey other statuses.  The unknown code should be used when one of the statuses applies, but the authoring system doesn't know the current state of the care plan.",
+        "comment": "The unknown code is not to be used to convey other statuses.  The unknown code should be used when one of the statuses applies, but the authoring system doesn't know the current state of the care plan.\n\nThis element is labeled as a modifier because the status contains the code entered-in-error] that marks the plan as not currently valid.",
         "requirements": "Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.",
         "min": 1,
         "max": "1",
@@ -515,7 +674,7 @@
         ],
         "mustSupport": true,
         "isModifier": true,
-        "isSummary": false,
+        "isSummary": true,
         "binding": {
           "strength": "required",
           "description": "Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.",
@@ -524,6 +683,10 @@
           }
         },
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.status (uses different ValueSet)"
+          },
           {
             "identity": "v2",
             "map": "PTH-5"
@@ -535,6 +698,50 @@
           {
             "identity": "w5",
             "map": "status"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.status"
+          }
+        ]
+      },
+      {
+        "id": "CarePlan:uscorecareplan.intent",
+        "path": "CarePlan.intent",
+        "short": "proposal | plan | order | option",
+        "definition": "Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain.",
+        "comment": "This element is labeled as a modifier because the intent alters when and how the resource is actually applicable.",
+        "requirements": "Proposals/recommendations, plans and orders all use the same structure and can exist in the same fulfillment chain.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "CarePlan.intent",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": true,
+        "isSummary": true,
+        "binding": {
+          "strength": "required",
+          "description": "Codes indicating the degree of authority/intentionality associated with a care plan",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/care-plan-intent"
+          }
+        },
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.intent"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "NA (new element in STU3)"
           }
         ]
       },
@@ -543,10 +750,10 @@
         "path": "CarePlan.category",
         "short": "Type of plan",
         "definition": "Type of plan.",
-        "comments": "There may be multiple axis of categorization and one plan may serve multiple purposes.  In some cases, this may be redundant with references to CarePlan.concern.",
+        "comment": "There may be multiple axis of categorization and one plan may serve multiple purposes.  In some cases, this may be redundant with references to CarePlan.concern.",
         "requirements": "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g. \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", \"wellness plan\", etc.",
         "min": 1,
-        "max": "1",
+        "max": "*",
         "base": {
           "path": "CarePlan.category",
           "min": 0,
@@ -557,17 +764,24 @@
             "code": "CodeableConcept"
           }
         ],
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
-              "code": "assess-plan"
-            }
-          ]
-        },
+        "constraint": [
+          {
+            "key": "us-core-1",
+            "severity": "error",
+            "human": "Must have a category of 'assess-plan' and a code system 'http://hl7.org/fhir/us/core/CodeSystem/careplan-category'",
+            "expression": "where(coding.system='http://hl7.org/fhir/us/core/CodeSystem/careplan-category' and coding.code='assess-plan').exists()",
+            "xpath": "exists(f:coding/code[@value='assess-plan']) and exists(f:coding/system[@value='http://hl7.org/fhir/us/core/CodeSystem/careplan-category'])"
+          }
+        ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanCategory"
+            }
+          ],
           "strength": "example",
           "description": "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g. \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", etc.",
           "valueSetReference": {
@@ -576,23 +790,28 @@
         },
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.supportingInfo"
+          },
+          {
             "identity": "w5",
             "map": "class"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.category"
           }
         ]
       },
       {
-        "id": "CarePlan:uscorecareplan.category.id",
-        "path": "CarePlan.category.id",
-        "representation": [
-          "xmlAttr"
-        ],
-        "short": "xml:id (or equivalent in JSON)",
-        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+        "id": "CarePlan:uscorecareplan.title",
+        "path": "CarePlan.title",
+        "short": "Human-friendly name for the CarePlan",
+        "definition": "Human-friendly name for the CarePlan.",
         "min": 0,
         "max": "1",
         "base": {
-          "path": "Element.id",
+          "path": "CarePlan.title",
           "min": 0,
           "max": "1"
         },
@@ -601,111 +820,7 @@
             "code": "string"
           }
         ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.category.extension",
-        "path": "CarePlan.category.extension",
-        "short": "Additional Content defined by implementations",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Element.extension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.category.coding",
-        "path": "CarePlan.category.coding",
-        "short": "Code defined by a terminology system",
-        "definition": "A reference to a code defined by a terminology system.",
-        "comments": "Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labelled as UserSelected = true.",
-        "requirements": "Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "CodeableConcept.coding",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Coding"
-          }
-        ],
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "C*E.1-8, C*E.10-22"
-          },
-          {
-            "identity": "rim",
-            "map": "union(., ./translation)"
-          },
-          {
-            "identity": "orim",
-            "map": "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.category.text",
-        "path": "CarePlan.category.text",
-        "short": "Plain text representation of the concept",
-        "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
-        "comments": "Very often the text is the same as a displayName of one of the codings.",
-        "requirements": "The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "CodeableConcept.text",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "string"
-          }
-        ],
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "C*E.9. But note many systems use C*E.2 for this"
-          },
-          {
-            "identity": "rim",
-            "map": "./originalText[mediaType/code=\"text/plain\"]/data"
-          },
-          {
-            "identity": "orim",
-            "map": "fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"
-          }
-        ]
+        "isSummary": true
       },
       {
         "id": "CarePlan:uscorecareplan.description",
@@ -739,6 +854,9 @@
         "short": "Who care plan is for",
         "definition": "Who care plan is for.",
         "requirements": "Identifies the patient or group whose intended care is described by the plan.",
+        "alias": [
+          "patient"
+        ],
         "min": 1,
         "max": "1",
         "base": {
@@ -753,8 +871,12 @@
           }
         ],
         "mustSupport": true,
-        "isSummary": false,
+        "isSummary": true,
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.subject"
+          },
           {
             "identity": "v2",
             "map": "PID-3"
@@ -766,6 +888,10 @@
           {
             "identity": "w5",
             "map": "who.focus"
+          },
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.subject"
           }
         ]
       },
@@ -774,7 +900,10 @@
         "path": "CarePlan.context",
         "short": "Created in context of",
         "definition": "Identifies the original context in which this particular CarePlan was created.",
-        "comments": "Activities conducted as a result of the care plan may well occur as part of other encounters/episodes.",
+        "comment": "Activities conducted as a result of the care plan may well occur as part of other encounters/episodes.",
+        "alias": [
+          "encounter"
+        ],
         "min": 0,
         "max": "1",
         "base": {
@@ -795,6 +924,10 @@
         "isSummary": true,
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.context"
+          },
+          {
             "identity": "v2",
             "map": "Associated PV1"
           },
@@ -813,8 +946,11 @@
         "path": "CarePlan.period",
         "short": "Time period plan covers",
         "definition": "Indicates when the plan did (or is intended to) come into effect and end.",
-        "comments": "Any activities scheduled as part of the plan should be constrained to the specified period regardless of whether the activities are planned within a single encounter/episode or across multiple encounters/episodes (e.g. the longitudinal management of a chronic condition).",
+        "comment": "Any activities scheduled as part of the plan should be constrained to the specified period regardless of whether the activities are planned within a single encounter/episode or across multiple encounters/episodes (e.g. the longitudinal management of a chronic condition).",
         "requirements": "Allows tracking what plan(s) are in effect at a particular time.",
+        "alias": [
+          "timing"
+        ],
         "min": 0,
         "max": "1",
         "base": {
@@ -830,6 +966,10 @@
         "isSummary": true,
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.occurrencePeriod"
+          },
+          {
             "identity": "v2",
             "map": "GOL-7 / GOL-8"
           },
@@ -844,45 +984,11 @@
         ]
       },
       {
-        "id": "CarePlan:uscorecareplan.modified",
-        "path": "CarePlan.modified",
-        "short": "When last updated",
-        "definition": "Identifies the most recent date on which the plan has been revised.",
-        "requirements": "Indicates how current the plan is.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "CarePlan.modified",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "dateTime"
-          }
-        ],
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "v2",
-            "map": "PTH-6"
-          },
-          {
-            "identity": "rim",
-            "map": ".participation[typeCode=AUT].time"
-          },
-          {
-            "identity": "w5",
-            "map": "when.recorded"
-          }
-        ]
-      },
-      {
         "id": "CarePlan:uscorecareplan.author",
         "path": "CarePlan.author",
         "short": "Who is responsible for contents of the plan",
         "definition": "Identifies the individual(s) or ogranization who is responsible for the content of the care plan.",
-        "comments": "Collaborative care plans may have multiple authors.",
+        "comment": "Collaborative care plans may have multiple authors.",
         "min": 0,
         "max": "*",
         "base": {
@@ -906,10 +1012,18 @@
           {
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/Organization"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CareTeam"
           }
         ],
         "isSummary": true,
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.requester.agent (if only one author)"
+          },
           {
             "identity": "w5",
             "map": "who.source"
@@ -936,6 +1050,10 @@
           }
         ],
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.performer (similar but does not entail CareTeam)"
+          },
           {
             "identity": "w5",
             "map": "who.actor"
@@ -964,6 +1082,10 @@
         "isSummary": true,
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.reasonReference"
+          },
+          {
             "identity": "v2",
             "map": "PRB-4"
           },
@@ -978,16 +1100,16 @@
         ]
       },
       {
-        "id": "CarePlan:uscorecareplan.support",
-        "path": "CarePlan.support",
+        "id": "CarePlan:uscorecareplan.supportingInfo",
+        "path": "CarePlan.supportingInfo",
         "short": "Information considered as part of plan",
         "definition": "Identifies portions of the patient's record that specifically influenced the formation of the plan.  These might include co-morbidities, recent procedures, limitations, recent assessments, etc.",
-        "comments": "Use \"concern\" to identify specific conditions addressed by the care plan.",
+        "comment": "Use \"concern\" to identify specific conditions addressed by the care plan.",
         "requirements": "Identifies barriers and other considerations associated with the care plan.",
         "min": 0,
         "max": "*",
         "base": {
-          "path": "CarePlan.support",
+          "path": "CarePlan.supportingInfo",
           "min": 0,
           "max": "*"
         },
@@ -996,190 +1118,11 @@
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/Resource"
           }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.definition",
-        "path": "CarePlan.definition",
-        "short": "Protocol or definition",
-        "definition": "Identifies the protocol, questionnaire, guideline or other specification the care plan should be conducted in accordance with.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "CarePlan.definition",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/PlanDefinition"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Questionnaire"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.relatedPlan",
-        "path": "CarePlan.relatedPlan",
-        "short": "Plans related to this one",
-        "definition": "Identifies CarePlans with some sort of formal relationship to the current plan.",
-        "comments": "Relationships are uni-directional with the \"newer\" plan pointing to the older one.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "CarePlan.relatedPlan",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "BackboneElement"
-          }
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "children().count() > id.count()",
-            "xpath": "@value|f:*|h:div",
-            "source": "Element"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.relatedPlan.id",
-        "path": "CarePlan.relatedPlan.id",
-        "representation": [
-          "xmlAttr"
-        ],
-        "short": "xml:id (or equivalent in JSON)",
-        "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Element.id",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "string"
-          }
         ],
         "mapping": [
           {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.relatedPlan.extension",
-        "path": "CarePlan.relatedPlan.extension",
-        "short": "Additional Content defined by implementations",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "Element.extension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "n/a"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.relatedPlan.modifierExtension",
-        "path": "CarePlan.relatedPlan.modifierExtension",
-        "short": "Extensions that cannot be ignored",
-        "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "alias": [
-          "extensions",
-          "user content",
-          "modifiers"
-        ],
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "BackboneElement.modifierExtension",
-          "min": 0,
-          "max": "*"
-        },
-        "type": [
-          {
-            "code": "Extension"
-          }
-        ],
-        "isModifier": true,
-        "isSummary": true,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "N/A"
-          }
-        ]
-      },
-      {
-        "id": "CarePlan:uscorecareplan.relatedPlan.code",
-        "path": "CarePlan.relatedPlan.code",
-        "short": "includes | replaces | fulfills",
-        "definition": "Identifies the type of relationship this plan has to the target plan.",
-        "comments": "Read the relationship as \"this plan\" [relatedPlan.code] \"relatedPlan.plan\"; e.g. This plan includes Plan B.  Additional relationship types can be proposed for future releases or handled as extensions.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "CarePlan.relatedPlan.code",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "code"
-          }
-        ],
-        "binding": {
-          "strength": "required",
-          "description": "Codes identifying the types of relationships between two plans.",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/care-plan-relationship"
-          }
-        }
-      },
-      {
-        "id": "CarePlan:uscorecareplan.relatedPlan.plan",
-        "path": "CarePlan.relatedPlan.plan",
-        "short": "Plan relationship exists with",
-        "definition": "A reference to the plan to which a relationship is asserted.",
-        "min": 1,
-        "max": "1",
-        "base": {
-          "path": "CarePlan.relatedPlan.plan",
-          "min": 1,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CarePlan"
+            "identity": "workflow",
+            "map": "Request.supportingInfo"
           }
         ]
       },
@@ -1188,7 +1131,7 @@
         "path": "CarePlan.goal",
         "short": "Desired outcome of plan",
         "definition": "Describes the intended objective(s) of carrying out the care plan.",
-        "comments": "Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.",
+        "comment": "Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline.",
         "requirements": "Provides context for plan.  Allows plan effectiveness to be evaluated by clinicians.",
         "min": 0,
         "max": "*",
@@ -1242,7 +1185,7 @@
             "source": "Element"
           },
           {
-            "key": "ctm-3",
+            "key": "cpl-3",
             "severity": "error",
             "human": "Provide a reference or detail, not both",
             "expression": "detail.empty() or reference.empty()",
@@ -1250,6 +1193,10 @@
           }
         ],
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "no mapping\nNOTE: This is a list of contained Request-Event tuples!"
+          },
           {
             "identity": "rim",
             "map": ".outboundRelationship[typeCode=COMP].target"
@@ -1288,7 +1235,7 @@
         "path": "CarePlan.activity.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -1317,7 +1264,7 @@
         "path": "CarePlan.activity.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -1345,15 +1292,48 @@
         ]
       },
       {
-        "id": "CarePlan:uscorecareplan.activity.actionResulting",
-        "path": "CarePlan.activity.actionResulting",
-        "short": "Appointments, orders, etc.",
-        "definition": "Resources that describe follow-on actions resulting from the plan, such as drug prescriptions, encounter records, appointments, etc.",
+        "id": "CarePlan:uscorecareplan.activity.outcomeCodeableConcept",
+        "path": "CarePlan.activity.outcomeCodeableConcept",
+        "short": "Results of the activity",
+        "definition": "Identifies the outcome at the point when the status of the activity is assessed.  For example, the outcome of an education activity could be patient understands (or not).",
+        "comment": "Note that this should not duplicate the activity status (e.g. completed or in progress).",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "CarePlan.activity.outcomeCodeableConcept",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanActivityOutcome"
+            }
+          ],
+          "strength": "example",
+          "description": "Identifies the results of the activity",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome"
+          }
+        }
+      },
+      {
+        "id": "CarePlan:uscorecareplan.activity.outcomeReference",
+        "path": "CarePlan.activity.outcomeReference",
+        "short": "Appointment, Encounter, Procedure, etc.",
+        "definition": "Details of the outcome or action resulting from the activity.  The reference to an \"event\" resource, such as Procedure or Encounter or Observation, is the result/outcome of the activity itself.  The activity can be conveyed using CarePlan.activity.detail OR using the CarePlan.activity.reference (a reference to a “request” resource).",
+        "comment": "The activity outcome is independent of the outcome of the related goal(s).  For example, if the goal is to achieve a target body weight of 150 lb and an activity is defined to diet, then the activity outcome could be calories consumed whereas the goal outcome is an observation for the actual body weight measured.",
         "requirements": "Links plan to resulting actions.",
         "min": 0,
         "max": "*",
         "base": {
-          "path": "CarePlan.activity.actionResulting",
+          "path": "CarePlan.activity.outcomeReference",
           "min": 0,
           "max": "*"
         },
@@ -1365,39 +1345,21 @@
         ],
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Event that is outcome of Request in activity.reference"
+          },
+          {
             "identity": "rim",
             "map": ".inboundRelationship[typeCode=FLFS].source"
           }
         ]
       },
       {
-        "id": "CarePlan:uscorecareplan.activity.outcome",
-        "path": "CarePlan.activity.outcome",
-        "short": "Results of the activity",
-        "definition": "Results of the careplan activity.",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "CarePlan.activity.outcome",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "example",
-          "description": "Identifies the results of the activity"
-        }
-      },
-      {
         "id": "CarePlan:uscorecareplan.activity.progress",
         "path": "CarePlan.activity.progress",
         "short": "Comments about the activity status/progress",
         "definition": "Notes about the adherence/status/progress of the activity.",
-        "comments": "This element should NOT be used to describe the activity to be performed - that occurs either within the resource pointed to by activity.detail.reference or in activity.detail.description.",
+        "comment": "This element should NOT be used to describe the activity to be performed - that occurs either within the resource pointed to by activity.detail.reference or in activity.detail.description.",
         "requirements": "Can be used to capture information about adherence, progress, concerns, etc.",
         "min": 0,
         "max": "*",
@@ -1413,6 +1375,10 @@
         ],
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Event.status (Annotation instead of CodableConcept)"
+          },
+          {
             "identity": "v2",
             "map": "NTE?"
           },
@@ -1427,7 +1393,7 @@
         "path": "CarePlan.activity.reference",
         "short": "Activity details defined in specific resource",
         "definition": "The details of the proposed activity represented in a specific resource.",
-        "comments": "Standard extension exists ([goal-pertainstogoal](extension-goal-pertainstogoal.html)) that allows goals to be referenced from any of the referenced resources in CarePlan.activity.reference.   The goal should be visible when the resource referenced by CarePlan.activity.reference is viewed indepedently from the CarePlan.  Requests that are pointed to by a CarePlan using this element should *not* point to this CarePlan using the \"basedOn\" element.  i.e. Requests that are part of a CarePlan are not \"based on\" the CarePlan.",
+        "comment": "Standard extension exists ([goal-pertainstogoal](extension-goal-pertainstogoal.html)) that allows goals to be referenced from any of the referenced resources in CarePlan.activity.reference.  \rThe goal should be visible when the resource referenced by CarePlan.activity.reference is viewed indepedently from the CarePlan.  Requests that are pointed to by a CarePlan using this element should *not* point to this CarePlan using the \"basedOn\" element.  i.e. Requests that are part of a CarePlan are not \"based on\" the CarePlan.",
         "requirements": "Details in a form consistent with other applications and contexts of use.",
         "min": 0,
         "max": "1",
@@ -1447,11 +1413,7 @@
           },
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/DeviceUseRequest"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/DiagnosticRequest"
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/DeviceRequest"
           },
           {
             "code": "Reference",
@@ -1459,15 +1421,15 @@
           },
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/NutritionRequest"
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/NutritionOrder"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Task"
           },
           {
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/ProcedureRequest"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ProcessRequest"
           },
           {
             "code": "Reference",
@@ -1476,12 +1438,20 @@
           {
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/VisionPrescription"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/RequestGroup"
           }
         ],
         "condition": [
-          "ctm-3"
+          "cpl-3"
         ],
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request that resulted in Event in activity.actionResulting"
+          },
           {
             "identity": "rim",
             "map": ".outboundRelationship[typeCode=COMP].target"
@@ -1507,7 +1477,7 @@
           }
         ],
         "condition": [
-          "ctm-3"
+          "cpl-3"
         ],
         "constraint": [
           {
@@ -1558,7 +1528,7 @@
         "path": "CarePlan.activity.detail.extension",
         "short": "Additional Content defined by implementations",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content"
@@ -1587,7 +1557,7 @@
         "path": "CarePlan.activity.detail.modifierExtension",
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.",
-        "comments": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
           "user content",
@@ -1633,6 +1603,12 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanActivityCategory"
+            }
+          ],
           "strength": "example",
           "description": "High-level categorization of the type of activity in a care plan.",
           "valueSetReference": {
@@ -1640,6 +1616,10 @@
           }
         },
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.supportingInformation"
+          },
           {
             "identity": "rim",
             "map": ".inboundRelationship[typeCode=COMP].source[classCode=LIST].code"
@@ -1666,7 +1646,17 @@
           },
           {
             "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"
+          },
+          {
+            "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/Questionnaire"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.definition"
           }
         ]
       },
@@ -1675,7 +1665,7 @@
         "path": "CarePlan.activity.detail.code",
         "short": "Detail type of activity",
         "definition": "Detailed description of the type of planned activity; e.g. What lab test, what procedure, what kind of encounter.",
-        "comments": "Tends to be less relevant for activities involving particular products.  Codes should not convey negation - use \"prohibited\" instead.",
+        "comment": "Tends to be less relevant for activities involving particular products.  Codes should not convey negation - use \"prohibited\" instead.",
         "requirements": "Allows matching performed to planned as well as validation against protocols.",
         "min": 0,
         "max": "1",
@@ -1690,6 +1680,12 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanActivityType"
+            }
+          ],
           "strength": "example",
           "description": "Detailed description of the type of activity; e.g. What lab test, what procedure, what kind of encounter.",
           "valueSetReference": {
@@ -1697,6 +1693,10 @@
           }
         },
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.code"
+          },
           {
             "identity": "v2",
             "map": "OBR-4 / RXE-2 / RXO-1  / RXD-2"
@@ -1712,7 +1712,7 @@
         "path": "CarePlan.activity.detail.reasonCode",
         "short": "Why activity should be done or why activity was prohibited",
         "definition": "Provides the rationale that drove the inclusion of this particular activity as part of the plan or the reason why the activity was prohibited.",
-        "comments": "This could be a diagnosis code.  If a full condition record exists or additional detail is needed, use reasonCondition instead.",
+        "comment": "This could be a diagnosis code.  If a full condition record exists or additional detail is needed, use reasonCondition instead.",
         "min": 0,
         "max": "*",
         "base": {
@@ -1726,19 +1726,31 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanActivityReason"
+            }
+          ],
           "strength": "example",
           "description": "Identifies why a care plan activity is needed.  Can include any health condition codes as well as such concepts as \"general wellness\", prophylaxis, surgical preparation, etc.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/activity-reason"
           }
-        }
+        },
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.reasonCode"
+          }
+        ]
       },
       {
         "id": "CarePlan:uscorecareplan.activity.detail.reasonReference",
         "path": "CarePlan.activity.detail.reasonReference",
         "short": "Condition triggering need for activity",
         "definition": "Provides the health condition(s) that drove the inclusion of this particular activity as part of the plan.",
-        "comments": "Conditions can be identified at the activity level that are not identified as reasons for the overall plan.",
+        "comment": "Conditions can be identified at the activity level that are not identified as reasons for the overall plan.",
         "min": 0,
         "max": "*",
         "base": {
@@ -1750,6 +1762,12 @@
           {
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/Condition"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.reasonReference"
           }
         ]
       },
@@ -1774,6 +1792,10 @@
         ],
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.goal"
+          },
+          {
             "identity": "rim",
             "map": ".outboundRelationship[typeCode<=OBJ]."
           }
@@ -1784,7 +1806,7 @@
         "path": "CarePlan.activity.detail.status",
         "short": "not-started | scheduled | in-progress | on-hold | completed | cancelled | unknown",
         "definition": "Identifies what progress is being made for the specific activity.",
-        "comments": "Some aspects of status can be inferred based on the resources linked in actionTaken.  Note that \"status\" is only as current as the plan was most recently updated.   The unknown code is not to be used to convey other statuses.  The unknown code should be used when one of the statuses applies, but the authoring system doesn't know the current state of the activity.",
+        "comment": "Some aspects of status can be inferred based on the resources linked in actionTaken.  Note that \"status\" is only as current as the plan was most recently updated.  \nThe unknown code is not to be used to convey other statuses.  The unknown code should be used when one of the statuses applies, but the authoring system doesn't know the current state of the activity.",
         "requirements": "Indicates progress against the plan, whether the activity is still relevant for the plan.",
         "min": 1,
         "max": "1",
@@ -1800,6 +1822,12 @@
         ],
         "isModifier": true,
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanActivityStatus"
+            }
+          ],
           "strength": "required",
           "description": "Indicates where the activity is at in its overall life cycle.",
           "valueSetReference": {
@@ -1807,6 +1835,10 @@
           }
         },
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.status (uses different ValueSet)"
+          },
           {
             "identity": "v2",
             "map": "ORC-5?"
@@ -1822,7 +1854,7 @@
         "path": "CarePlan.activity.detail.statusReason",
         "short": "Reason for current status",
         "definition": "Provides reason why the activity isn't yet started, is on hold, was cancelled, etc.",
-        "comments": "Will generally not be present if status is \"complete\".  Be sure to prompt to update this (or at least remove the existing value) if the status is changed.",
+        "comment": "Will generally not be present if status is \"complete\".  Be sure to prompt to update this (or at least remove the existing value) if the status is changed.",
         "min": 0,
         "max": "1",
         "base": {
@@ -1832,22 +1864,16 @@
         },
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "string"
           }
-        ],
-        "binding": {
-          "strength": "example",
-          "description": "Describes why the current activity has the status it does; e.g. \"Recovering from injury\" as a reason for non-started or on-hold, \"Patient does not enjoy activity\" as a reason for cancelling a planned activity.",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/goal-status-reason"
-          }
-        }
+        ]
       },
       {
         "id": "CarePlan:uscorecareplan.activity.detail.prohibited",
         "path": "CarePlan.activity.detail.prohibited",
         "short": "Do NOT do",
         "definition": "If true, indicates that the described activity is one that must NOT be engaged in when following the plan.  If false, indicates that the described activity is one that should be engaged in when following the plan.",
+        "comment": "This element is labeled as a modifier because it marks an activity as an activity that is not to be performed.",
         "requirements": "Captures intention to not do something that may have been previously typical.",
         "min": 0,
         "max": "1",
@@ -1896,6 +1922,10 @@
         ],
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.occurrence"
+          },
+          {
             "identity": "v2",
             "map": "TQ1"
           },
@@ -1910,7 +1940,7 @@
         "path": "CarePlan.activity.detail.location",
         "short": "Where it should happen",
         "definition": "Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc.",
-        "comments": "May reference a specific clinical location or may identify a type of location.",
+        "comment": "May reference a specific clinical location or may identify a type of location.",
         "requirements": "Helps in planning of activity.",
         "min": 0,
         "max": "1",
@@ -1941,7 +1971,7 @@
         "path": "CarePlan.activity.detail.performer",
         "short": "Who will be responsible?",
         "definition": "Identifies who's expected to be involved in the activity.",
-        "comments": "A performer MAY also be a participant in the care plan.",
+        "comment": "A performer MAY also be a participant in the care plan.",
         "requirements": "Helps in planning of activity.",
         "min": 0,
         "max": "*",
@@ -1966,9 +1996,17 @@
           {
             "code": "Reference",
             "targetProfile": "http://hl7.org/fhir/StructureDefinition/Patient"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/StructureDefinition/CareTeam"
           }
         ],
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.performer"
+          },
           {
             "identity": "v2",
             "map": "PRT-5 : ( PRV-4 e {provider participations} ) / PRT-5 : ( PRV-4 e {non-provider person participations} ) / PRT-5 : ( PRV-4 = (patient non-subject of care) ) / PRT-8"
@@ -2005,6 +2043,12 @@
           }
         ],
         "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CarePlanProduct"
+            }
+          ],
           "strength": "example",
           "description": "A product supplied or administered as part of a care plan activity.",
           "valueSetReference": {
@@ -2103,6 +2147,10 @@
         ],
         "mapping": [
           {
+            "identity": "workflow",
+            "map": "Request.note"
+          },
+          {
             "identity": "v2",
             "map": "NTE?"
           },
@@ -2119,11 +2167,11 @@
         "definition": "General notes about the care plan not covered elsewhere.",
         "requirements": "Used to capture information that applies to the plan as a whole that doesn't fit into discrete elements.",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "base": {
           "path": "CarePlan.note",
           "min": 0,
-          "max": "1"
+          "max": "*"
         },
         "type": [
           {
@@ -2131,6 +2179,10 @@
           }
         ],
         "mapping": [
+          {
+            "identity": "workflow",
+            "map": "Request.note"
+          },
           {
             "identity": "v2",
             "map": "NTE?"
@@ -2153,7 +2205,12 @@
         "definition": "The US Core CarePlan Profile is based upon the core FHIR CarePlan Resource and created to meet the 2015 Edition Common Clinical Data Set 'Assessment and Plan of Treatment requirements.",
         "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan"
+          }
+        ]
       },
       {
         "id": "CarePlan:uscorecareplan.text",
@@ -2167,7 +2224,12 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.text"
+          }
+        ]
       },
       {
         "id": "CarePlan:uscorecareplan.text.status",
@@ -2180,14 +2242,19 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false,
         "binding": {
           "strength": "required",
           "description": "Constrained value set of narrative statuses.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/us/core/ValueSet/us-core-narrative-status"
           }
-        }
+        },
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.text.status"
+          }
+        ]
       },
       {
         "id": "CarePlan:uscorecareplan.status",
@@ -2202,56 +2269,23 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false,
         "binding": {
           "strength": "required",
           "description": "Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/care-plan-status"
           }
-        }
-      },
-      {
-        "id": "CarePlan:uscorecareplan.category",
-        "path": "CarePlan.category",
-        "definition": "Type of plan.",
-        "requirements": "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g. \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", \"wellness plan\", etc.",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://hl7.org/fhir/us/core/CodeSystem/careplan-category",
-              "code": "assess-plan"
-            }
-          ]
         },
-        "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
-      },
-      {
-        "id": "CarePlan:uscorecareplan.category.system",
-        "path": "CarePlan.category.coding.system",
-        "min": 1,
-        "max": "1",
-        "type": [
+        "mapping": [
           {
-            "code": "uri"
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.status"
           }
-        ],
-        "mustSupport": true,
-        "isModifier": false,
-        "isSummary": false
+        ]
       },
       {
-        "id": "CarePlan:uscorecareplan.category.system.code",
-        "path": "CarePlan.category.coding.code",
+        "id": "CarePlan:uscorecareplan.intent",
+        "path": "CarePlan.intent",
         "min": 1,
         "max": "1",
         "type": [
@@ -2261,7 +2295,49 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "binding": {
+          "strength": "required",
+          "description": "Codes indicating the degree of authority/intentionality associated with a care plan",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/care-plan-intent"
+          }
+        },
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "NA (new element in STU3)"
+          }
+        ]
+      },
+      {
+        "id": "CarePlan:uscorecareplan.category",
+        "path": "CarePlan.category",
+        "definition": "Type of plan.",
+        "requirements": "Identifies what \"kind\" of plan this is to support differentiation between multiple co-existing plans; e.g. \"Home health\", \"psychiatric\", \"asthma\", \"disease management\", \"wellness plan\", etc.",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "us-core-1",
+            "severity": "error",
+            "human": "Must have a category of 'assess-plan' and a code system 'http://hl7.org/fhir/us/core/CodeSystem/careplan-category'",
+            "expression": "where(coding.system='http://hl7.org/fhir/us/core/CodeSystem/careplan-category' and coding.code='assess-plan').exists()",
+            "xpath": "exists(f:coding/code[@value='assess-plan']) and exists(f:coding/system[@value='http://hl7.org/fhir/us/core/CodeSystem/careplan-category'])"
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false,
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.category"
+          }
+        ]
       },
       {
         "id": "CarePlan:uscorecareplan.subject",
@@ -2278,7 +2354,12 @@
         ],
         "mustSupport": true,
         "isModifier": false,
-        "isSummary": false
+        "mapping": [
+          {
+            "identity": "argonaut-dq-dstu2",
+            "map": "CarePlan.subject"
+          }
+        ]
       }
     ]
   }

@@ -18,11 +18,11 @@
       "value": "urn:oid:2.16.840.1.113762.1.4.1010.4"
     }
   ],
-  "version": "1.6.0",
+  "version": "1.0.0",
   "name": "Medication Clinical Drug (RxNorm)",
   "status": "draft",
-  "experimental": true,
-  "publisher": "FHIR Project team",
+  "date": "2016-05-25T16:59:08+10:00",
+  "publisher": "HL7 US Realm Steering Committee",
   "contact": [
     {
       "telecom": [
@@ -33,7 +33,6 @@
       ]
     }
   ],
-  "date": "2016-05-25T16:59:08+10:00",
   "description": "All prescribable medication formulations represented using  either a 'generic' or 'brand-specific' concept. This includes RxNorm codes whose Term Type is SCD (semantic clinical drug), SBD (semantic brand drug), GPCK (generic pack), BPCK (brand pack), SCDG (semantic clinical drug group), SBDG (semantic brand drug group), SCDF (semantic clinical drug form), or SBDF (semantic brand drug form)",
   "compose": {
     "include": [
