@@ -30,7 +30,7 @@ class BasicTest < Minitest::Test
   end
 
   def test_bundle_text_dstu2
-    bundle = FHIR::DSTU2::Bundle.new
+    bundle = FHIR::DSTU2::Bundle.new('type' => 'collection')
     scorecard = FHIR::Scorecard.new
     report = scorecard.score(bundle.to_json, 'DSTU2')
     

@@ -140,7 +140,7 @@ class CodesExistTest < Minitest::Test
   end
 
   def test_codes_exist_none_dstu2
-    patient = FHIR::DSTU2::Patient.new
+    patient = FHIR::DSTU2::Patient.new( 'active' => true )
     bundle = FHIR::DSTU2::Bundle.new({ 'entry'=>[ { 'resource' => patient.to_hash } ] })
     scorecard = FHIR::Scorecard.new
     report = scorecard.score(bundle)

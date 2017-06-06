@@ -55,7 +55,7 @@ class CompletenessTest < Minitest::Test
   end
 
   def test_empty_record_dstu2
-    patient = FHIR::DSTU2::Patient.new
+    patient = FHIR::DSTU2::Patient.new( 'active' => true )
     bundle = FHIR::DSTU2::Bundle.new({ 'entry'=>[ { 'resource' => patient.to_hash } ] })
     scorecard = FHIR::Scorecard.new
     report = scorecard.score(bundle)
@@ -65,7 +65,7 @@ class CompletenessTest < Minitest::Test
   end
 
   def test_1_required_dstu2
-    patient = FHIR::DSTU2::Patient.new
+    patient = FHIR::DSTU2::Patient.new( 'active' => true )
     condition = FHIR::DSTU2::Condition.new('code' => { 'coding' => { 'code' => '254230001', 'system'=> 'http://snomed.info/sct' } })
     bundle = FHIR::DSTU2::Bundle.new({ 'entry'=>[ { 'resource' => patient.to_hash }, { 'resource' => condition.to_hash } ] })
     scorecard = FHIR::Scorecard.new
@@ -76,15 +76,15 @@ class CompletenessTest < Minitest::Test
   end
 
   def test_1_expected_dstu2
-    patient = FHIR::DSTU2::Patient.new
-    vis_pres = FHIR::DSTU2::VisionPrescription.new
+    patient = FHIR::DSTU2::Patient.new( 'active' => true )
+    vis_pres = FHIR::DSTU2::VisionPrescription.new( 'dateWritten' => '2017-01-01')
     appt = FHIR::DSTU2::Appointment.new( 'status' => 'fulfilled' )
-    device = FHIR::DSTU2::DeviceUseStatement.new( 'status' => 'active' )
+    device = FHIR::DSTU2::DeviceUseStatement.new( 'recordedOn' => '2017-01-01')
     bundle = FHIR::DSTU2::Bundle.new({ 'entry'=>[ { 'resource' => patient.to_hash }, 
                                            { 'resource' => appt.to_hash },
                                            { 'resource' => device.to_hash },
                                            { 'resource' => vis_pres.to_hash }, # intentionally including the VisionPrescription twice
-                                           { 'resource' => vis_pres.to_hash }, ] }) 
+                                           { 'resource' => vis_pres.to_hash } ] })
     scorecard = FHIR::Scorecard.new
     report = scorecard.score(bundle)
     assert_sections_exist(report, :points, :bundle, :patient, :completeness)
@@ -93,7 +93,7 @@ class CompletenessTest < Minitest::Test
   end
 
   def test_medication_dstu2
-    patient = FHIR::DSTU2::Patient.new
+    patient = FHIR::DSTU2::Patient.new( 'active' => true )
     med_order = FHIR::DSTU2::MedicationOrder.new('medicationCodeableConcept' => { 'coding' => { 'code'=>'161', 'system'=> 'http://www.nlm.nih.gov/research/umls/rxnorm'}})
     bundle = FHIR::DSTU2::Bundle.new({ 'entry'=>[ { 'resource' => patient.to_hash }, { 'resource' => med_order.to_hash } ] })
     scorecard = FHIR::Scorecard.new
