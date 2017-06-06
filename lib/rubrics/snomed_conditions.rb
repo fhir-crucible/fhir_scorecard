@@ -10,7 +10,7 @@ module FHIR
 
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
-        if resource.is_a?(FHIR::Condition)
+        if FHIR.is_any_version?(resource, 'Condition')
           results[:eligible_fields] += 1
           results[:validated_fields] += 1 if snomed_core?(resource.code)
         end

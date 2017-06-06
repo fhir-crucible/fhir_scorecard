@@ -8,6 +8,7 @@ class TerminologyTest < Minitest::Test
   @@term_root = File.expand_path '../../terminology',File.dirname(File.absolute_path(__FILE__))
 
   def setup
+    FHIR::Terminology.send(:reset)
     loinc_file = File.join(@@term_root,'scorecard_loinc_2000.txt')
     umls_file = File.join(@@term_root,'scorecard_umls.txt')
     snomed_file = File.join(@@term_root,'scorecard_snomed_core.txt')
@@ -36,7 +37,8 @@ class TerminologyTest < Minitest::Test
     FileUtils.rm(snomed_file, :force=>true)
     FileUtils.mv("#{loinc_file}.bak",loinc_file, :force=>true)
     FileUtils.mv("#{umls_file}.bak",umls_file, :force=>true)
-    FileUtils.mv("#{snomed_file}.bak",snomed_file, :force=>true)    
+    FileUtils.mv("#{snomed_file}.bak",snomed_file, :force=>true)
+    FHIR::Terminology.send(:reset)
   end
 
   def test_get_description_foo

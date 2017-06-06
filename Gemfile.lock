@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     fhir_scorecard (3.0.1)
+      fhir_dstu2_models
       fhir_models (>= 3.0.0)
 
 GEM
@@ -15,12 +16,17 @@ GEM
     coderay (1.1.1)
     date_time_precision (0.8.1)
     docile (1.1.5)
+    fhir_dstu2_models (1.0.2)
+      bcp47 (>= 0.3)
+      date_time_precision (>= 0.8)
+      mime-types (>= 1.16, < 3)
+      nokogiri (>= 1.7)
     fhir_models (3.0.1)
       bcp47 (>= 0.3)
       date_time_precision (>= 0.8)
       mime-types (>= 1.16, < 3)
       nokogiri (>= 1.6)
-    i18n (0.8.1)
+    i18n (0.8.4)
     json (2.0.3)
     method_source (0.8.2)
     mime-types (2.99.3)
@@ -31,7 +37,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    nokogiri (1.7.1)
+    nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     pry (0.10.4)
       coderay (~> 1.1.0)

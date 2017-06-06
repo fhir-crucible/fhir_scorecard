@@ -25,6 +25,16 @@ module FHIR
     @@core_snomed = {}
     @@common_ucum = []
 
+    def self.reset
+      @@loaded = false
+      @@top_lab_code_units = {}
+      @@top_lab_code_descriptions = {}
+      @@known_codes = {}
+      @@core_snomed = {}
+      @@common_ucum = []
+    end
+    private_class_method :reset
+
     def self.set_terminology_root(root)
       @@term_root = root
     end

@@ -57,9 +57,9 @@ module FHIR
           end
         elsif !value.nil?
           if value.is_a?(Array)
-            value.each{|v| results.merge!(check_fields(v)){|k,a,b|a+b} if v.is_a?(FHIR::Model)}
+            value.each{|v| results.merge!(check_fields(v)){|k,a,b|a+b} if FHIR.is_model?(v) }
           else # not an Array
-            results.merge!(check_fields(value)){|k,a,b|a+b} if value.is_a?(FHIR::Model)
+            results.merge!(check_fields(value)){|k,a,b|a+b} if FHIR.is_model?(value)
           end
         end
       end

@@ -45,9 +45,9 @@ module FHIR
           value = fhir_model.instance_variable_get("@#{field_name}")
           if !value.nil?
             if value.is_a?(Array)
-              value.each{|v| results.merge!(check_metadata(v)){|k,a,b|a+b} if v.is_a?(FHIR::Model)}
+              value.each{|v| results.merge!(check_metadata(v)){ |k,a,b|a+b} if FHIR.is_model?(v) }
             else # not an Array
-              results.merge!(check_metadata(value)){|k,a,b|a+b} if value.is_a?(FHIR::Model)
+              results.merge!(check_metadata(value)){|k,a,b|a+b} if FHIR.is_model?(value)
             end
           end            
         end
@@ -60,9 +60,9 @@ module FHIR
       when 'code'
         item.is_a?(String)
       when 'Coding'
-        item.is_a?(FHIR::Coding) && !item.code.nil? && !item.system.nil?
+        FHIR.is_any_version?(item, 'Coding') && !item.code.nil? && !item.system.nil?
       when 'CodeableConcept'
-        item.is_a?(FHIR::CodeableConcept) && item.coding.any?{|c| c.is_a?(FHIR::Coding) && !c.code.nil? && !c.system.nil?}
+        FHIR.is_any_version?(item, 'CodeableConcept') && item.coding.any?{ |c| FHIR.is_any_version?(c, 'Coding') && !c.code.nil? && !c.system.nil? }
       else
         false
       end

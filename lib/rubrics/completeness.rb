@@ -12,14 +12,20 @@ module FHIR
       'QuestionnaireResponse','Coverage'
     ]
 
-    MEDICATIONS = [ 'MedicationStatement','MedicationDispense','MedicationAdministration','MedicationRequest' ]
+    COMMON_MEDICATIONS = [ 'MedicationStatement','MedicationDispense','MedicationAdministration']
+
+    DSTU2_MEDICATIONS = COMMON_MEDICATIONS + ['MedicationOrder']
+
+    STU3_MEDICATIONS = COMMON_MEDICATIONS + ['MedicationRequest']
 
     # A Patient Record is not complete without certain required items and medications.
     rubric :completeness do |record|
       
+      curr_version_meds = record.is_a?(FHIR::Model) ? STU3_MEDICATIONS : DSTU2_MEDICATIONS
+
       missing_required = REQUIRED.clone
       missing_expected = EXPECTED.clone
-      missing_meds = MEDICATIONS.clone
+      missing_meds = curr_version_meds.clone
 
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
@@ -32,7 +38,7 @@ module FHIR
 
       # 15 points for required resources
       numerator = (REQUIRED.length.to_f - missing_required.length.to_f)
-      numerator += 1 if (missing_meds.length < MEDICATIONS.length)
+      numerator += 1 if (missing_meds.length < curr_version_meds.length)
       denominator = REQUIRED.length.to_f + 1.0 # add one for medications
       percentage_required = (  numerator / denominator )
       percentage_required = 0.0 if percentage_required.nan?

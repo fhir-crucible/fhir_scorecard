@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   s.files = s.files = `git ls-files`.split("\n")
 
   s.add_runtime_dependency 'fhir_models', '>= 3.0.0'
+  s.add_runtime_dependency 'fhir_dstu2_models'
 end

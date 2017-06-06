@@ -45,9 +45,9 @@ module FHIR
           value = fhir_model.instance_variable_get("@#{field_name}")
           if !value.nil?
             if value.is_a?(Array)
-              value.each{|v| results.merge!(check_metadata(v)){|k,a,b|a+b} if v.is_a?(FHIR::Model)}
+              value.each{|v| results.merge!(check_metadata(v)){ |k,a,b| a + b } if FHIR.is_model?(v) }
             else # not an Array
-              results.merge!(check_metadata(value)){|k,a,b|a+b} if value.is_a?(FHIR::Model)
+              results.merge!(check_metadata(value)){ |k,a,b| a + b } if FHIR.is_model?(value)
             end
           end            
         end

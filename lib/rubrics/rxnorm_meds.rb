@@ -10,19 +10,20 @@ module FHIR
       # Medication.code (CodeableConcept)
       # MedicationAdministration.medicationCodeableConcept / medicationReference
       # MedicationDispense.medicationCodeableConcept / medicationReference
-      # MedicationRequest.medicationCodeableConcept / medicationReference
+      # MedicationRequest.medicationCodeableConcept / medicationReference -- in STU3
+      # MedicationOrder.medicationCodeableConcept / medicationReference -- in DSTU2
       # MedicationStatement.medicationCodeableConcept / medicationReference
 
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
-        if resource.is_a?(FHIR::Medication)
+        if FHIR.is_any_version?(resource, 'Medication')
             results[:eligible_fields] += 1
             results[:validated_fields] += 1 if rxnorm?(resource.code)        
         elsif (
-            resource.is_a?(FHIR::MedicationRequest) ||
-            resource.is_a?(FHIR::MedicationDispense) ||
-            resource.is_a?(FHIR::MedicationAdministration) ||
-            resource.is_a?(FHIR::MedicationStatement) )
+            resource.is_a?(FHIR::MedicationRequest) || resource.is_a?(FHIR::DSTU2::MedicationOrder) ||
+            FHIR.is_any_version?(resource, 'MedicationDispense') ||
+            FHIR.is_any_version?(resource, 'MedicationAdministration') ||
+            FHIR.is_any_version?(resource, 'MedicationStatement') )
           if resource.medicationCodeableConcept
             results[:eligible_fields] += 1
             results[:validated_fields] += 1 if rxnorm?(resource.medicationCodeableConcept)
@@ -48,11 +49,11 @@ module FHIR
     def self.local_rxnorm_reference?(reference,record,contained)
       if contained && reference.reference && reference.reference.start_with?('#')
         contained.each do |resource|
-          return true if resource.is_a?(FHIR::Medication) && reference.reference[1..-1]==resource.id
+          return true if FHIR.is_any_version?(resource, 'Medication') && reference.reference[1..-1]==resource.id
         end
       end
       record.entry.each do |entry|
-        if entry.resource.is_a?(FHIR::Medication) && reference_matchs?(reference,entry)
+        if FHIR.is_any_version?(entry.resource, 'Medication') && reference_matchs?(reference,entry)
           return true
         end
       end

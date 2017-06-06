@@ -25,7 +25,7 @@ module FHIR
 
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
-        if resource.is_a?(FHIR::Observation)
+        if FHIR.is_any_version?(resource, 'Observation')
           found_code = get_vital_code(resource.code)
           components = not_found[ found_code ]
           if components.nil?
