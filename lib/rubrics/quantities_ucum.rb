@@ -5,11 +5,13 @@ module FHIR
       'TestScript','Task','StructureDefinition','SearchParameter','Questionnaire','QuestionnaireResponse','Parameters','OperationDefinition',
       'Group','ExplanationOfBenefit','Contract','Conformance','Claim','ActivityDefinition'
     ]
+    # Note: Task and ActivityDefinition don't exist in DSTU2
 
     CHECK = [
-      'VisionPrescription','SupplyDelivery','Substance','Specimen','Sequence','Observation','NutritionRequest',
-      'MedicationStatement','MedicationRequest','MedicationDispense','MedicationAdministration','Medication','Immunization','CarePlan'
+      'VisionPrescription','SupplyDelivery','Substance','Specimen','Sequence','Observation','NutritionOrder',
+      'MedicationStatement','MedicationRequest','MedicationOrder','MedicationDispense','MedicationAdministration','Medication','Immunization','CarePlan'
     ]
+    # Note: MedicationRequest renamed to MedicationOrder between 2->3; Sequence doesn't exist in DSTU2
 
     # Physical quantities should use UCUM
     rubric :ucum_quantities do |record|

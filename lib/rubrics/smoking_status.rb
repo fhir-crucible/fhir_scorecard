@@ -17,7 +17,7 @@ module FHIR
       
       resources = record.entry.map{|e|e.resource}
       has_smoking_status = resources.any? do |resource|
-        resource.is_a?(FHIR::Observation) && smoking_observation?(resource)
+        FHIR.is_any_version?(resource, 'Observation') && smoking_observation?(resource)
       end
 
       if has_smoking_status

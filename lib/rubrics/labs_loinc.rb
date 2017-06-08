@@ -9,13 +9,13 @@ module FHIR
       }
       resources = record.entry.map{|e|e.resource}
       resources.each do |resource|
-        if resource.is_a?(FHIR::DiagnosticReport) || resource.is_a?(FHIR::Observation)
+        if FHIR.is_any_version?(resource, 'DiagnosticReport') || FHIR.is_any_version?(resource, 'Observation')
           results[:eligible_fields] += 1
           if resource.code
             results[:validated_fields] += 1 if resource.code.coding.any?{|x| x.system=='http://loinc.org' && FHIR::Terminology.is_top_lab_code?(x.code)}
           end
         end
-        if resource.is_a?(FHIR::Observation)
+        if FHIR.is_any_version?(resource, 'Observation')
           if resource.component
             resource.component.each do |comp|
               results[:eligible_fields] += 1
